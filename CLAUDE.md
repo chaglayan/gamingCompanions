@@ -5,7 +5,7 @@ One repo, one folder per game. Each folder is a self-contained companion with it
 | Folder | Game | Status |
 |---|---|---|
 | [`bg3Companion/`](bg3Companion/) | Baldur's Gate 3 | Active: late Act 1 playthrough |
-| `wowCompanion/` | World of Warcraft | Planned |
+| [`wowCompanion/`](wowCompanion/) | World of Warcraft: Forever | Active: Night Elf Rogue, level 9, new to WoW |
 | `poe2Companion/` | Path of Exile 2 | Planned |
 
 ## How to work here
