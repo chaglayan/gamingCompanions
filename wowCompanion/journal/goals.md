@@ -23,7 +23,8 @@
 - The Apple Falls → **Syurna** (Cenarion Enclave ~37, 22) → Destiny Calls.
 - **The Sisterhood of Elune** → Sister Aquinne.
 - **Rellian Greenspyre** → bring the Timberling Seed.
-- Profession trainers: **Leatherworking**, **First Aid**, Journeyman **Skinning** (once you hit 75).
+- Profession trainers: **Leatherworking** (Telonis, Craftsmen's Terrace, upstairs ~64, 21), **First Aid**, Journeyman **Skinning** (once you hit 75).
+- Closer Leatherworking option (Classic data, unconfirmed in Forever): **Nadyia Maneweaver**, small house on the road to Darnassus ~41, 49 (Wellspring Hovel), right by the bounty furbolgs.
 
 **4. Back in Teldrassil**
 - **Destiny Calls**: stealth up to *Sethir the Ancient* (lvl 12, on a big tree branch near Oracle Glade ~38, 25) and **Pick Pocket** his journal. Don't fight him. → **Blade of Cunning**.

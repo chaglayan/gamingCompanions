@@ -4,7 +4,7 @@
 
 | Slot | Item | Notes |
 |---|---|---|
-| Main hand | blade, 9–13 dmg (?) | Name _unknown_. Replace with **Blade of Cunning** (level 10 class quest) if it hits harder |
+| Main hand | simple dagger, **3–6 dmg** (player, 2026-11-07) | Replace with **Blade of Cunning** (level 10 class quest) |
 | Off hand | **empty** | Dual Wield trains at 10. Put your 2nd-best weapon here |
 | Ranged | thrown weapon (10–13) | |
 | Head | empty | |
@@ -24,6 +24,9 @@
 
 ## In bags, waiting
 - **Sword** (quest reward, 2026-11-07). Can't use it yet: night elf rogues need the **Swords** weapon skill from **Woo Ping in Stormwind** (I think). Forever adds a **boat from Auberdine (Darkshore) to Stormwind**. Name/stats _unknown_.
+
+- **Bark mail leggings** (?) (2026-11-07): **mail**, rogues can only wear leather. Sell it.
+- Considering buying a **Stiletto** (dagger) from the weaponsmith: OK as an **off-hand** if cheap; Blade of Cunning covers the main hand.
 
 ## Bags (2026-11-07)
 - ~13 free slots. Gold: **19s 3c**.

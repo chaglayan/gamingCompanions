@@ -19,6 +19,33 @@
 - **Map highlight on a hill = often a cave underneath.** Look for the entrance around the edge.
 - **Gouge → bandage**: Gouge stuns for a few seconds; enough time to use a bandage mid-fight.
 
+## Action bars (explained 2026-11-07)
+- More bars: `Esc` → Options → Action Bars → tick the extra bars.
+- **Stealth swaps bar 1** to a separate stealth bar. Put openers in the same slots there.
+- No need for **Attack** on a bar (any skill or right-click starts auto-attack). Passives can't go on bars.
+- Suggested layout:
+
+| Key | Normal bar | Stealth bar |
+|---|---|---|
+| 1 | Sinister Strike | Sinister Strike (→ Cheap Shot at 26) |
+| 2 | Eviscerate | Pick Pocket |
+| 3 | Slice and Dice | Sap |
+| 4 | Backstab | Backstab (→ Ambush at 18) |
+| 5 | Gouge | Gouge |
+| 6 | Kick (12) | Kick |
+| 7 | Evasion | Evasion |
+| 8 | Sprint | Sprint |
+| 9 | Throw | Throw |
+| 0 | Food | Food |
+| - | Bandage | Bandage |
+| = | Stealth | Stealth |
+
+Second bar (click or Shift+key): Shadowmeld, Elune's Light, Hearthstone, Expose Armor (14), Feint (16), Vanish (22), mount (40).
+
+## Gear basics
+- **Red text on a tooltip = you can't use it.** Rogues wear **leather** only (no mail/plate), ever. Weapons in red need a weapon skill trained.
+- Compare weapons by **damage per second** on the tooltip. Hold `Shift` while hovering to compare with what you wear.
+
 ## Glossary
 | Term | Meaning |
 |---|---|
