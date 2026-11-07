@@ -3,7 +3,7 @@
 > Things already explained to the player. Claude: check here before re-explaining.
 
 ## Beginner basics
-- **Trainer every level.** New abilities and stronger ranks of old ones. Not automatic in Forever.
+- **Trainer**: new abilities and stronger ranks are bought, not automatic.
 - **Hearthstone**: teleports you to the inn you set it at (1h cooldown). Set it at the inn in whatever town you're questing from.
 - **Rested XP**: log out in an inn or city and you earn bonus XP for next time (blue XP bar).
 - **Eat between fights.** Rogues have no healing spells: food (and bandages) are your heals. Sit down and eat to recover health fast.
