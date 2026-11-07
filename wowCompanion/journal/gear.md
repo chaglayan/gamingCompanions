@@ -23,7 +23,9 @@
 | Trinkets | empty ×2 | |
 
 ## In bags, waiting
-- **Sword** (quest reward, 2026-11-07). Can't use it yet: night elf rogues need the **Swords** weapon skill from **Woo Ping in Stormwind** (I think). Forever adds a **boat from Auberdine (Darkshore) to Stormwind**. Name/stats _unknown_.
+Swords: can't use yet. Need the **Swords** skill from **Woo Ping in Stormwind** (boat from Auberdine, ~level 13).
+- **Brushwood Blade** (green, soulbound, quest): 11–21, speed 3.0, **5.3 DPS**, +1 Sta. Sells 2s 50c. **Keep → main hand** once swords are trained (slow = bigger Sinister Strikes).
+- **Notched Shortsword of the Whale** (green, random "of the Whale" stats): 8–15, speed 2.1, **5.5 DPS**, +1 Sta +1 Spi, req 5. Sells 2s 44c. **Off-hand** later, or sell on the AH if bags are tight (not soulbound).
 
 - **Bark mail leggings** (?) (2026-11-07): **mail**, rogues can only wear leather. Sell it.
 - Buying a **Stiletto** (dagger) from the weaponsmith. Plan: Stiletto main hand + simple dagger off-hand (after Dual Wield) → later Blade of Cunning main hand + Stiletto off-hand.

@@ -24,7 +24,7 @@
 - **The Sisterhood of Elune** → Sister Aquinne.
 - **Rellian Greenspyre** → bring the Timberling Seed.
 - Profession trainers: **Leatherworking** (Telonis, Craftsmen's Terrace, upstairs ~64, 21), **First Aid**, Journeyman **Skinning** (once you hit 75).
-- Closer Leatherworking option: **Nadyia Maneweaver** (✅ confirmed on a Forever trainer list), small house on the road to Darnassus, north-west of Ban'ethil Hollow (~41, 49 in Classic), right by the bounty furbolgs.
+- Closer Leatherworking option: **Nadyia Maneweaver**, Teldrassil **41.8, 49.4** (wow-professions' Forever trainer page), small house by the road to Darnassus, north-west of Ban'ethil Hollow. Right by the bounty furbolgs.
 
 **4. Back in Teldrassil**
 - **Destiny Calls**: stealth up to *Sethir the Ancient* (lvl 12, on a big tree branch near Oracle Glade ~38, 25) and **Pick Pocket** his journal. Don't fight him. → **Blade of Cunning**.
