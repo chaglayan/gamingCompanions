@@ -1,28 +1,34 @@
 # Gear
 
-> Need a character sheet photo (`C`) with tooltips to fill this in.
+> From the character sheet photo, 2026-11-07 (level 9). Item names unknown: need tooltip photos.
 
 | Slot | Item | Notes |
 |---|---|---|
-| Main hand | _unknown_ | Want: slow sword/axe/mace |
-| Off hand | _unknown_ | |
-| Ranged | _unknown_ | Thrown/bow/gun for pulling |
-| Head | _unknown_ | |
-| Neck | _unknown_ | |
-| Shoulders | _unknown_ | |
-| Back | _unknown_ | |
-| Chest | _unknown_ | |
-| Wrist | _unknown_ | |
-| Hands | _unknown_ | |
-| Waist | _unknown_ | |
-| Legs | _unknown_ | |
-| Feet | _unknown_ | |
-| Rings | _unknown_ | |
-| Trinkets | _unknown_ | |
+| Main hand | blade, 9–13 dmg (?) | Name _unknown_. Replace with **Blade of Cunning** (level 10 class quest) if it hits harder |
+| Off hand | **empty** | Dual Wield trains at 10. Put your 2nd-best weapon here |
+| Ranged | thrown weapon (10–13) | |
+| Head | empty | |
+| Neck | empty | |
+| Shoulders | empty | |
+| Back | equipped (?) | |
+| Chest | leather vest | |
+| Shirt | equipped | |
+| Tabard | empty | |
+| Wrist | equipped | |
+| Hands | equipped | |
+| Waist | equipped | |
+| Legs | equipped | |
+| Feet | equipped | |
+| Rings | empty ×2 | |
+| Trinkets | empty ×2 | |
 
-## Bags
-_unknown_
+## Bags (2026-11-07)
+- ~13 free slots. Gold: **19s 3c**.
+- Lots of skinning leather (two stacks of 20 + 6 more) → keep for Leatherworking, or sell.
+- Raw meat / food stacks → cook them (Cooking is 1/75).
+- Quest items: phial (Crown of the Earth), Timberling Seed (?), others.
 
 ## Upgrade wishlist
-- Agility on everything.
-- Leather armor (rogues can't wear mail/plate).
+- **Blade of Cunning** (level 10 class quest).
+- Agility on everything. Leather armor only (rogues can't wear mail/plate).
+- Leatherworking crafts at 25+: Handstitched Leather Vest / Pants; Dark Leather Boots at 35.

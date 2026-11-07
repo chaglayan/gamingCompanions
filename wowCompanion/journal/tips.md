@@ -10,7 +10,11 @@
 - **Sell grey items** (junk) at any vendor. That's your early gold.
 - **Bags** are the first good thing to spend gold on.
 - **Energy** (yellow bar): rogue resource, refills fast. **Combo points**: dots built by Sinister Strike, spent by finishers like Eviscerate.
-- **Stealth** lets you pick fights and skip ones you don't want.
+- **Stealth** lets you pick fights and skip ones you don't want. It makes you slow, so only use it on tough mobs.
+- **Trainer on even levels**: new abilities/ranks appear at 4, 6, 8, 10, 12… (talent point every level from 10).
+- **Professions**: Apprentice caps at 75; train Journeyman (from level 10) at the profession trainer to go higher.
+- **Camping** (Forever): Cooking lets you place a campfire; other professions add camp buffs (Skinning → Camp Chair, +crit).
+- **Gouge → bandage**: Gouge stuns for a few seconds; enough time to use a bandage mid-fight.
 
 ## Glossary
 | Term | Meaning |
@@ -23,4 +27,6 @@
 | Tank / Healer | The other two group roles |
 | Dungeon / Instance | Private group area with bosses (5 players) |
 | AH | Auction House: buy/sell with other players (in big cities) |
+| Proc | A random effect that triggers ("Riposte procs" = lights up, ready to use) |
+| CC | Crowd control: stuns, sap, blind |
 | BoP / BoE | Bind on Pickup (yours forever) / Bind on Equip (can sell until you wear it) |

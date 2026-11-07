@@ -1,86 +1,76 @@
 # Rogue guide (WoW Forever)
 
-> Researched 2026-11-07, three days after launch. Guide sites are blocked from Claude's environment, so this is pieced together from search snippets. Where sources disagree it says so. **Your in-game trainer and talent window are the final word.**
+> Refreshed 2026-11-07 from the full guide pages (Maxroll, Method, Warcraft Tavern, Bind on Forever). **Level-by-level checklist: [`leveling-plan.md`](leveling-plan.md).** Your in-game trainer and talent window are the final word.
 
 ## TL;DR for a new rogue
-- **Level as Combat.** Every guide agrees it's the easiest, smoothest leveling spec.
-- **Use swords, axes or maces, not daggers.** Your main attack (Sinister Strike) hits harder with slower, non-dagger weapons.
-- **Talents start at level 10.** One point per level from then on.
-- **Visit the rogue trainer every time you level**: new abilities and stronger ranks.
-- **Poisons come from a class quest at level 20.** Don't skip it.
+- **Level as Combat.** Every guide agrees: easiest and smoothest solo.
+- **Use the hardest-hitting weapon you can equip.** Combat's *Hack and Slash* talent (35+) gives a bonus to every weapon type, so don't stress about weapon type.
+- **Talents start at 10**, one point per level.
+- **Visit the trainer on even levels** (that's when new stuff appears).
+- **Poisons come from a class quest at 20.** Don't skip it.
+- **You have no healing.** Food between fights, **bandages (First Aid)** in emergencies.
 
-## Which guide to follow
+## Which guide to use
 
-Pick **one** and stick to it. Talent orders differ between guides, and that's fine: they all end up in the same place.
-
-| Guide | Why | Note |
+| What | Guide | Why |
 |---|---|---|
-| ⭐ [Mobalytics: Combat Rogue Leveling 1–60](https://mobalytics.gg/wow-forever/classes/combat-rogue-leveling-guide) | Full 1–60, written for Forever, updated late Oct 2026 | **Main pick.** Good on a phone. |
-| [Icy Veins: Combat Rogue Leveling](https://www.icy-veins.com/wow-forever/combat-rogue-leveling) | Talent build with a level slider | Very reliable site |
-| [Icy Veins: Rogue Class Quests](https://www.icy-veins.com/wow-forever/rogue-class-quests) | Which class quests to do, and when | Check at 10 and 20 |
-| [Warcraft Tavern: Rogue Leveling](https://www.warcrafttavern.com/forever/guides/rogue-leveling/) | Builds, class quests, consumables, gear | Built during the beta (cap 30); may still be catching up to 60 |
-| [Method: Rogue Leveling & Talents](https://www.method.gg/wow-forever/wow-forever-rogue-leveling-guide-and-talents) | Talents + professions | Second opinion |
-| [Mobalytics: Rogue Class Overview & Changes](https://mobalytics.gg/wow-forever/guides/rogue-class-overview) | What's new vs Classic | Read once for background |
+| ⭐ Class guide | [Maxroll: Rogue Leveling](https://maxroll.gg/wow-forever/class-guides/rogue-leveling-guide) | Updated launch day, short, clear rotation + trainer levels + dungeon loot |
+| ⭐ Talents | [Warcraft Tavern Combat build](https://www.warcrafttavern.com/forever/tools/talent-calculator/rogue#?t=A11B11000555669688bdeeffhggiiiiimmpmmmbfA22277722aa444) | Full 10→60 point order. Copied into `leveling-plan.md` |
+| ⭐ Quest route | [Bind on Forever](https://bindonforever.com/zones/teldrassil) | Step-by-step, per class, with coordinates. Free, works on a phone. Written on the beta |
+| Second opinion | [Method](https://www.method.gg/wow-forever/wow-forever-rogue-leveling-guide-and-talents) | Updated 7 Nov. Good weapon + profession lists |
 
-⚠️ Avoid guides that say "Classic", "SoD", "WotLK" or "Retail/Dragonflight/Midnight": different game versions.
+⚠️ Avoid guides that say "Classic", "SoD", "WotLK" or "Retail": different game versions.
 
-## What Forever changed for rogues (vs Classic)
-- **New ability: Shank** (around level 24, I think). Off-hand strike that generates energy and can't miss. One source says it wasn't in the launch client; check your trainer.
-- **Poised**: passive, cheaper abilities when opening from out of combat.
-- **Combo points don't reset when you switch targets.** Big quality-of-life win.
-- **Sap no longer breaks Stealth.**
-- **Poisons last longer** and stack with sharpening stones / weightstones.
-- **Rogues can use one-handed axes** now.
-- **Talent trees reworked**: Combat gets *Hack and Slash* (weapon choice matters less), Assassination gets *Mutilate*, Subtlety's capstone is *Death Mark*. The old weapon-specialization talents are gone.
-- Training every ability from 1 to 60 costs about **207 gold total** (all classes). Budget for it.
+## Rotation (Maxroll)
+1. Start from **Stealth** when it's a tough mob. For easy ones just walk up and hit (stealth is slow).
+2. Opener: **Ambush** (18+, needs a dagger) or **Cheap Shot** (26+, stun). Before that: just **Sinister Strike**.
+3. **Sinister Strike** to build combo points.
+4. **Slice and Dice** first (keep it up all fight).
+5. **Eviscerate** at 5 combo points (or 3+ if it'll kill).
+6. **Riposte** (22+) whenever it lights up. **Shank** (24+) when energy is low.
+7. Big fights: **Expose Armor** before Eviscerate. Cooldowns later: Blade Flurry (2+ enemies), Adrenaline Rush.
 
-## Combat leveling basics
+**Oh no buttons:** Evasion (dodge), Gouge (short stun → bandage up!), Kick (stop a cast), Sprint (run), Vanish (22+, escape), Shadowmeld (night elf: drop out of a fight if nothing's hitting you).
 
-**The fight loop (level ~10):**
-1. **Stealth** and walk up behind the enemy.
-2. Open with **Cheap Shot** (stun) if you have it, otherwise just **Sinister Strike**.
-3. **Sinister Strike** to build combo points (the dots on the enemy's portrait).
-4. On longer fights, use **Slice and Dice** early (faster attacks).
-5. Spend 3–5 combo points on **Eviscerate** to finish.
-6. Eat food after the fight to heal back up.
-
-**When things go wrong:**
-- **Evasion**: you dodge most attacks for a few seconds. Use it when 2+ enemies are on you.
-- **Gouge**: short stun so you can get a breather or interrupt.
-- **Kick**: interrupts spellcasters.
-- **Sprint**: run away.
-- **Shadowmeld** (night elf racial): stand still, become stealthed. Drops you out of the fight if nothing's hitting you.
-
-**Talents:** follow your chosen guide. Common milestones: Combat-tree damage/crit early, **Riposte around 20–22** is a big power spike.
+## What Forever changed for rogues
+- **Shank** (24): new energy-generating off-hand strike.
+- **Poised**: passive, abilities cost less energy right as you start a fight.
+- **Poisons** at 20 now crit and stack with sharpening stones.
+- **One-handed axes** are allowed now.
+- **Talent trees reworked**: Combat gets Hack and Slash + Flash of Steel, Assassination gets Mutilate + Venom, Subtlety gets Death Mark.
+- **Dual Wield is trained at 10** (in Classic you had it from the start).
+- **Camping**: professions make camp buffs (Skinning → Camp Chair = +crit; Leatherworking → Camp Tent = bonus rested XP; Cooking lets you place a camp).
+- **Combo points on target swap:** sources disagree on whether they still reset. Test it in-game.
+- Training 1→60 costs about **207 gold** total.
 
 ## Weapons
-- Main hand: the **slowest** sword/axe/mace you can find (higher top damage = bigger Sinister Strike).
-- Off hand: a faster weapon is fine.
-- Watch for **Agility** on gear: it's your main stat (damage, crit, dodge).
+- **Level 10 class quest reward: Blade of Cunning** (dagger). Easy and strong. Equip it.
+- **Axes, daggers and thrown weapons** you can use from the start. **Fist weapons**: train in Darnassus (Ilyenia Moonfire). **Swords**: Stormwind (Woo Ping). **Maces**: Ironforge.
+- Good leveling weapons on the Alliance side: Daryl's Shortsword (15–17 quest), Thornblade (18–20 quest, dagger), **Cruel Barb** (Deadmines), Meteor Shard (Shadowfang Keep).
 
-## Professions (pick 2)
-- **Skinning + Leatherworking**: make your own leather armor. Icy Veins' pick.
-- **Skinning + Mining**: pure gold-making; sell everything on the Auction House.
-- Also level **Cooking** (and First Aid, if Forever still has it; I think it does) for food and bandages. They don't count toward your 2.
+## Stats
+**Agility** > Attack Power > Hit > Crit > Stamina. Agility gives damage, crit and dodge all in one. Early on, just take whatever has the most total stats.
+
+## Professions
+- ⭐ **Skinning + Leatherworking**: every guide's pick. Make your own leather gear (Handstitched Leather Vest/Pants at 25, Dark Leather Boots at 35). Leatherworking also gives the Camp Tent.
+- ⭐ **First Aid** (secondary, free slot): bandages are your only real heal. Also makes healing potions in Forever.
+- **Cooking** (secondary): food now gives an XP buff too, and you need it to place a campfire.
+- **Fishing** (secondary, optional): Fish Bowl camp buff, feeds Cooking.
+- Apprentice skill caps at **75**. Journeyman (up to 150) unlocks at **level 10** from the profession trainer.
 
 ## Class quests
-- **Level 10 (night elves):** "The Apple Falls" (?) from **Jannok Breezesong**, the rogue trainer in **Dolanaar**. Sends you to Darnassus.
-- **Level 20:** the required class quest that unlocks **poisons** (and Thistle Tea).
+- **10:** **The Apple Falls** (Jannok Breezesong, Dolanaar) → Syurna in Darnassus → **Destiny Calls**: **Pick Pocket** a journal from *Sethir the Ancient* (level 12, walks a big tree branch near the Oracle Glade, ~38, 25). **Don't fight him**, just stealth and pick his pocket. Reward: **Blade of Cunning**.
+- **16 (Darkshore):** keep the **Curvewood Dagger** from *The Fragments Within*. A later poisons quest needs a dagger.
+- **20:** poisons class quest. Unlocks poisons + Thistle Tea.
 
-## Night elf route
-- **1–6** Shadowglen → **6–11** Dolanaar (set your hearthstone at the inn) → **11–12** western Teldrassil.
-- Then take the free hippogryph flight from Rut'theran Village to **Darkshore (≈11–19)**.
-- After that, guides differ: Loch Modan, Westfall or Redridge on the Eastern Kingdoms side, or Ashenvale on Kalimdor.
-
-## Addons (optional, try one at a time)
-- **Questie**: shows quest givers and objectives on your map. The most-recommended free one. New Forever quests may be missing for a while.
-- Install via CurseForge. Don't copy Classic addon folders; Forever's UI differs.
+## Addons
+- **Questie** (free): shows quest givers and objectives on your map. Makes questing *way* less annoying. New Forever quests may be missing for a bit. Get it from CurseForge; don't copy Classic addon folders.
+- **Lockpicking** at 16: keep Thieves' Tools in your bags.
 
 ## Sources
-- [Icy Veins: Combat Rogue Leveling](https://www.icy-veins.com/wow-forever/combat-rogue-leveling) · [Subtlety Leveling](https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling) · [Class Quests](https://www.icy-veins.com/wow-forever/rogue-class-quests)
-- [Mobalytics: Combat Leveling 1–60](https://mobalytics.gg/wow-forever/classes/combat-rogue-leveling-guide) · [Rogue Overview & Changes](https://mobalytics.gg/wow-forever/guides/rogue-class-overview) · [Zone level ranges](https://mobalytics.gg/wow-forever/guides/zone-map-level-ranges)
-- [Warcraft Tavern: Rogue Leveling](https://www.warcrafttavern.com/forever/guides/rogue-leveling/)
-- [Method: Rogue Leveling & Talents](https://www.method.gg/wow-forever/wow-forever-rogue-leveling-guide-and-talents)
-- [wowfdb: Rogue changes](https://wowfdb.com/classes/rogue/changes/) · [Accountshark: launch patch notes](https://accountshark.net/blog/wow-forever-launch-patch-notes-explained-class-damage-buffs-training-costs-paladin-rogue-talents-respawns)
-- [games.gg: Teldrassil leveling](https://games.gg/world-of-warcraft/guides/wow-forever-teldrassil-leveling/) · [Bind on Forever: Teldrassil](https://bindonforever.com/zones/teldrassil)
-- [Conquest Capped: Forever addons](https://conquestcapped.com/guides/wow-forever/wow-forever-addons/)
+- [Maxroll: Rogue Leveling](https://maxroll.gg/wow-forever/class-guides/rogue-leveling-guide) (4 Nov 2026)
+- [Method: Rogue Leveling & Talents](https://www.method.gg/wow-forever/wow-forever-rogue-leveling-guide-and-talents) (7 Nov 2026)
+- [Warcraft Tavern: Rogue Leveling](https://www.warcrafttavern.com/forever/guides/rogue-leveling/) + [talent calculator](https://www.warcrafttavern.com/forever/tools/talent-calculator/rogue#?t=A11B11000555669688bdeeffhggiiiiimmpmmmbfA22277722aa444)
+- [Bind on Forever: Teldrassil](https://bindonforever.com/zones/teldrassil) · [Darkshore](https://bindonforever.com/zones/darkshore)
+- [Mobalytics: Rogue changes](https://mobalytics.gg/wow-forever/guides/rogue-class-overview) · [wowfdb: Rogue changes](https://wowfdb.com/classes/rogue/changes/)
+- [Warcraft Wiki: The Apple Falls](https://warcraft.wiki.gg/wiki/The_Apple_Falls) · [Blade of Cunning](https://warcraft.wiki.gg/wiki/Blade_of_Cunning) (Classic data; Forever route confirmed by Bind on Forever)

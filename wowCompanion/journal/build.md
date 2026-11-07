@@ -1,23 +1,36 @@
 # Build
 
 ## Spec
-**Combat** (planned) for leveling. See [`../guides/rogue.md`](../guides/rogue.md).
-Following: [Mobalytics Combat Leveling 1–60](https://mobalytics.gg/wow-forever/classes/combat-rogue-leveling-guide) (player hasn't confirmed yet).
+**Combat** for leveling (solo). Talent order: [`../guides/leveling-plan.md`](../guides/leveling-plan.md) (Warcraft Tavern Combat leveling build, ends 15 Assassination / 36 Combat).
 
 ## Talents
-| Level | Talent | Notes |
+| Level | Talent | Status |
 |---|---|---|
-| 10 | _not yet_ | First point. Use the chosen guide. |
+| 10 | Remorseless Attacks 1/2 (Assassination) | next |
+| 11 | Remorseless Attacks 2/2 | |
+| 12–13 | Efficient Strikes 2/2 (Combat) | |
+| 14–16 | Coup de Grace 3/3 | |
+| 17–19 | Deflection 3/3 | |
+| 20–21 | Precision 2/3 | |
+| 22 | ⭐ Riposte | |
 
 Points spent: 0 / 0
 
-## Abilities known
-_unknown_. Need a spellbook photo (`P`).
+## Abilities known (spellbook photos, 2026-11-07, level 9)
+| Tab | Abilities |
+|---|---|
+| General | Attack, Throw, Shadowmeld (racial), Elune's Light (racial), Armor Proficiency, Dodge, Languages, Quickness (racial passive), Wisp Spirit (racial passive) |
+| Combat | Sinister Strike R2, Backstab R1, Gouge R1, Evasion |
+| Subtlety (?) | Stealth R1 (player's message). Pick Pocket? _unknown_ |
+| Assassination (?) | Eviscerate R3 (player's message) |
 
-## Rotation (current)
-Stealth → Sinister Strike ×3–5 → Eviscerate. Evasion if 2+ enemies.
+Up to date with the trainer through level 8.
+
+## Rotation (current, level 9)
+Sinister Strike ×3–5 → Eviscerate. Backstab only with a dagger, from behind. Evasion if 2+ enemies. Gouge → eat/bandage/reposition.
+From 10: add **Slice and Dice** before Eviscerate on longer fights.
 
 ## Consumables
-- Food: _unknown_
-- Bandages: _unknown_
+- Food: some in bags (bread ×2, apples ×2, other food; meat to cook)
+- Bandages: none (First Aid not learned)
 - Poisons: not yet (level 20 class quest)

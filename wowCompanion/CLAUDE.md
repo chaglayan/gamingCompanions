@@ -33,7 +33,8 @@ Most WoW info online is for **retail** or **Classic Era**, and Forever changed a
 | `journal/goals.md` | What to do now (this session), short- and long-term goals, leveling route. |
 | `journal/log.md` | Dated log of sessions and what changed. |
 | `journal/tips.md` | Things already explained to the player (glossary, habits). Check before re-explaining. |
-| `guides/rogue.md` | Curated rogue guide: recommended sources, Forever changes, leveling basics. Refresh when patches land. |
+| `guides/rogue.md` | Curated rogue guide: recommended sources, rotation, Forever changes, weapons, professions, class quests. Refresh when patches land. |
+| `guides/leveling-plan.md` | Level-by-level checklist 10→60: trainer unlocks, talent point, zone, dungeons. **Use this to answer "I just levelled, what now?"** |
 
 Mark unknowns `_unknown_` and shaky readings `(?)`. **Never invent facts** (item stats, quest names, talent names). Ask for a photo.
 
@@ -58,7 +59,7 @@ Update `goals.md` to match.
 
 ## Housekeeping
 
-- **Research:** icy-veins.com, warcrafttavern.com and shacknews.com (and probably most guide sites) are **blocked by this environment's network**. Use WebSearch snippets and say "I think" when sources disagree.
+- **Research:** network is unrestricted (since 2026-11-07), but the WebFetch tool may still refuse hosts. Use `curl` into the scratchpad + a small HTML-to-text script instead. Icy Veins and Mobalytics return 403 to curl (bot protection): don't try to get around it. Use **Maxroll, Method, Warcraft Tavern, Bind on Forever** (all fetch fine). Talent orders live in JS widgets: open the Warcraft Tavern talent calculator in Playwright and read the "Talent Order" block (talent names are in the icons' `alt` text).
 - **Videos:** extract frames with `ffmpeg -i in.MOV -vf "fps=1,tile=3x3" out%d.jpg` into the scratchpad, then read the tiles.
 - Use real dates in logs.
 - **Hardcore:** Forever Hardcore is planned for winter 2026. If the player switches to a Hardcore character, safety advice changes completely (death is permanent). Note which mode they're on in `overview.md`.
