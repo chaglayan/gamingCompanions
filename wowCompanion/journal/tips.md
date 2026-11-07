@@ -42,6 +42,12 @@
 
 Second bar (click or Shift+key): Shadowmeld, Elune's Light, Hearthstone, Expose Armor (14), Feint (16), Vanish (22), mount (40).
 
+## Food, water, potions (explained 2026-11-07)
+- **Water = mana. Rogues have no mana** (energy only). Sell water.
+- **Food**: health refills slowly by itself; eating refills it in ~20–30 sec. Saves waiting between fights. **Cooked "Well Fed" food** also gives stats and, in Forever, an XP buff.
+- **Health potions**: vendors don't sell them. Get them from loot, the Auction House (Darnassus), or **First Aid** (Forever lets First Aid craft healing potions). **Bandages** (First Aid, from Linen Cloth) are cheaper and the main rogue heal.
+- **Second action bar** has no keys by default: click it, or set keys in Options → Keybindings → Action Bars.
+
 ## Gear basics
 - **Red text on a tooltip = you can't use it.** Rogues wear **leather** only (no mail/plate), ever. Weapons in red need a weapon skill trained.
 - Compare weapons by **damage per second** on the tooltip. Hold `Shift` while hovering to compare with what you wear.

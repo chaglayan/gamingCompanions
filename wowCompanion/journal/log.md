@@ -7,3 +7,4 @@
 | 2026-11-07 | Druid of the Claw done (Rageclaw), hearthed to Dolanaar. Got a quest sword but can't use it: likely needs the Swords skill (Woo Ping, Stormwind; boat from Auberdine). |
 | 2026-11-07 | **Level 10.** Confirmed: can't use the sword (needs Swords skill). Took Bounty: Gnarlpine Furbolg. Couldn't find Melenas (Fel Rock is a cave). Asked about Sprint (yes) and Remorseless Attacks (explained). |
 | 2026-11-07 | Q&A: where to learn Leatherworking, Stiletto (off-hand if cheap), bark mail leggings (mail → sell), action bar layout (saved in tips). Main hand is a 3–6 dagger. |
+| 2026-11-07 | Q&A: two daggers OK after Dual Wield; Nadyia Maneweaver confirmed (Forever trainer list); cooking needs Simple Wood + Flint and Tinder; water useless for rogues; food/potion basics; second bar keybinds. |

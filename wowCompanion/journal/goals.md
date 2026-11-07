@@ -24,7 +24,7 @@
 - **The Sisterhood of Elune** → Sister Aquinne.
 - **Rellian Greenspyre** → bring the Timberling Seed.
 - Profession trainers: **Leatherworking** (Telonis, Craftsmen's Terrace, upstairs ~64, 21), **First Aid**, Journeyman **Skinning** (once you hit 75).
-- Closer Leatherworking option (Classic data, unconfirmed in Forever): **Nadyia Maneweaver**, small house on the road to Darnassus ~41, 49 (Wellspring Hovel), right by the bounty furbolgs.
+- Closer Leatherworking option: **Nadyia Maneweaver** (✅ confirmed on a Forever trainer list), small house on the road to Darnassus, north-west of Ban'ethil Hollow (~41, 49 in Classic), right by the bounty furbolgs.
 
 **4. Back in Teldrassil**
 - **Destiny Calls**: stealth up to *Sethir the Ancient* (lvl 12, on a big tree branch near Oracle Glade ~38, 25) and **Pick Pocket** his journal. Don't fight him. → **Blade of Cunning**.
@@ -32,7 +32,8 @@
 - Relics done → **Athridas Bearmantle** (Dolanaar) → **Ursal the Mauler** (lvl 12, Gnarlpine Hold ~39, 80, pull him alone).
 
 **5. Housekeeping**
-- Cook your raw meat at a campfire (free Cooking skill + food).
+- **Cooking:** buy **Simple Wood** (general goods vendor) + **Flint and Tinder** (cooking trainer, Zarrin in Dolanaar) → make a Basic Campfire Kit in the Cooking window → place it → cook your raw meat. Or just cook at any fire in town.
+- **Sell the water** (rogues have no mana).
 - Install **Questie**.
 
 ## Short term

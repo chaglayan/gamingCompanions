@@ -26,7 +26,7 @@
 - **Sword** (quest reward, 2026-11-07). Can't use it yet: night elf rogues need the **Swords** weapon skill from **Woo Ping in Stormwind** (I think). Forever adds a **boat from Auberdine (Darkshore) to Stormwind**. Name/stats _unknown_.
 
 - **Bark mail leggings** (?) (2026-11-07): **mail**, rogues can only wear leather. Sell it.
-- Considering buying a **Stiletto** (dagger) from the weaponsmith: OK as an **off-hand** if cheap; Blade of Cunning covers the main hand.
+- Buying a **Stiletto** (dagger) from the weaponsmith. Plan: Stiletto main hand + simple dagger off-hand (after Dual Wield) → later Blade of Cunning main hand + Stiletto off-hand.
 
 ## Bags (2026-11-07)
 - ~13 free slots. Gold: **19s 3c**.
