@@ -51,6 +51,8 @@ Second bar (click or Shift+key): Shadowmeld, Elune's Light, Hearthstone, Expose 
 ## Gear basics
 - **Red text on a tooltip = you can't use it.** Rogues wear **leather** only (no mail/plate), ever. Weapons in red need a weapon skill trained.
 - **DPS = average hit ÷ speed.** Speed = seconds between swings. Slow weapons hit harder but less often; fast ones hit softer but more often.
+- **Dual wield = any two one-handed weapons** (swords, axes, maces, fist weapons, daggers, mixed). Off-hand does NOT need to be a dagger. Tooltip must say "One-Hand" (not "Main Hand"). Only **Backstab/Ambush** need a dagger, and only in the **main hand**.
+- **Selling greens**: low-level greens rarely sell for much on the AH (deposit + 5% cut). Usually just vendor them.
 - **Main hand: prefer slow** (Sinister Strike and Riposte use one weapon hit, so a big hit = a big strike). **Off-hand: faster is fine.**
 - Stamina = health. Spirit = faster health regen out of combat (minor for rogues). Durability = wear; repair at any vendor with a repair button.
 - Compare weapons by **damage per second** on the tooltip. Hold `Shift` while hovering to compare with what you wear.

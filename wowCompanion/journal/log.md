@@ -9,3 +9,4 @@
 | 2026-11-07 | Q&A: where to learn Leatherworking, Stiletto (off-hand if cheap), bark mail leggings (mail → sell), action bar layout (saved in tips). Main hand is a 3–6 dagger. |
 | 2026-11-07 | Q&A: two daggers OK after Dual Wield; Nadyia Maneweaver confirmed (Forever trainer list); cooking needs Simple Wood + Flint and Tinder; water useless for rogues; food/potion basics; second bar keybinds. |
 | 2026-11-07 | Two green swords: Brushwood Blade (5.3 DPS, slow 3.0, soulbound) and Notched Shortsword of the Whale (5.5 DPS, 2.1). Explained DPS vs speed. Keep both for after Stormwind sword training. Nadyia Maneweaver at 41.8, 49.4. |
+| 2026-11-07 | Clarified: off-hand can be any one-hand weapon (not just daggers). Corrected AH advice: low-level greens aren't worth listing; vendor them. |
