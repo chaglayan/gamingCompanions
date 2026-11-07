@@ -6,7 +6,7 @@
 ## Talents
 | Level | Talent | Status |
 |---|---|---|
-| 10 | Remorseless Attacks 1/2 (Assassination) | next |
+| 10 | Remorseless Attacks 1/2 (Assassination) | next. Player asked why it's not a Combat-tree talent (explained 2026-11-07: the Combat build dips 2 points into Assassination; Efficient Strikes first is a fine alternative) |
 | 11 | Remorseless Attacks 2/2 | |
 | 12–13 | Efficient Strikes 2/2 (Combat) | |
 | 14–16 | Coup de Grace 3/3 | |

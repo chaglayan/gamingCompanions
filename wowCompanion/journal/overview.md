@@ -8,8 +8,8 @@
 | Name | **Chagielle Chag** (as shown on the character sheet) |
 | Race / class | Night Elf Rogue |
 | Faction | Alliance |
-| Level | **10–11 (?)** (was 9 earlier on 2026-11-07; just finished Druid of the Claw) |
-| Spec | None yet (talents unlock at 10). Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
+| Level | **10** (2026-11-07) |
+| Spec | First talent point due at 10. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
 | Mode | Normal (not Hardcore) (?) |
 | Realm | _unknown_ |
 | Zone | Teldrassil: **Dolanaar inn** (hearthed there 2026-11-07) |
@@ -28,7 +28,7 @@ Health 181 · Energy 100 · Move speed 102% (Quickness racial) · Str 24 · **Ag
 | WoW experience | **Complete beginner.** Played BG3 (see `../bg3Companion/`). |
 | Platform | PC |
 | Plays with | **Solo** |
-| Goals | **Dungeons and raiding** sound fun. Likes quests in general but found WoW's quests "very bad" → reduce quest friction (Questie, a step-by-step route), mix in dungeons early. |
+| Goals | Finds the game **slow** (wants faster travel/killing). **Dungeons and raiding** sound fun. Likes quests in general but found WoW's quests "very bad" → reduce quest friction (Questie, a step-by-step route), mix in dungeons early. |
 | Wants from Claude | A good guide + **what to do at each level-up** |
 | Language | English, casual |
 

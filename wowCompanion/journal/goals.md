@@ -4,6 +4,8 @@
 
 **Quest log (2026-11-07):** Crown of the Earth (Tourmaline Phial) · Ferocitas the Dream Eater · Twisted Hatred (Melenas' Head) · The Lost Runner · Camping 101: Skinning (✅ ready) · The Sleeping Druid · The Relics of Wakening · Rellian Greenspyre (→ Darnassus) · The Sisterhood of Elune (→ Darnassus)
 
+**Status 2026-11-07 (level 10):** got **Bounty: Gnarlpine Furbolg** (Gnarlpine Fangs from Ambushers/Shamans on the road west of Dolanaar ~46, 53; turn in to Sentinel Shayla Nightbreeze ~38, 54). Couldn't find Lord Melenas for Twisted Hatred: the map highlights the hill, but **Fel Rock is a cave under it** (mouth ~54, 51, Melenas deeper ~52, 49; 3 possible spawn spots).
+
 **1. Finish level 8–9 quests near Dolanaar**
 - **Camping 101: Skinning** → turn in (it's done).
 - **Twisted Hatred**: Lord Melenas is inside **Fel Rock** (~54, 51). Use the *Severed Voodoo Claw* on him first: it lowers his damage.

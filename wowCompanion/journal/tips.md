@@ -14,6 +14,9 @@
 - **Trainer on even levels**: new abilities/ranks appear at 4, 6, 8, 10, 12… (talent point every level from 10).
 - **Professions**: Apprentice caps at 75; train Journeyman (from level 10) at the profession trainer to go higher.
 - **Camping** (Forever): Cooking lets you place a campfire; other professions add camp buffs (Skinning → Camp Chair, +crit).
+- **"Combat build" ≠ only Combat tree**: a build can take points from any tree. The Combat leveling build puts its first 2 points in Assassination (Remorseless Attacks). Talents can be reset at the class trainer for gold.
+- **Feeling slow?** Sprint between quest spots, don't stealth-walk to easy mobs, fill your off-hand once Dual Wield is trained, log out in inns for rested XP, Questie to stop searching. Mount at 40.
+- **Map highlight on a hill = often a cave underneath.** Look for the entrance around the edge.
 - **Gouge → bandage**: Gouge stuns for a few seconds; enough time to use a bandage mid-fight.
 
 ## Glossary
