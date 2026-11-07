@@ -14,7 +14,7 @@ Press `N` → click the talent. Combat build = **Warcraft Tavern's Combat leveli
 | **10** | ⭐ **Dual Wield**, ⭐ **Slice and Dice**, Sprint, Sap | Remorseless Attacks 1/2 *(Assassination tree)* | Class quest **The Apple Falls** (Jannok Breezesong, Dolanaar) → Darnassus. Journeyman professions unlock. |
 | 11 | – | Remorseless Attacks 2/2 | Finish Teldrassil: Ban'ethil Barrow Den, Oracle Glade |
 | 12 | Kick, Parry | Efficient Strikes 1/2 *(Combat tree from here)* | Rut'theran Village → fly to **Darkshore** (Auberdine) |
-| 13 | – | Efficient Strikes 2/2 | Darkshore. Set hearthstone at the Auberdine inn |
+| 13 | – | Efficient Strikes 2/2 | Darkshore. Set hearthstone at the Auberdine inn. Side trip: **boat from Auberdine to Stormwind** (new in Forever) → learn **Swords** from Woo Ping |
 | 14 | Expose Armor, Garrote, Sinister Strike rank | Coup de Grace 1/3 | Darkshore |
 | 15 | – | Coup de Grace 2/3 | Darkshore. First dungeon? (see below) |
 | 16 | Feint, **Pick Lock** | Coup de Grace 3/3 | Darkshore. Lockpicking opens lockboxes (gold!) |

@@ -25,7 +25,8 @@
 
 **4. Back in Teldrassil**
 - **Destiny Calls**: stealth up to *Sethir the Ancient* (lvl 12, on a big tree branch near Oracle Glade ~38, 25) and **Pick Pocket** his journal. Don't fight him. → **Blade of Cunning**.
-- Save **The Sleeping Druid** + **The Relics of Wakening** for level 11–12: the Ban'ethil Barrow Den is packed with furbolgs. Pull one at a time.
+- ✅ **The Sleeping Druid** + **Druid of the Claw** done (2026-11-07). Relics of Wakening: _unknown_ if all 4 relics found.
+- Relics done → **Athridas Bearmantle** (Dolanaar) → **Ursal the Mauler** (lvl 12, Gnarlpine Hold ~39, 80, pull him alone).
 
 **5. Housekeeping**
 - Cook your raw meat at a campfire (free Cooking skill + food).
@@ -33,6 +34,7 @@
 
 ## Short term
 - Finish Teldrassil (≈12) → fly to **Darkshore** from Rut'theran Village.
+- From Auberdine, take the **boat to Stormwind** → **Woo Ping** (weapon master) → learn **Swords** → equip the quest sword.
 - First dungeon around 15–18 (Hall of Thanes, Wailing Caverns or Deadmines) via Group Finder.
 
 ## Long term

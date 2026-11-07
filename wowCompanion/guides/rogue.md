@@ -45,7 +45,7 @@
 
 ## Weapons
 - **Level 10 class quest reward: Blade of Cunning** (dagger). Easy and strong. Equip it.
-- **Axes, daggers and thrown weapons** you can use from the start. **Fist weapons**: train in Darnassus (Ilyenia Moonfire). **Swords**: Stormwind (Woo Ping). **Maces**: Ironforge.
+- **Axes, daggers and thrown weapons** you can use from the start. **Fist weapons**: train in Darnassus (Ilyenia Moonfire). **Swords**: Stormwind (Woo Ping). Forever adds a boat from Auberdine (Darkshore) straight to Stormwind. **Maces**: Ironforge.
 - Good leveling weapons on the Alliance side: Daryl's Shortsword (15–17 quest), Thornblade (18–20 quest, dagger), **Cruel Barb** (Deadmines), Meteor Shard (Shadowfang Keep).
 
 ## Stats

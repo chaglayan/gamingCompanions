@@ -22,6 +22,9 @@
 | Rings | empty ×2 | |
 | Trinkets | empty ×2 | |
 
+## In bags, waiting
+- **Sword** (quest reward, 2026-11-07). Can't use it yet: night elf rogues need the **Swords** weapon skill from **Woo Ping in Stormwind** (I think). Forever adds a **boat from Auberdine (Darkshore) to Stormwind**. Name/stats _unknown_.
+
 ## Bags (2026-11-07)
 - ~13 free slots. Gold: **19s 3c**.
 - Lots of skinning leather (two stacks of 20 + 6 more) → keep for Leatherworking, or sell.
