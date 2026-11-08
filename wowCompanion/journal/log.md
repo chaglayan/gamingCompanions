@@ -12,3 +12,4 @@
 | 2026-11-07 | Clarified: off-hand can be any one-hand weapon (not just daggers). Corrected AH advice: low-level greens aren't worth listing; vendor them. |
 | 2026-11-08 | **Level 11.** Dolanaar quests done (Ursal the Mauler last). Found a 6–12 dagger. Explained Questie + install. Wrote a Darnassus → Darkshore checklist in `goals.md`. |
 | 2026-11-08 | Leatherworking + First Aid learned, Skinning levelled, dual wielding 2 daggers, The Apple Falls in log. Recommended addons: Leatrix Plus, Leatrix Maps, Auctionator (+ Details!/DBM later). |
+| 2026-11-08 | Photos: level 11 sheet (stats, gear), quest log (5 quests), map. Remorseless Attacks 2/2 spent. Trained Dual Wield, SnD, Sprint. LW 23. Explained rested XP/Zzz, macros, food clutter, completed-quest list. Route: Darnassus → Oracle Glade → Darkshore. |

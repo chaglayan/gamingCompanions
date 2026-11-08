@@ -57,6 +57,14 @@ Always pick the **Forever** file on CurseForge.
 - Later, for dungeons: **Details!** (damage meter) + **Deadly Boss Mods** (boss warnings).
 - Skip big UI overhauls for now.
 
+## Rested XP, Zzz, macros, food (explained 2026-11-08)
+- **Zzz on your portrait** = you're in a **rested area** (inn/city). Time spent there (best: **logged out**) stores **rested XP**: kills give **double XP** until it's used up. The XP bar turns blue and shows a marker for how far it lasts. Nothing visible happens while sitting; you notice it when killing mobs. People lying down are just using the `/sleep` emote.
+- **Macros** (`Esc` → Macros): your own buttons that run several commands at once. Not needed yet; useful later (e.g. Pick Pocket + Ambush in one button at 18).
+- **Food clutter**: eat the small stacks first; keep anything that says **"Well Fed"** for tough fights; vendor the rest only if bags are full (it's worth copper).
+- **Completed quests**: WoW has no built-in list. Questie's **Journey** window (`/questie` → My Journey) tracks from install; I think it also has a "Quests by Zone" tab.
+- **Map coordinates** already show at the bottom-left of the map ("Player: 57.6, 56.7").
+- **Green stat numbers** on the character sheet = boosted by a buff right now.
+
 ## Cities
 - **Guards give directions**: talk to any city guard and ask for the bank / trainer / auction house; they put a flag on your map.
 - **Bank**: free storage, in every capital. **Auction House**: buy/sell with players.

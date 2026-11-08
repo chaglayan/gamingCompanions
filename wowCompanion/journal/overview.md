@@ -9,7 +9,7 @@
 | Race / class | Night Elf Rogue |
 | Faction | Alliance |
 | Level | **11** (2026-11-08) |
-| Spec | First talent point due at 10. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
+| Spec | **Remorseless Attacks 2/2** spent. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
 | Mode | Normal (not Hardcore) (?) |
 | Realm | _unknown_ |
 | Zone | Teldrassil, Dolanaar quests done. Next: **Darnassus**, then Darkshore |
@@ -19,8 +19,9 @@
 | Guild | _unknown_ |
 | Addons | Recommended (2026-11-08): Questie, Leatrix Plus, Leatrix Maps, Auctionator; later Details! + Deadly Boss Mods for dungeons. Installed: _unknown_ |
 
-## Stats (level 9, 2026-11-07)
-Health 181 · Energy 100 · Move speed 102% (Quickness racial) · Str 24 · **Agi 38** · Sta 25 · Int 21 · Spi 23 · Attack Power 60 · Main hand 9–13 · Ranged 10–13
+## Stats (level 11, 2026-11-08, with some buffs: green numbers)
+Health 265 · Energy 100 · Str 25 · **Agi 42** · Sta 32 · Int 24 · Spi 24 · Main hand 17–24 · Off hand 7–10 · Ranged 15–21 · Ranged AP 75 · Crit 10.7% · Dodge 22.5% · Defense 53/55 · Armor 268
+Leatherworking 23 (making Light Leather).
 
 ## Player preferences
 | | |

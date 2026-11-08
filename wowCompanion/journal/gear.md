@@ -4,8 +4,8 @@
 
 | Slot | Item | Notes |
 |---|---|---|
-| Main hand | new dagger **6–12 dmg** (found 2026-11-08, name _unknown_) (?) equipped? | Old: simple dagger 3–6. Next: **Blade of Cunning** (class quest) |
-| Off hand | dagger (Stiletto or simple dagger (?)) | **Dual wielding 2 daggers** since 2026-11-08 |
+| Main hand | green dagger, sheet shows **17–24** (incl. attack power) (2026-11-08) | Old: simple dagger 3–6. Next: **Blade of Cunning** (class quest) |
+| Off hand | dagger, sheet **7–10** | **Dual wielding 2 daggers** since 2026-11-08 |
 | Ranged | thrown weapon (10–13) | |
 | Head | empty | |
 | Neck | empty | |

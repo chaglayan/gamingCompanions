@@ -6,15 +6,15 @@
 ## Talents
 | Level | Talent | Status |
 |---|---|---|
-| 10 | Remorseless Attacks 1/2 (Assassination) | next. Player asked why it's not a Combat-tree talent (explained 2026-11-07: the Combat build dips 2 points into Assassination; Efficient Strikes first is a fine alternative) |
-| 11 | Remorseless Attacks 2/2 | |
+| 10 | Remorseless Attacks 1/2 (Assassination) | ✅ done. Player asked why it's not a Combat-tree talent (explained 2026-11-07: the Combat build dips 2 points into Assassination; Efficient Strikes first is a fine alternative) |
+| 11 | Remorseless Attacks 2/2 | ✅ done |
 | 12–13 | Efficient Strikes 2/2 (Combat) | |
 | 14–16 | Coup de Grace 3/3 | |
 | 17–19 | Deflection 3/3 | |
 | 20–21 | Precision 2/3 | |
 | 22 | ⭐ Riposte | |
 
-Points spent: 0 / 0
+Points spent: **2 / 2** (Remorseless Attacks 2/2, confirmed 2026-11-08)
 
 ## Abilities known (spellbook photos, 2026-11-07, level 9)
 | Tab | Abilities |
@@ -24,7 +24,7 @@ Points spent: 0 / 0
 | Subtlety (?) | Stealth R1 (player's message). Pick Pocket? _unknown_ |
 | Assassination (?) | Eviscerate R3 (player's message) |
 
-Up to date with the trainer through level 8.
+Trained at 10: **Dual Wield, Slice and Dice, Sprint** (Sap: _unknown_).
 
 ## Rotation (current, level 9)
 Sinister Strike ×3–5 → Eviscerate. Backstab only with a dagger, from behind. Evasion if 2+ enemies. Gouge → eat/bandage/reposition.

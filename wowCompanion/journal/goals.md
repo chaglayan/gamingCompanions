@@ -2,8 +2,10 @@
 
 ## Next session (level 11 → 12): Darnassus trip, then Darkshore
 
-**Status 2026-11-08:** Level **11**. Player thinks all Dolanaar quests are done (last: **Ursal the Mauler**, a tree-fruit quest (?)). New dagger **6–12**. Logged out (where? _unknown_).
-✅ 2026-11-08: Leatherworking + First Aid learned, Skinning levelled, **dual wielding 2 daggers**, *The Apple Falls* in the log (not turned in yet). Unknown: talent points spent?
+**Status 2026-11-08 (photos):** Level **11**, in Dolanaar (57.6, 56.7). Talents spent, Dual Wield/SnD/Sprint trained, LW + First Aid learned.
+**Quest log (5/40):** The Sisterhood of Elune (→ Darnassus) · Rellian Greenspyre (→ Darnassus) · The Apple Falls (→ Syurna, Darnassus) · **The Lost Runner** (Sentinel Eralya Leafshadow, road to Oracle Glade ~37.6, 36.8) · **Crown of the Earth [11]**: Filled Amethyst Phial (Oracle Glade moonwell ~38.5, 34.0).
+
+**Route:** Dolanaar → **Darnassus** (3 turn-ins, get Destiny Calls) → **Oracle Glade** (Lost Runner, Amethyst Phial, pickpocket Sethir ~38, 25) → back to Dolanaar for Crown of the Earth → Rut'theran → Darkshore.
 
 **0. Before logging in**
 - Install **Questie** (see `tips.md`).
