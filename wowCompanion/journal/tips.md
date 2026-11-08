@@ -65,6 +65,11 @@ Always pick the **Forever** file on CurseForge.
 - **Map coordinates** already show at the bottom-left of the map ("Player: 57.6, 56.7").
 - **Green stat numbers** on the character sheet = boosted by a buff right now.
 
+## Leatherworking (explained 2026-11-08)
+- **Recipe colours**: orange = always gives a skill point, yellow = usually, green = rarely, grey = never.
+- **Ammo pouches / quivers** go in a bag slot but **only hold bullets / arrows**. Rogues throw knives (no ammo) → skip them.
+- Better use of leather: **Light Armor Kit** (put it on your own chest/legs/etc. for armor), then **Handstitched Leather Vest / Pants at 25** (wear them), Dark Leather Boots at 35.
+
 ## Cities
 - **Guards give directions**: talk to any city guard and ask for the bank / trainer / auction house; they put a flag on your map.
 - **Bank**: free storage, in every capital. **Auction House**: buy/sell with players.
