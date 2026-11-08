@@ -4,7 +4,7 @@
 
 | Slot | Item | Notes |
 |---|---|---|
-| Main hand | simple dagger, **3–6 dmg** (player, 2026-11-07) | Replace with **Blade of Cunning** (level 10 class quest) |
+| Main hand | new dagger **6–12 dmg** (found 2026-11-08, name _unknown_) (?) equipped? | Old: simple dagger 3–6. Next: **Blade of Cunning** (class quest) |
 | Off hand | **empty** | Dual Wield trains at 10. Put your 2nd-best weapon here |
 | Ranged | thrown weapon (10–13) | |
 | Head | empty | |

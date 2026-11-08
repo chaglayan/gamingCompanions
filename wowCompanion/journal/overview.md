@@ -8,11 +8,11 @@
 | Name | **Chagielle Chag** (as shown on the character sheet) |
 | Race / class | Night Elf Rogue |
 | Faction | Alliance |
-| Level | **10** (2026-11-07) |
+| Level | **11** (2026-11-08) |
 | Spec | First talent point due at 10. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
 | Mode | Normal (not Hardcore) (?) |
 | Realm | _unknown_ |
-| Zone | Teldrassil: **Dolanaar inn** (hearthed there 2026-11-07) |
+| Zone | Teldrassil, Dolanaar quests done. Next: **Darnassus**, then Darkshore |
 | Hearthstone set to | _unknown_ (probably Dolanaar) |
 | Gold | **19s 3c** (2026-11-07) |
 | Professions | **Skinning 40/75** · **Cooking 1/75** · 2nd primary: none yet (plan: Leatherworking) · First Aid: not yet |

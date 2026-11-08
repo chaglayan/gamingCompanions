@@ -42,6 +42,17 @@
 
 Second bar (click or Shift+key): Shadowmeld, Elune's Light, Hearthstone, Expose Armor (14), Feint (16), Vanish (22), mount (40).
 
+## Questie (addon) — explained 2026-11-08
+- Free addon that puts **quest givers (!), turn-ins (?) and objective areas** on your map and minimap. Stops the "where is this?" hunting.
+- **Easiest install:** CurseForge app → World of Warcraft → pick the **Forever** version (if missing: "Scan for games" / add the `_forever_` folder) → search Questie → Install.
+- **Manual:** download the Forever version → unzip into `World of Warcraft\_forever_\Interface\AddOns\`. The `.toc` file must be directly inside `AddOns\Questie\` (not `Questie\Questie\`).
+- In game: AddOns button on the character select screen → make sure it's ticked. `/reload` after changes.
+- New Forever-only quests may be missing for a while.
+
+## Cities
+- **Guards give directions**: talk to any city guard and ask for the bank / trainer / auction house; they put a flag on your map.
+- **Bank**: free storage, in every capital. **Auction House**: buy/sell with players.
+
 ## Food, water, potions (explained 2026-11-07)
 - **Water = mana. Rogues have no mana** (energy only). Sell water.
 - **Food**: health refills slowly by itself; eating refills it in ~20–30 sec. Saves waiting between fights. **Cooked "Well Fed" food** also gives stats and, in Forever, an XP buff.

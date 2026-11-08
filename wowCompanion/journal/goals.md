@@ -1,47 +1,46 @@
 # Goals
 
-## This session (level 9 → 11ish)
+## Next session (level 11 → 12): Darnassus trip, then Darkshore
 
-**Quest log (2026-11-07):** Crown of the Earth (Tourmaline Phial) · Ferocitas the Dream Eater · Twisted Hatred (Melenas' Head) · The Lost Runner · Camping 101: Skinning (✅ ready) · The Sleeping Druid · The Relics of Wakening · Rellian Greenspyre (→ Darnassus) · The Sisterhood of Elune (→ Darnassus)
+**Status 2026-11-08:** Level **11**. Player thinks all Dolanaar quests are done (last: **Ursal the Mauler**, a tree-fruit quest (?)). New dagger **6–12**. Logged out (where? _unknown_).
+Unknown: did they spend the level 10/11 talent points, train Dual Wield, take *The Apple Falls*, buy the Stiletto, finish the Gnarlpine bounty and Twisted Hatred?
 
-**Status 2026-11-07 (level 10):** got **Bounty: Gnarlpine Furbolg** (Gnarlpine Fangs from Ambushers/Shamans on the road west of Dolanaar ~46, 53; turn in to Sentinel Shayla Nightbreeze ~38, 54). Couldn't find Lord Melenas for Twisted Hatred: the map highlights the hill, but **Fel Rock is a cave under it** (mouth ~54, 51, Melenas deeper ~52, 49; 3 possible spawn spots).
+**0. Before logging in**
+- Install **Questie** (see `tips.md`).
 
-**1. Finish level 8–9 quests near Dolanaar**
-- **Camping 101: Skinning** → turn in (it's done).
-- **Twisted Hatred**: Lord Melenas is inside **Fel Rock** (~54, 51). Use the *Severed Voodoo Claw* on him first: it lowers his damage.
-- **Ferocitas the Dream Eater**: 7 Gnarlpine Mystics + Ferocitas east of Dolanaar (~68, 53). He drops a **necklace: use it from your bags** to get the jewel. Pull him at full health.
-- Turn both in to **Tallonkai Swiftroot** (top of Dolanaar's tree).
-- **Crown of the Earth**: use the Tourmaline Phial at the **Pools of Arlithrien** moonwell (~42, 67). Back to Corithras Moonrage in Dolanaar.
-- **The Lost Runner**: Sentinel Eralya Leafshadow on the road to the Oracle Glade (~37, 37).
+**1. Level-up chores**
+- Talents (`N`): **Remorseless Attacks 2/2** (both points, levels 10 + 11).
+- Dual Wield + Slice and Dice trained? If not, rogue trainer in Dolanaar (Jannok Breezesong) or Darnassus (Syurna and others, Cenarion Enclave).
+- Weapons: **6–12 dagger → main hand** (Backstab works with it), Stiletto/old dagger → off-hand.
 
-**2. At level 10**
-- Rogue trainer **Jannok Breezesong** (Dolanaar ~56, 60): **Dual Wield**, **Slice and Dice**, Sprint, Sap. Accept **The Apple Falls**.
-- Talent: **Remorseless Attacks** (Assassination tree).
-- Check you have **Pick Pocket** (needed for the class quest).
-
-**3. Darnassus trip** (3 quests in one go)
-- The Apple Falls → **Syurna** (Cenarion Enclave ~37, 22) → Destiny Calls.
+**2. Darnassus** (walk west along the road from Dolanaar)
+- Lost? Ask any **guard (Darnassus Sentinel)**: they put a flag on your map for the bank, trainers, auction house…
+- **The Apple Falls** → **Syurna** (Cenarion Enclave ~37, 22) → get **Destiny Calls**.
 - **The Sisterhood of Elune** → Sister Aquinne.
-- **Rellian Greenspyre** → bring the Timberling Seed.
-- Profession trainers: **Leatherworking** (Telonis, Craftsmen's Terrace, upstairs ~64, 21), **First Aid**, Journeyman **Skinning** (once you hit 75).
-- Closer Leatherworking option: **Nadyia Maneweaver**, Teldrassil **41.8, 49.4** (wow-professions' Forever trainer page), small house by the road to Darnassus, north-west of Ban'ethil Hollow. Right by the bounty furbolgs.
+- **Rellian Greenspyre** → Timberling Seed.
+- **Leatherworking**: Telonis (Craftsmen's Terrace, upstairs ~64, 21) if not learned from Nadyia (Teldrassil 41.8, 49.4).
+- **First Aid** trainer: learn it, start making Linen Bandages.
+- **Bank**: dump leather/cloth you don't need right now.
+- **Auction House**: look at bags (more slots) and healing potions.
+- **Don't** reset your hearthstone here. Keep Dolanaar until Auberdine.
 
-**4. Back in Teldrassil**
-- **Destiny Calls**: stealth up to *Sethir the Ancient* (lvl 12, on a big tree branch near Oracle Glade ~38, 25) and **Pick Pocket** his journal. Don't fight him. → **Blade of Cunning**.
-- ✅ **The Sleeping Druid** + **Druid of the Claw** done (2026-11-07). Relics of Wakening: _unknown_ if all 4 relics found.
-- Relics done → **Athridas Bearmantle** (Dolanaar) → **Ursal the Mauler** (lvl 12, Gnarlpine Hold ~39, 80, pull him alone).
+**3. Back in Teldrassil**
+- **Destiny Calls**: stealth up to *Sethir the Ancient* (lvl 12, big tree branch near Oracle Glade ~38, 25), **Pick Pocket** his journal, don't fight → **Blade of Cunning**.
+- Oracle Glade quests if any are still open (The Lost Runner, The Enchanted Glade).
 
-**5. Housekeeping**
-- **Cooking:** buy **Simple Wood** (general goods vendor) + **Flint and Tinder** (cooking trainer, Zarrin in Dolanaar) → make a Basic Campfire Kit in the Cooking window → place it → cook your raw meat. Or just cook at any fire in town.
-- **Sell the water** (rogues have no mana).
-- Install **Questie**.
+**4. Leave for Darkshore (~12)**
+- Purple portal on Darnassus's **west side** → **Rut'theran Village**. Don't jump off the edge.
+- **Get the flight path** (talk to the flight master, Vesprystus) → fly to **Auberdine**.
+- In Auberdine: get the flight path, set hearthstone at the inn, stock ~40 Longjaw Mud Snapper (food) from Laird.
 
 ## Short term
-- Finish Teldrassil (≈12) → fly to **Darkshore** from Rut'theran Village.
-- From Auberdine, take the **boat to Stormwind** → **Woo Ping** (weapon master) → learn **Swords** → equip the quest sword.
+- From Auberdine, take the **boat to Stormwind** → **Woo Ping** (weapon master) → learn **Swords** → Brushwood Blade (MH) + Notched Shortsword (OH).
 - First dungeon around 15–18 (Hall of Thanes, Wailing Caverns or Deadmines) via Group Finder.
 
 ## Long term
 - Level 20: poisons class quest.
 - Level 40: riding (save gold).
 - Level 60: raids (first raids unlock 9 Dec 2026).
+
+## Done
+- 2026-11-07/08: All Dolanaar-area quests (Crown of the Earth chain (?), Ferocitas (?), Twisted Hatred (?), Sleeping Druid, Druid of the Claw, Relics of Wakening, Ursal the Mauler), Camping 101: Skinning (?).
