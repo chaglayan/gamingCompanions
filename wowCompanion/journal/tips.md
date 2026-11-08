@@ -68,6 +68,9 @@ Always pick the **Forever** file on CurseForge.
 ## Leatherworking (explained 2026-11-08)
 - **Recipe colours**: orange = always gives a skill point, yellow = usually, green = rarely, grey = never.
 - **Ammo pouches / quivers** go in a bag slot but **only hold bullets / arrows**. Rogues throw knives (no ammo) → skip them.
+- **LW recipes known (2026-11-08, skill 26):** Light Leather, Handstitched Leather Cloak/Vest/Bracers/Belt/Pants/Boots, Light Armor Kit. Trainer next: **Cured Light Hide at 30** (50c; needs Light Hide + Salt), Light Leather Quiver (skip), Embossed Leather Pants at 50 (2s).
+- Recipe costs at the trainer go up slowly with skill (copper → a few silver). Crafting itself only costs **Coarse Thread** (cheap, trade goods vendor) + your own leather.
+- Cheapest skill-ups: **Light Armor Kit** (1 Light Leather each). Apply kits to your own gear.
 - Better use of leather: **Light Armor Kit** (put it on your own chest/legs/etc. for armor), then **Handstitched Leather Vest / Pants at 25** (wear them), Dark Leather Boots at 35.
 
 ## Cities

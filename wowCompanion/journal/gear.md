@@ -36,6 +36,9 @@ Swords: can't use yet. Need the **Swords** skill from **Woo Ping in Stormwind** 
 - Raw meat / food stacks → cook them (Cooking is 1/75).
 - Quest items: phial (Crown of the Earth), Timberling Seed (?), others.
 
+## Crafted (2026-11-08)
+Player made and is wearing Handstitched leather **belt, pants, boots** (?). Can also make: Handstitched Leather Cloak, Vest, Bracers, Light Armor Kit.
+
 ## Upgrade wishlist
 - **Blade of Cunning** (level 10 class quest).
 - Agility on everything. Leather armor only (rogues can't wear mail/plate).

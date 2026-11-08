@@ -14,14 +14,14 @@
 | Realm | _unknown_ |
 | Zone | Teldrassil, Dolanaar quests done. Next: **Darnassus**, then Darkshore |
 | Hearthstone set to | _unknown_ (probably Dolanaar) |
-| Gold | **19s 3c** (2026-11-07) |
-| Professions | **Skinning** (levelled up, Journeyman (?)) · **Leatherworking** (learned 2026-11-08, for the Camp Tent) · **First Aid** (learned; Heavy Linen Bandage (?) recipe) · **Cooking** 1/75 |
+| Gold | **24s 65c** (2026-11-08) |
+| Professions | **Skinning** (levelled up, Journeyman (?)) · **Leatherworking 26/75** (learned from Nadyia Maneweaver, Teldrassil, 2026-11-08; for the Camp Tent) · **First Aid** (learned; Heavy Linen Bandage (?) recipe) · **Cooking** 1/75 |
 | Guild | _unknown_ |
 | Addons | Recommended (2026-11-08): Questie, Leatrix Plus, Leatrix Maps, Auctionator; later Details! + Deadly Boss Mods for dungeons. Installed: _unknown_ |
 
 ## Stats (level 11, 2026-11-08, with some buffs: green numbers)
 Health 265 · Energy 100 · Str 25 · **Agi 42** · Sta 32 · Int 24 · Spi 24 · Main hand 17–24 · Off hand 7–10 · Ranged 15–21 · Ranged AP 75 · Crit 10.7% · Dodge 22.5% · Defense 53/55 · Armor 268
-Leatherworking 23 (making Light Leather).
+
 
 ## Player preferences
 | | |
