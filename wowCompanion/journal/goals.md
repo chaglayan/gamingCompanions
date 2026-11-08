@@ -5,11 +5,12 @@
 **Status 2026-11-08 (logout):** Level **13**, Oracle Glade. Questie installed. Apple Falls, Sisterhood of Elune, Rellian Greenspyre, The Lost Runner, Mist done.
 
 **0. First thing**
-- Talents (`N`, Combat tab): **Efficient Strikes 2/2** (levels 12 + 13).
+- Talents: Efficient Strikes 1/2 ✅ (level 12). 2nd point at 13.
+- **Train Pick Pocket** (rogue ability, level 4, any rogue trainer: Darnassus underground or Jannok in Dolanaar). Needed for Destiny Calls.
 - Trainer: **Kick** + **Parry** (12) if not bought yet. Level 14 next: Expose Armor, Garrote, Sinister Strike rank.
 
 **1. Oracle Glade area (you're here)**
-- **Destiny Calls**: Sethir the Ancient (lvl 12) walks the big tree branch ~38, 25. Stealth, let him pass, **Pick Pocket** from behind. Don't fight → back to Syurna → **Blade of Cunning**.
+- **Destiny Calls** (after training Pick Pocket; find him with `/tar Sethir`): Sethir the Ancient (lvl 12) walks the big tree branch ~38, 25. Stealth, let him pass, **Pick Pocket** from behind. Don't fight → back to Syurna → **Blade of Cunning**.
 - **Tears of the Moon**: Silvery Spinnerets from **Lady Sathrah** (lvl 12 spider, ~39.5, 25.5, moves between a few spots). Same area as Sethir.
 - **Darkness in the Glade**: 3 harpy amulets: Hatescreech (10), Windmistress Gaedress (10), **Witchmother Arysa (12)** (casts Lightning Bolt + heals: Kick the heal!) ~35, 38. Turn in to Sentinel Arynia Cloudsbreak.
 

@@ -51,6 +51,9 @@ Second bar (click or Shift+key): Shadowmeld, Elune's Light, Hearthstone, Expose 
 
 - **CurseForge doesn't need to stay open.** It only installs/updates addons; Questie runs inside the game. Open it now and then (e.g. weekly) to click "Update All" — Forever addons update often right now.
 
+- **Find a named NPC in a crowd:** type `/tar Name` in chat (e.g. `/tar Sethir`) to target the nearest one with that name.
+- **Abilities vs talents:** abilities (Pick Pocket, Kick…) are **bought from the trainer**; talents are the `N` window. If a guide says "Pick Pocket" and you don't have it, visit the trainer.
+
 ## Other addons (recommended 2026-11-08)
 Always pick the **Forever** file on CurseForge.
 - **Leatrix Plus**: quality-of-life switches. Turn on *auto sell junk*, *auto repair*, *faster auto loot*.

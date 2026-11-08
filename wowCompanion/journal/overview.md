@@ -8,7 +8,7 @@
 | Name | **Chagielle Chag** (as shown on the character sheet) |
 | Race / class | Night Elf Rogue |
 | Faction | Alliance |
-| Level | **13** (2026-11-08, end of session) |
+| Level | **12** (2026-11-08; player corrected: 12, not 13) |
 | Spec | **Remorseless Attacks 2/2** spent. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
 | Mode | Normal (not Hardcore) (?) |
 | Realm | _unknown_ |
