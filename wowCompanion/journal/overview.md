@@ -8,11 +8,11 @@
 | Name | **Chagielle Chag** (as shown on the character sheet) |
 | Race / class | Night Elf Rogue |
 | Faction | Alliance |
-| Level | **12** (2026-11-08; player corrected: 12, not 13) |
+| Level | **13** (2026-11-08) |
 | Spec | **Remorseless Attacks 2/2** spent. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
 | Mode | Normal (not Hardcore) (?) |
 | Realm | _unknown_ |
-| Zone | Teldrassil, **Oracle Glade** (38.2, 34.4) at logout |
+| Zone | Teldrassil, south of Dolanaar (58.2, 73.3). Leaving for Darkshore |
 | Hearthstone set to | _unknown_ (probably Dolanaar) |
 | Gold | **28s** (2026-11-08) |
 | Professions | **Leatherworking 27/75** · **Skinning 72/150** (Journeyman) · **Cooking 7/75** · **First Aid 3/75** · Fishing: not learned |

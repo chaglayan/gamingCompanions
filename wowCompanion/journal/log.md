@@ -20,3 +20,4 @@
 | 2026-11-08 | Correction: level **12**. Efficient Strikes 1/2 spent. Stuck on Destiny Calls: Pick Pocket never trained (it's a trainer ability, not a talent). Many 'ancients' around; use /tar Sethir. |
 | 2026-11-08 | Loot Q&A: legs 48 armor +1 Agi beats 18 armor +2 Sta; keep the off-hand dagger over Beaded Orb of the Tiger (orb = no off-hand attacks). Added quick loot rules to tips. |
 | 2026-11-08 | Asked where Silvery Spinnerets are: dropped by Lady Sathrah (lvl 12 spider), north of Oracle Glade ~39.5, 25.5, several spawn spots. |
+| 2026-11-08 | **Level 13.** Most Teldrassil quests done. Log: Nessa Shadowsong, Sathrah's Sacrifice, Grove of the Ancients (17), WSG PvP. Explained Rut'theran Village (portal from Darnassus) and the Temple of the Moon fountain. |

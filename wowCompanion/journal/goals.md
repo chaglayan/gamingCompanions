@@ -1,25 +1,18 @@
 # Goals
 
-## Next session (level 13): finish Teldrassil → Darkshore
+## Now (level 13): leave Teldrassil
 
-**Status 2026-11-08 (logout):** Level **13**, Oracle Glade. Questie installed. Apple Falls, Sisterhood of Elune, Rellian Greenspyre, The Lost Runner, Mist done.
+**Quest log 2026-11-08 (4/40):** Nessa Shadowsong (✅ just talk to her) · **Sathrah's Sacrifice** (offer at the fountain, Temple of the Moon, Darnassus) · Grove of the Ancients [17] (Darkshore, later) · Fight for Warsong Gulch (PvP, ignore).
+Done since last time: Destiny Calls (→ Blade of Cunning (?)), Tears of the Moon, Darkness in the Glade, Tumors, Crown of the Earth, Not Dead Yet (presumably; no longer in log).
 
-**0. First thing**
-- Talents: Efficient Strikes 1/2 ✅ (level 12). 2nd point at 13.
-- **Train Pick Pocket** (rogue ability, level 4, any rogue trainer: Darnassus underground or Jannok in Dolanaar). Needed for Destiny Calls.
-- Trainer: **Kick** + **Parry** (12) if not bought yet. Level 14 next: Expose Armor, Garrote, Sinister Strike rank.
-
-**1. Oracle Glade area (you're here)**
-- **Destiny Calls** (after training Pick Pocket; find him with `/tar Sethir`): Sethir the Ancient (lvl 12) walks the big tree branch ~38, 25. Stealth, let him pass, **Pick Pocket** from behind. Don't fight → back to Syurna → **Blade of Cunning**.
-- **Tears of the Moon**: Silvery Spinnerets from **Lady Sathrah** (lvl 12 spider, ~39.5, 25.5, moves between a few spots). Same area as Sethir.
-- **Darkness in the Glade**: 3 harpy amulets: Hatescreech (10), Windmistress Gaedress (10), **Witchmother Arysa (12)** (casts Lightning Bolt + heals: Kick the heal!) ~35, 38. Turn in to Sentinel Arynia Cloudsbreak.
-
-**2. Dolanaar**
-- Turn in **Tumors**, **Crown of the Earth**, **Not Dead Yet** (Byancie).
-
-**3. Leave**
-- Darnassus (Syurna for Destiny Calls) → west-side portal → Rut'theran Village → **Nessa Shadowsong** (quest complete) → flight path → **Auberdine (Darkshore)**.
-- Ignore **Fight for Warsong Gulch** (PvP quest, level 19+) for now.
+1. Talent at 13: **Efficient Strikes 2/2**.
+2. **Darnassus → Temple of the Moon** (south part of the city): stand at the fountain inside and use the sacrifice item from your bags (or click the fountain).
+3. **Purple portal** on Darnassus's west edge → **Rut'theran Village** (below the tree; the `?` at the very bottom of the Teldrassil map). Don't jump off the edge.
+4. Talk to **Nessa Shadowsong** (Rut'theran ~56, 92) → turn in.
+5. Talk to the **flight master (Vesprystus)** → learn the flight path → fly to **Auberdine** (Darkshore).
+6. Auberdine: flight path, **set hearthstone at the inn**, buy food.
+7. **Grove of the Ancients** (lvl 17, Onu south of Auberdine): do it when you're ~16–17.
+8. Level 14 trainer: Expose Armor, Garrote, Sinister Strike rank (Darkshore has no rogue trainer I know of → fly back or train on the Stormwind trip).
 
 ## Short term
 - From Auberdine, take the **boat to Stormwind** → **Woo Ping** (weapon master) → learn **Swords** → Brushwood Blade (MH) + Notched Shortsword (OH).
