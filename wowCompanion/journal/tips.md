@@ -49,6 +49,14 @@ Second bar (click or Shift+key): Shadowmeld, Elune's Light, Hearthstone, Expose 
 - In game: AddOns button on the character select screen → make sure it's ticked. `/reload` after changes.
 - New Forever-only quests may be missing for a while.
 
+## Other addons (recommended 2026-11-08)
+Always pick the **Forever** file on CurseForge.
+- **Leatrix Plus**: quality-of-life switches. Turn on *auto sell junk*, *auto repair*, *faster auto loot*.
+- **Leatrix Maps**: shows **coordinates** on the map (so "41.8, 49.4" makes sense) and removes map fog.
+- **Auctionator**: easier Auction House; shows what your leather is worth.
+- Later, for dungeons: **Details!** (damage meter) + **Deadly Boss Mods** (boss warnings).
+- Skip big UI overhauls for now.
+
 ## Cities
 - **Guards give directions**: talk to any city guard and ask for the bank / trainer / auction house; they put a flag on your map.
 - **Bank**: free storage, in every capital. **Auction House**: buy/sell with players.

@@ -3,7 +3,7 @@
 ## Next session (level 11 → 12): Darnassus trip, then Darkshore
 
 **Status 2026-11-08:** Level **11**. Player thinks all Dolanaar quests are done (last: **Ursal the Mauler**, a tree-fruit quest (?)). New dagger **6–12**. Logged out (where? _unknown_).
-Unknown: did they spend the level 10/11 talent points, train Dual Wield, take *The Apple Falls*, buy the Stiletto, finish the Gnarlpine bounty and Twisted Hatred?
+✅ 2026-11-08: Leatherworking + First Aid learned, Skinning levelled, **dual wielding 2 daggers**, *The Apple Falls* in the log (not turned in yet). Unknown: talent points spent?
 
 **0. Before logging in**
 - Install **Questie** (see `tips.md`).

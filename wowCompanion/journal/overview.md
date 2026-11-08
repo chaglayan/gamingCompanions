@@ -15,9 +15,9 @@
 | Zone | Teldrassil, Dolanaar quests done. Next: **Darnassus**, then Darkshore |
 | Hearthstone set to | _unknown_ (probably Dolanaar) |
 | Gold | **19s 3c** (2026-11-07) |
-| Professions | **Skinning 40/75** · **Cooking 1/75** · 2nd primary: none yet (plan: Leatherworking) · First Aid: not yet |
+| Professions | **Skinning** (levelled up, Journeyman (?)) · **Leatherworking** (learned 2026-11-08, for the Camp Tent) · **First Aid** (learned; Heavy Linen Bandage (?) recipe) · **Cooking** 1/75 |
 | Guild | _unknown_ |
-| Addons | _unknown_ (none? Questie recommended) |
+| Addons | Recommended (2026-11-08): Questie, Leatrix Plus, Leatrix Maps, Auctionator; later Details! + Deadly Boss Mods for dungeons. Installed: _unknown_ |
 
 ## Stats (level 9, 2026-11-07)
 Health 181 · Energy 100 · Move speed 102% (Quickness racial) · Str 24 · **Agi 38** · Sta 25 · Int 21 · Spi 23 · Attack Power 60 · Main hand 9–13 · Ranged 10–13

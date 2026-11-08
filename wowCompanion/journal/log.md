@@ -11,3 +11,4 @@
 | 2026-11-07 | Two green swords: Brushwood Blade (5.3 DPS, slow 3.0, soulbound) and Notched Shortsword of the Whale (5.5 DPS, 2.1). Explained DPS vs speed. Keep both for after Stormwind sword training. Nadyia Maneweaver at 41.8, 49.4. |
 | 2026-11-07 | Clarified: off-hand can be any one-hand weapon (not just daggers). Corrected AH advice: low-level greens aren't worth listing; vendor them. |
 | 2026-11-08 | **Level 11.** Dolanaar quests done (Ursal the Mauler last). Found a 6–12 dagger. Explained Questie + install. Wrote a Darnassus → Darkshore checklist in `goals.md`. |
+| 2026-11-08 | Leatherworking + First Aid learned, Skinning levelled, dual wielding 2 daggers, The Apple Falls in log. Recommended addons: Leatrix Plus, Leatrix Maps, Auctionator (+ Details!/DBM later). |
