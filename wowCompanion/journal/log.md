@@ -22,3 +22,4 @@
 | 2026-11-08 | Asked where Silvery Spinnerets are: dropped by Lady Sathrah (lvl 12 spider), north of Oracle Glade ~39.5, 25.5, several spawn spots. |
 | 2026-11-08 | **Level 13.** Most Teldrassil quests done. Log: Nessa Shadowsong, Sathrah's Sacrifice, Grove of the Ancients (17), WSG PvP. Explained Rut'theran Village (portal from Darnassus) and the Temple of the Moon fountain. |
 | 2026-11-08 | Q: move hearth to Darnassus? No → Auberdine once in Darkshore. Blackmoss the Fetid (rare lvl 13, Wellspring Lake ~42, 38) not there → skip The Moss-twined Heart. |
+| 2026-11-08 | Arrived Darkshore (Auberdine inn), level 13. Learned Fishing + bought a pole. Quests: Buzzbox 827, Return to Nessa, Washed Ashore, Grove of the Ancients, WSG. Player isn't enjoying WoW much; gave an honest take (try a dungeon; retail is faster; BG3 is waiting). |

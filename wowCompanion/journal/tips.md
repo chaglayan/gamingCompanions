@@ -57,6 +57,8 @@ Second bar (click or Shift+key): Shadowmeld, Elune's Light, Hearthstone, Expose 
 - **Rares** (silver dragon on the portrait): special mobs that spawn rarely, sometimes hours apart. If one isn't there, don't wait — skip its quest.
 - **Hearthstone rule**: set it at the inn of the zone you're questing in (next: **Auberdine**), not in the capital.
 
+- **Fishing**: equip the pole (main hand) → stand by water → cast **Fishing** (spellbook, General/Professions) → watch the bobber → when it **splashes**, right-click it fast. Swap your daggers back after! (Character screen has built-in **equipment sets** to swap in one click.) Low-level water near Auberdine's dock is fine for skill 1+.
+
 ## Other addons (recommended 2026-11-08)
 Always pick the **Forever** file on CurseForge.
 - **Leatrix Plus**: quality-of-life switches. Turn on *auto sell junk*, *auto repair*, *faster auto loot*.

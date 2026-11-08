@@ -8,19 +8,20 @@
 | Name | **Chagielle Chag** (as shown on the character sheet) |
 | Race / class | Night Elf Rogue |
 | Faction | Alliance |
-| Level | **13** (2026-11-08) |
+| Level | **13** (~60% to 14) (2026-11-08) |
 | Spec | **Remorseless Attacks 2/2** spent. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
 | Mode | Normal (not Hardcore) (?) |
 | Realm | _unknown_ |
-| Zone | Teldrassil, south of Dolanaar (58.2, 73.3). Leaving for Darkshore |
+| Zone | **Darkshore, Auberdine inn** (arrived 2026-11-08) |
 | Hearthstone set to | _unknown_ (probably Dolanaar) |
 | Gold | **28s** (2026-11-08) |
-| Professions | **Leatherworking 27/75** · **Skinning 72/150** (Journeyman) · **Cooking 7/75** · **First Aid 3/75** · Fishing: not learned |
+| Professions | **Leatherworking 27/75** · **Skinning 72/150** (Journeyman) · **Cooking 7/75** · **First Aid 3/75** · **Fishing learned** + pole bought (2026-11-08) |
 | Guild | _unknown_ |
 | Addons | **Questie installed** (2026-11-08, via CurseForge). Recommended next: Leatrix Plus, Leatrix Maps, Auctionator |
 
-## Stats (level 12, 2026-11-08, some buffs active)
-Health 332 · Energy 100 · Str 27 · **Agi 44** · Sta 37 · Int 24 · Spi 24 · Main hand 15–22 · Off hand 6–8 · Ranged AP 80 · Crit 10.0% · Dodge 21.2% · Defense 54/60 · Armor 311
+## Stats (level 13, 2026-11-08, buffed: green numbers)
+Health 349 · Energy 100 · Str 31 · **Agi 53** · Sta 38 · Int 25 · Spi 27 · Main hand 18–25 · Off hand 11–17 · Ranged 19–25 · Attack Power 104
+Gear changes: green cloak, new chest, green gloves, green legs (?), new off-hand dagger (Blade of Cunning? (?)).
 
 
 ## Player preferences
@@ -29,7 +30,7 @@ Health 332 · Energy 100 · Str 27 · **Agi 44** · Sta 37 · Int 24 · Spi 24 �
 | WoW experience | **Complete beginner.** Played BG3 (see `../bg3Companion/`). |
 | Platform | PC |
 | Plays with | **Solo** |
-| Goals | Finds the game **slow** (wants faster travel/killing). **Dungeons and raiding** sound fun. Likes quests in general but found WoW's quests "very bad" → reduce quest friction (Questie, a step-by-step route), mix in dungeons early. |
+| Goals | Finds the game **slow** (wants faster travel/killing). **Dungeons and raiding** sound fun. Likes quests in general but found WoW's quests "very bad" → reduce quest friction (Questie, a step-by-step route), mix in dungeons early.  **2026-11-08: not enjoying it much so far**; considering going back to other games. Suggested: try one dungeon before deciding; retail WoW as a faster alternative. |
 | Wants from Claude | A good guide + **what to do at each level-up** |
 | Language | English, casual |
 

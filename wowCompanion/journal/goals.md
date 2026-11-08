@@ -1,18 +1,16 @@
 # Goals
 
-## Now (level 13): leave Teldrassil
+## Next session (level 13, Auberdine)
 
-**Quest log 2026-11-08 (4/40):** Nessa Shadowsong (✅ just talk to her) · **Sathrah's Sacrifice** (offer at the fountain, Temple of the Moon, Darnassus) · Grove of the Ancients [17] (Darkshore, later) · Fight for Warsong Gulch (PvP, ignore).
-Done since last time: Destiny Calls (→ Blade of Cunning (?)), Tears of the Moon, Darkness in the Glade, Tumors, Crown of the Earth, Not Dead Yet (presumably; no longer in log).
+**Player is unsure they like the game (2026-11-08).** Suggested test: one dungeon via Group Finder (Hall of Thanes 13–18 or Wailing Caverns/Deadmines ~15–18). If that's not fun either, Forever's slow Classic-style loop probably isn't for them.
 
-1. Talent at 13: **Efficient Strikes 2/2**.
-2. **Darnassus → Temple of the Moon** (south part of the city): stand at the fountain inside and use the sacrifice item from your bags (or click the fountain).
-3. **Purple portal** on Darnassus's west edge → **Rut'theran Village** (below the tree; the `?` at the very bottom of the Teldrassil map). Don't jump off the edge.
-4. Talk to **Nessa Shadowsong** (Rut'theran ~56, 92) → turn in.
-5. Talk to the **flight master (Vesprystus)** → learn the flight path → fly to **Auberdine** (Darkshore).
-6. Auberdine: flight path, **set hearthstone at the inn**, buy food.
-7. **Grove of the Ancients** (lvl 17, Onu south of Auberdine): do it when you're ~16–17.
-8. Level 14 trainer: Expose Armor, Garrote, Sinister Strike rank (Darkshore has no rogue trainer I know of → fly back or train on the Stormwind trip).
+**Quest log (5/40):** Buzzbox 827 (6 Crawler Legs, crabs on the beach) · Washed Ashore (Sea Creature Bones, beach) · Return to Nessa (Laird's Response → fly to Rut'theran) · Grove of the Ancients [17] (later) · Fight for Warsong Gulch (ignore).
+
+1. **Set hearthstone at the Auberdine inn** (if not done) + get the flight path.
+2. Talent at 13: Efficient Strikes 2/2 (if not done).
+3. Beach quests: Buzzbox 827 + Washed Ashore together.
+4. Return to Nessa: fly to Rut'theran, fly back. Combine with the level 14 trainer trip (Darnassus: Expose Armor, Garrote, SS rank).
+5. Fishing off the Auberdine dock when you want a break.
 
 ## Short term
 - From Auberdine, take the **boat to Stormwind** → **Woo Ping** (weapon master) → learn **Swords** → Brushwood Blade (MH) + Notched Shortsword (OH).
