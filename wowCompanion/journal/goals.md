@@ -1,39 +1,24 @@
 # Goals
 
-## Next session (level 11 → 12): Darnassus trip, then Darkshore
+## Next session (level 13): finish Teldrassil → Darkshore
 
-**Status 2026-11-08 (photos):** Level **11**, in Dolanaar (57.6, 56.7). Talents spent, Dual Wield/SnD/Sprint trained, LW + First Aid learned.
-**Quest log (5/40):** The Sisterhood of Elune (→ Darnassus) · Rellian Greenspyre (→ Darnassus) · The Apple Falls (→ Syurna, Darnassus) · **The Lost Runner** (Sentinel Eralya Leafshadow, road to Oracle Glade ~37.6, 36.8) · **Crown of the Earth [11]**: Filled Amethyst Phial (Oracle Glade moonwell ~38.5, 34.0).
+**Status 2026-11-08 (logout):** Level **13**, Oracle Glade. Questie installed. Apple Falls, Sisterhood of Elune, Rellian Greenspyre, The Lost Runner, Mist done.
 
-**Route:** Dolanaar → **Darnassus** (3 turn-ins, get Destiny Calls) → **Oracle Glade** (Lost Runner, Amethyst Phial, pickpocket Sethir ~38, 25) → back to Dolanaar for Crown of the Earth → Rut'theran → Darkshore.
+**0. First thing**
+- Talents (`N`, Combat tab): **Efficient Strikes 2/2** (levels 12 + 13).
+- Trainer: **Kick** + **Parry** (12) if not bought yet. Level 14 next: Expose Armor, Garrote, Sinister Strike rank.
 
-**0. Before logging in**
-- Install **Questie** (see `tips.md`).
+**1. Oracle Glade area (you're here)**
+- **Destiny Calls**: Sethir the Ancient (lvl 12) walks the big tree branch ~38, 25. Stealth, let him pass, **Pick Pocket** from behind. Don't fight → back to Syurna → **Blade of Cunning**.
+- **Tears of the Moon**: Silvery Spinnerets from **Lady Sathrah** (lvl 12 spider, ~39.5, 25.5, moves between a few spots). Same area as Sethir.
+- **Darkness in the Glade**: 3 harpy amulets: Hatescreech (10), Windmistress Gaedress (10), **Witchmother Arysa (12)** (casts Lightning Bolt + heals: Kick the heal!) ~35, 38. Turn in to Sentinel Arynia Cloudsbreak.
 
-**1. Level-up chores**
-- Talents (`N`): **Remorseless Attacks 2/2** (both points, levels 10 + 11).
-- Dual Wield + Slice and Dice trained? If not, rogue trainer in Dolanaar (Jannok Breezesong) or Darnassus (Syurna and others, Cenarion Enclave).
-- Weapons: **6–12 dagger → main hand** (Backstab works with it), Stiletto/old dagger → off-hand.
+**2. Dolanaar**
+- Turn in **Tumors**, **Crown of the Earth**, **Not Dead Yet** (Byancie).
 
-**2. Darnassus** (walk west along the road from Dolanaar)
-- Lost? Ask any **guard (Darnassus Sentinel)**: they put a flag on your map for the bank, trainers, auction house…
-- **The Apple Falls** → **Syurna** (Cenarion Enclave ~36.8, 21.8, **underground**: go down the spiralling path inside the westernmost tree; Rogue Guild with Anishar + Erion Shadewhisper) → get **Destiny Calls**.
-- **The Sisterhood of Elune** → Sister Aquinne.
-- **Rellian Greenspyre** → Timberling Seed.
-- **Leatherworking**: Telonis (Craftsmen's Terrace, upstairs ~64, 21) if not learned from Nadyia (Teldrassil 41.8, 49.4).
-- **First Aid** trainer: learn it, start making Linen Bandages.
-- **Bank**: dump leather/cloth you don't need right now.
-- **Auction House**: look at bags (more slots) and healing potions.
-- **Don't** reset your hearthstone here. Keep Dolanaar until Auberdine.
-
-**3. Back in Teldrassil**
-- **Destiny Calls**: stealth up to *Sethir the Ancient* (lvl 12, big tree branch near Oracle Glade ~38, 25), **Pick Pocket** his journal, don't fight → **Blade of Cunning**.
-- Oracle Glade quests if any are still open (The Lost Runner, The Enchanted Glade).
-
-**4. Leave for Darkshore (~12)**
-- Purple portal on Darnassus's **west side** → **Rut'theran Village**. Don't jump off the edge.
-- **Get the flight path** (talk to the flight master, Vesprystus) → fly to **Auberdine**.
-- In Auberdine: get the flight path, set hearthstone at the inn, stock ~40 Longjaw Mud Snapper (food) from Laird.
+**3. Leave**
+- Darnassus (Syurna for Destiny Calls) → west-side portal → Rut'theran Village → **Nessa Shadowsong** (quest complete) → flight path → **Auberdine (Darkshore)**.
+- Ignore **Fight for Warsong Gulch** (PvP quest, level 19+) for now.
 
 ## Short term
 - From Auberdine, take the **boat to Stormwind** → **Woo Ping** (weapon master) → learn **Swords** → Brushwood Blade (MH) + Notched Shortsword (OH).

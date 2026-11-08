@@ -8,19 +8,19 @@
 | Name | **Chagielle Chag** (as shown on the character sheet) |
 | Race / class | Night Elf Rogue |
 | Faction | Alliance |
-| Level | **11** (2026-11-08) |
+| Level | **13** (2026-11-08, end of session) |
 | Spec | **Remorseless Attacks 2/2** spent. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
 | Mode | Normal (not Hardcore) (?) |
 | Realm | _unknown_ |
-| Zone | Teldrassil, Dolanaar quests done. Next: **Darnassus**, then Darkshore |
+| Zone | Teldrassil, **Oracle Glade** (38.2, 34.4) at logout |
 | Hearthstone set to | _unknown_ (probably Dolanaar) |
-| Gold | **24s 65c** (2026-11-08) |
-| Professions | **Skinning** (levelled up, Journeyman (?)) · **Leatherworking 26/75** (learned from Nadyia Maneweaver, Teldrassil, 2026-11-08; for the Camp Tent) · **First Aid** (learned; Heavy Linen Bandage (?) recipe) · **Cooking** 1/75 |
+| Gold | **28s** (2026-11-08) |
+| Professions | **Leatherworking 27/75** · **Skinning 72/150** (Journeyman) · **Cooking 7/75** · **First Aid 3/75** · Fishing: not learned |
 | Guild | _unknown_ |
-| Addons | Recommended (2026-11-08): Questie, Leatrix Plus, Leatrix Maps, Auctionator; later Details! + Deadly Boss Mods for dungeons. Installed: _unknown_ |
+| Addons | **Questie installed** (2026-11-08, via CurseForge). Recommended next: Leatrix Plus, Leatrix Maps, Auctionator |
 
-## Stats (level 11, 2026-11-08, with some buffs: green numbers)
-Health 265 · Energy 100 · Str 25 · **Agi 42** · Sta 32 · Int 24 · Spi 24 · Main hand 17–24 · Off hand 7–10 · Ranged 15–21 · Ranged AP 75 · Crit 10.7% · Dodge 22.5% · Defense 53/55 · Armor 268
+## Stats (level 12, 2026-11-08, some buffs active)
+Health 332 · Energy 100 · Str 27 · **Agi 44** · Sta 37 · Int 24 · Spi 24 · Main hand 15–22 · Off hand 6–8 · Ranged AP 80 · Crit 10.0% · Dodge 21.2% · Defense 54/60 · Armor 311
 
 
 ## Player preferences

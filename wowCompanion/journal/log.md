@@ -16,3 +16,4 @@
 | 2026-11-08 | Q: Small Leather Ammo Pouch? Skip (holds only ammo; rogue uses thrown). Explained recipe colours and better LW crafts. |
 | 2026-11-08 | Photo: Nadyia Maneweaver's trainer window (confirms her location) + LW window. LW 26/75, 24s 65c. Wearing crafted belt/pants/boots (?). Pausing LW; Cured Light Hide at 30. |
 | 2026-11-08 | In Darnassus, couldn't find Syurna (map ? was Rellian Greenspyre). Syurna is underground in the Cenarion Enclave's western tree. |
+| 2026-11-08 | End of session: **level 13**, Oracle Glade. Photos: level 12 sheet, professions (LW 27, Skinning 72/150 Journeyman, Cooking 7, First Aid 3), quest log 8/40, map. Questie installed. 2 talent points unspent (→ Efficient Strikes 2/2). Re-checked guides: Warcraft Tavern updated 6 Nov (Combat build unchanged), Method 7 Nov, Maxroll 4 Nov, Mobalytics 1 Nov, Icy Veins 17 Oct → plan stays. |

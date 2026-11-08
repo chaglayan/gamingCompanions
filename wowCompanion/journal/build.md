@@ -8,13 +8,13 @@
 |---|---|---|
 | 10 | Remorseless Attacks 1/2 (Assassination) | ✅ done. Player asked why it's not a Combat-tree talent (explained 2026-11-07: the Combat build dips 2 points into Assassination; Efficient Strikes first is a fine alternative) |
 | 11 | Remorseless Attacks 2/2 | ✅ done |
-| 12–13 | Efficient Strikes 2/2 (Combat) | |
+| 12–13 | Efficient Strikes 2/2 (Combat) | **next: 2 points unspent** (level 13, 2026-11-08) |
 | 14–16 | Coup de Grace 3/3 | |
 | 17–19 | Deflection 3/3 | |
 | 20–21 | Precision 2/3 | |
 | 22 | ⭐ Riposte | |
 
-Points spent: **2 / 2** (Remorseless Attacks 2/2, confirmed 2026-11-08)
+Points spent: **2 / 4** (Remorseless Attacks 2/2; 2 unspent at level 13)
 
 ## Abilities known (spellbook photos, 2026-11-07, level 9)
 | Tab | Abilities |
