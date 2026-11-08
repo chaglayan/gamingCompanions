@@ -18,3 +18,4 @@
 | 2026-11-08 | In Darnassus, couldn't find Syurna (map ? was Rellian Greenspyre). Syurna is underground in the Cenarion Enclave's western tree. |
 | 2026-11-08 | End of session: **level 13**, Oracle Glade. Photos: level 12 sheet, professions (LW 27, Skinning 72/150 Journeyman, Cooking 7, First Aid 3), quest log 8/40, map. Questie installed. 2 talent points unspent (→ Efficient Strikes 2/2). Re-checked guides: Warcraft Tavern updated 6 Nov (Combat build unchanged), Method 7 Nov, Maxroll 4 Nov, Mobalytics 1 Nov, Icy Veins 17 Oct → plan stays. |
 | 2026-11-08 | Correction: level **12**. Efficient Strikes 1/2 spent. Stuck on Destiny Calls: Pick Pocket never trained (it's a trainer ability, not a talent). Many 'ancients' around; use /tar Sethir. |
+| 2026-11-08 | Loot Q&A: legs 48 armor +1 Agi beats 18 armor +2 Sta; keep the off-hand dagger over Beaded Orb of the Tiger (orb = no off-hand attacks). Added quick loot rules to tips. |

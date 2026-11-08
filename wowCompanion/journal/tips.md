@@ -95,6 +95,8 @@ Always pick the **Forever** file on CurseForge.
 - **Selling greens**: low-level greens rarely sell for much on the AH (deposit + 5% cut). Usually just vendor them.
 - **Main hand: prefer slow** (Sinister Strike and Riposte use one weapon hit, so a big hit = a big strike). **Off-hand: faster is fine.**
 - Stamina = health. Spirit = faster health regen out of combat (minor for rogues). Durability = wear; repair at any vendor with a repair button.
+- **Quick loot rules (2026-11-08):** Agility first (damage + crit + dodge). Then Strength ≈ Stamina. Intellect/Spirit ≈ useless. Armor: leather has more than cloth, so the higher armor number usually wins too.
+- **Off-hand: always a weapon.** Orbs ("Held in Off-hand") and shields replace your off-hand weapon, so you'd lose all off-hand hits. Sell them.
 - Compare weapons by **damage per second** on the tooltip. Hold `Shift` while hovering to compare with what you wear.
 
 ## Glossary
