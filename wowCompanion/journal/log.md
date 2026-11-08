@@ -15,3 +15,4 @@
 | 2026-11-08 | Photos: level 11 sheet (stats, gear), quest log (5 quests), map. Remorseless Attacks 2/2 spent. Trained Dual Wield, SnD, Sprint. LW 23. Explained rested XP/Zzz, macros, food clutter, completed-quest list. Route: Darnassus → Oracle Glade → Darkshore. |
 | 2026-11-08 | Q: Small Leather Ammo Pouch? Skip (holds only ammo; rogue uses thrown). Explained recipe colours and better LW crafts. |
 | 2026-11-08 | Photo: Nadyia Maneweaver's trainer window (confirms her location) + LW window. LW 26/75, 24s 65c. Wearing crafted belt/pants/boots (?). Pausing LW; Cured Light Hide at 30. |
+| 2026-11-08 | In Darnassus, couldn't find Syurna (map ? was Rellian Greenspyre). Syurna is underground in the Cenarion Enclave's western tree. |

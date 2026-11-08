@@ -17,7 +17,7 @@
 
 **2. Darnassus** (walk west along the road from Dolanaar)
 - Lost? Ask any **guard (Darnassus Sentinel)**: they put a flag on your map for the bank, trainers, auction house…
-- **The Apple Falls** → **Syurna** (Cenarion Enclave ~37, 22) → get **Destiny Calls**.
+- **The Apple Falls** → **Syurna** (Cenarion Enclave ~36.8, 21.8, **underground**: go down the spiralling path inside the westernmost tree; Rogue Guild with Anishar + Erion Shadewhisper) → get **Destiny Calls**.
 - **The Sisterhood of Elune** → Sister Aquinne.
 - **Rellian Greenspyre** → Timberling Seed.
 - **Leatherworking**: Telonis (Craftsmen's Terrace, upstairs ~64, 21) if not learned from Nadyia (Teldrassil 41.8, 49.4).
