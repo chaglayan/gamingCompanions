@@ -22,6 +22,13 @@
 
 *North loop (≈15–17):* **The Red Crystal** (east mountain slope ~47.3, 48.7, approach from the east) · **Buzzbox 323** (Moonstalker Fangs, wolves north/east) · **Tower of Althalaxx** (✅ ready, Balthule Shadowstrike ~55.0, 24.9) · **Deep Ocean, Vast Sea** (lvl 17, underwater wrecks ~38.2, 28.8: watch the breath bar) · **Cave Mushrooms** (lvl 17, naga cave by Cliffspring Falls ~55.1, 33.6: group or wait for 17).
 
+*Bags & professions (2026-11-09: bags full of meat):*
+- **Cook** at any fire (Auberdine inn / own campfire): open Cooking, "Create All" on orange/yellow recipes. Meat with no recipe → vendor.
+- **Pearls** (Small Lustrous Pearl (?)): no use for your professions → sell (AH in Stormwind if Auctionator shows more, else vendor).
+- **Bigger bags**: Small Brown Pouch (6 slots) from Dalmond in Auberdine (37.5, 40.5), or cheap 8–10 slot bags on the Stormwind AH. Replace the smallest bag first.
+- **Bank** spare leather in Stormwind.
+- Trainers on the Stormwind trip: **Cured Light Hide** (LW 30), **Journeyman Leatherworking** (do it before 75), **Journeyman First Aid** (cap is 75), cooking recipes.
+
 *Trips:*
 - **Stormwind** (boat from Auberdine dock): turn in **Expanding Horizons** (✅ ready), learn **Swords** (Woo Ping), level 14 training, bank/AH.
 - **Rut'theran**: **Return to Nessa** (✅ ready) next time you fly there.

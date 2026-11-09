@@ -14,8 +14,8 @@
 | Realm | _unknown_ |
 | Zone | **Darkshore**, Auberdine (37.0, 41.2) |
 | Hearthstone set to | _unknown_ (probably Dolanaar) |
-| Gold | **28s** (2026-11-08) |
-| Professions | **Leatherworking 27/75** · **Skinning 72/150** (Journeyman) · **Cooking 7/75** · **First Aid 3/75** · **Fishing learned** + pole bought (2026-11-08) |
+| Gold | **91s 21c** (2026-11-09) |
+| Professions (2026-11-09, player's estimate) | **Skinning ~80/150** · **Leatherworking 30+/75** · **First Aid 50+/75** · **Cooking <10/75** · **Fishing ~10** |
 | Guild | _unknown_ |
 | Addons | **Questie installed** (2026-11-08, via CurseForge). Recommended next: Leatrix Plus, Leatrix Maps, Auctionator |
 
