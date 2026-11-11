@@ -5,8 +5,8 @@ One repo, one folder per game. Each folder is a self-contained companion with it
 | Folder | Game | Status |
 |---|---|---|
 | [`bg3Companion/`](bg3Companion/) | Baldur's Gate 3 | Active: late Act 1 playthrough |
-| [`wowCompanion/`](wowCompanion/) | World of Warcraft: Forever | Active: Night Elf Rogue, level 9, new to WoW |
-| `poe2Companion/` | Path of Exile 2 | Planned |
+| [`wowCompanion/`](wowCompanion/) | World of Warcraft: Forever | Active: Night Elf Rogue, level 14, Darkshore, new to WoW |
+| [`poe2Companion/`](poe2Companion/) | Path of Exile 2 | Ready for 1.0 + Conquerors of Wraeclast (11 Dec 2026); no character yet |
 
 ## How to work here
 - **Work out which game the player means** from their message or photos. If unclear, ask.
