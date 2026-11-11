@@ -59,6 +59,9 @@ Second bar (click or Shift+key): Shadowmeld, Elune's Light, Hearthstone, Expose 
 
 - **Fishing**: equip the pole (main hand) → stand by water → cast **Fishing** (spellbook, General/Professions) → watch the bobber → when it **splashes**, right-click it fast. Swap your daggers back after! (Character screen has built-in **equipment sets** to swap in one click.) Low-level water near Auberdine's dock is fine for skill 1+.
 
+- **Cooking is worth a little effort** (not a grind): turns your meat into healing food + "Well Fed" buffs (stats, and an XP buff in Forever), and it powers your campfire (needed for your Camp Tent buff). Cook whatever you loot; vendor the rest.
+- **Profession caps**: Apprentice 75 → Journeyman 150 → Expert 225. Train the next rank at a profession trainer *before* you hit the cap or skill-ups stop.
+
 ## Other addons (recommended 2026-11-08)
 Always pick the **Forever** file on CurseForge.
 - **Leatrix Plus**: quality-of-life switches. Turn on *auto sell junk*, *auto repair*, *faster auto loot*.
