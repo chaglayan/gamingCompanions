@@ -34,3 +34,4 @@
 | 2026-11-14 | Built the journal page artifact (https://claude.ai/artifact/Dx91uLWnS4SzAQ5nGr5YXU): Now checklist, quests by status with coordinates, talents/trainer, gear/bags, professions, tips. |
 | 2026-11-14 | Chest Q: Greasy Jerkin of the Gorilla (71 armor, +3 Str, +3 Int) vs current (58 armor, +2 Agi). Basically even; keep current (Agi), sell the Gorilla one. |
 | 2026-11-14 | Dying to Reef Crawlers (17) at level 15–16; still no sword skill. Causes: orange-level mobs, level 14/16 training not bought yet, crabs have high armor. Moved the **Stormwind trip to step 2** on the journal page; added fight tips. |
+| 2026-11-14 | Boots Q: current 31 armor + kit (+1 Sta, +8 armor) vs Feral Shoes of the Owl (51 armor, Int/Spi) → keep current (1 Sta ≈ more effective HP than +12–20 armor at this level). Sell Wizbang's Special Brew, owl boots, Shadowgem (not your professions). Raw Rainbow Fin Albacore = Cooking 50+ recipe; Murloc Eye = meat item. |
