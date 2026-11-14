@@ -31,8 +31,14 @@ Swords: can't use yet. Need the **Swords** skill from **Woo Ping in Stormwind** 
 - Buying a **Stiletto** (dagger) from the weaponsmith. Plan: Stiletto main hand + simple dagger off-hand (after Dual Wield) → later Blade of Cunning main hand + Stiletto off-hand.
 
 ## Bags (2026-11-14)
-- Backpack + **4 × 6-slot bags** + a **4-slot leatherworking bag** (holds only LW materials). ~10 free slots.
-- Brown Leather Satchel (8 slots, 22.5s at Dalmond) **skipped**: replacing a 6-slot bag = only +2 slots. Upgrade later to 10+ slot bags (check Stormwind AH).
+- Backpack + **4 × 6-slot bags** + **Apprentice Skinning Satchel** (4 slots) in Forever's separate **reagent bag slot**.
+- Brown Leather Satchel (8 slots, 22.5s at Dalmond) **skipped**: it can't go in the reagent slot, so it would replace a 6-slot bag = +2 slots.
+- **Cheaper/free bag plan** (Method's Forever bag guide):
+  - **Wizbang's Gunnysack (8 slots, free)**: end of the Darkshore **Buzzbox chain** (Buzzbox 323 → **Buzzbox 525**).
+  - **AH**: Red Linen Bag (8 slots, ~4–5s), Red Woolen Bag (10 slots, ~20s).
+  - **Old Toolbox (12 slots, free)**: Cozy Sleeping Bag chain, Stonetalon part, from level 14.
+  - **Deviate Hides** (Wailing Caverns dungeon quest): 10-slot bag reward option.
+  - Reagent slot upgrade: **Light Leather Reagent Bag** (6 slots, LW 30; pattern from Saenorion in Darnassus ~1s 50c; 8 Light Leather + 1 Cured Light Hide + 3 Coarse Thread).
 
 ## Bags (2026-11-07)
 - ~13 free slots. Gold: **19s 3c**.

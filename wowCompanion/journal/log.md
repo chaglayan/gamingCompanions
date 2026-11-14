@@ -27,3 +27,4 @@
 | 2026-11-09 | Bag photo: 91s 21c, lots of meat + pearls, ~12 free slots. Professions: Skinning ~80, LW 30+, First Aid 50+, Cooking <10, Fishing ~10. Advice: cook what you can, sell pearls, buy bigger bags, train Journeyman LW/First Aid + Cured Light Hide in Stormwind. |
 | 2026-11-14 | Player restarting this weekend. Re-checked guides (WT 13 Nov, Method 14 Nov, Maxroll 4 Nov): Combat build unchanged. Forever hotfixes: Shank tooltip only. Added weekend summary to `goals.md`. |
 | 2026-11-14 | Bag question: 4×6-slot bags + LW bag. Advised skipping the 22.5s 8-slot satchel (+2 slots only); free space by cooking/selling/banking; look for 10-slot bags on the AH. |
+| 2026-11-14 | Bags follow-up: skinning satchel sits in the separate reagent slot, so the vendor satchel = +2 only. Better: free 8-slot Wizbang's Gunnysack (Buzzbox 525), AH Red Linen Bag 8-slot ~4–5s, Light Leather Reagent Bag at LW 30. |
