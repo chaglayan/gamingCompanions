@@ -1,5 +1,9 @@
 # Goals
 
+## Weekend restart (checked 2026-11-14)
+Guides re-checked: Warcraft Tavern (13 Nov) and Method (14 Nov) updated, **Combat leveling build unchanged**; only rogue hotfix since launch = Shank tooltip (10 Nov). Plan below still stands.
+Quick order: talent → south loop → turn-ins → Stormwind trip (swords, skills, Journeyman professions, bags) → north loop at 15–17 → Ashenvale/Wetlands ~18–20, first dungeon ~15–18.
+
 ## Now (level 14, Darkshore) — updated 2026-11-09
 
 **Level-up chores**
