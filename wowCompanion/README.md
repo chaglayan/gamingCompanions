@@ -2,6 +2,8 @@
 
 My World of Warcraft: **Forever** companion. Night Elf Rogue, first time playing WoW. Claude tracks my character, plans talents and gear, and tells me what to do next.
 
+**Live page (iPad/phone):** https://claude.ai/artifact/Dx91uLWnS4SzAQ5nGr5YXU
+
 Start with [`journal/overview.md`](journal/overview.md). The rogue guide is in [`guides/rogue.md`](guides/rogue.md).
 
 ## How to use it (from the phone)

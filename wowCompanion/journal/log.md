@@ -31,3 +31,4 @@
 | 2026-11-14 | Cleansing of the Infected: player found normal Thistle Bears + Sickly Deer near ~39, 59. Pointed to **Rabid** Thistle Bears further south ~37, 71; use `/tar Rabid`. |
 | 2026-11-14 | Photos: level 15 sheet (423 HP, Agi 54), bags (1g 41s 58c, ~12 free), 16 quests (several ready to turn in). Belt Q: quest belt 38 armor + useless stat vs crafted 31 armor + 1 stat → crafted if Agi/Sta. LW: Journeyman at skill 50 (Faldron/Simon Tanner/Aayndia). Talents 15–18 listed. |
 | 2026-11-14 | Quest photo (level ~16, south Darkshore): 7 ready to turn in. Corrected: The Absent Minded Prospector turns in to Prospector Remtravel (south Darkshore), not Darnassus. New: Buzzbox 525, Blackwood Corrupted, Gyromast's Retrieval (20, group), Murkdeep (19). Plan in `goals.md`. |
+| 2026-11-14 | Built the journal page artifact (https://claude.ai/artifact/Dx91uLWnS4SzAQ5nGr5YXU): Now checklist, quests by status with coordinates, talents/trainer, gear/bags, professions, tips. |
