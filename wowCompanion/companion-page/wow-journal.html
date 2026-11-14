@@ -151,168 +151,782 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
 
 <script type="application/json" id="journal-data">
 {
-  "updated": "2026-11-14",
-  "char": {
-    "name": "Chagielle Chag", "level": 15, "levelNote": "almost 16",
-    "race": "Night Elf", "cls": "Rogue", "spec": "Combat (leveling)",
-    "zone": "Darkshore", "spot": "south Darkshore, around 37, 63",
-    "hearth": "Auberdine (?)",
-    "gold": [1, 41, 58],
-    "stats": [["Health", "423"], ["Agility", "54"], ["Attack Power", "94"], ["Crit", "9.3%"], ["Dodge", "19.5%"], ["Parry", "4.9%"], ["Armor", "374"]]
-  },
-  "now": [
-    { "id": "chores", "title": "Level-up chores", "where": "Anywhere", "items": [
-      { "id": "t16", "text": "Talent at 16: <b>Coup de Grace 3/3</b> (Combat tab, <kbd>N</kbd>)" },
-      { "id": "tr16", "text": "Trainer at 16: <b>Feint</b> + <b>Pick Lock</b> (lockboxes = free gold)", "note": "No rogue trainer in Auberdine: do it in Stormwind or Darnassus." },
-      { "id": "tr14", "text": "Still due from 14: Expose Armor, Garrote, Sinister Strike rank" }
-    ]},
-    { "id": "south", "title": "South Darkshore (you're here)", "where": "Around Grove of the Ancients", "items": [
-      { "id": "onu", "text": "Turn in <b>Grove of the Ancients</b> to Onu", "coord": "43.5, 76.3" },
-      { "id": "bb525", "text": "<b>Buzzbox 525</b>: 4 Grizzled Scalps from Grizzled Thistle Bears", "coord": "38.6, 80.5", "note": "Ravage = hard hit + short stun. Hand in at the box 41.4, 80.6 for the free 8-slot bag." },
-      { "id": "remt", "text": "Turn in <b>The Absent Minded Prospector</b> to Prospector Remtravel", "coord": "35.7, 83.7", "note": "His next quest is a level 20 escort, very hard solo. Skip it for now." }
-    ]},
-    { "id": "auber", "title": "Back in Auberdine", "where": "Turn-ins + prep", "items": [
-      { "id": "turtle", "text": "Beached Sea Turtle → Gwennyth (flight platform)", "coord": "36.6, 45.6" },
-      { "id": "threat", "text": "How Big a Threat? → Terenthis", "coord": "39.4, 43.5" },
-      { "id": "crystal", "text": "The Red Crystal → Sentinel Glynda", "coord": "37.7, 43.4" },
-      { "id": "crabs", "text": "Fruit of the Sea: 5 more Fine Crab Chunks from Reef Crawlers on the coast → Gubber Blump", "coord": "36.1, 44.9" },
-      { "id": "bowl", "text": "Fill the <b>Empty Cleansing Bowl</b> at Auberdine's moonwell (for The Blackwood Corrupted)", "coord": "37.8, 44.0" },
-      { "id": "cook", "text": "Cook your meat at a fire, sell leftovers, pearls and junk" }
-    ]},
-    { "id": "ne", "title": "North-east (level 17–19)", "where": "Tower of Althalaxx, Blackwood camp, Cliffspring", "items": [
-      { "id": "althalaxx", "text": "Tower of Althalaxx: 4 Worn Parchment from Dark Strand Fanatics", "coord": "55.8, 26.7", "note": "Turn in to Balthule Shadowstrike 55.0, 24.9." },
-      { "id": "blackwood", "text": "The Blackwood Corrupted: loot the Grain, Nut and Fruit stores, then use the bowl at the north bonfire", "coord": "52.4, 33.4", "note": "Xabraxxis (level 19) appears. Be at full health." },
-      { "id": "mush", "text": "Cave Mushrooms: naga cave by Cliffspring Falls, keep to the upper path", "coord": "55.7, 34.9" },
-      { "id": "wrecks", "text": "Deep Ocean, Vast Sea: lockboxes on the lowest deck of two wrecks. Watch the breath bar!", "coord": "38.2, 28.8" }
-    ]},
-    { "id": "sw", "title": "Stormwind trip", "where": "Boat from the Auberdine dock", "items": [
-      { "id": "horizons", "text": "Turn in <b>Expanding Horizons</b>" },
-      { "id": "swords", "text": "Learn <b>Swords</b> from Woo Ping (weapon master)" },
-      { "id": "rogue", "text": "Rogue trainer in Old Town: level 14 + 16 skills", "coord": "80.3, 68.7" },
-      { "id": "lw", "text": "Leatherworking 50+? Learn <b>Journeyman</b> from Simon Tanner (Old Town, Protective Hide)" },
-      { "id": "bags", "text": "Auction House: Red Linen Bag (8 slots, ~4–5s) or Red Woolen Bag (10 slots, ~20s)" },
-      { "id": "bank", "text": "Bank spare leather" }
-    ]},
-    { "id": "after", "title": "After that", "where": "Level 18–20", "items": [
-      { "id": "nessa", "text": "Return to Nessa → Rut'theran Village (next time you fly there)" },
-      { "id": "dungeon", "text": "Try a first dungeon with the Group Finder: Wailing Caverns (15–25) or The Deadmines (18–23)" },
-      { "id": "ashen", "text": "Move on to Ashenvale around 18–20 (Astranaar has a Journeyman Leatherworking trainer)" }
-    ]}
+ "updated": "2026-11-14",
+ "char": {
+  "name": "Chagielle Chag",
+  "level": 15,
+  "levelNote": "almost 16",
+  "race": "Night Elf",
+  "cls": "Rogue",
+  "spec": "Combat (leveling)",
+  "zone": "Darkshore",
+  "spot": "south Darkshore, around 37, 63",
+  "hearth": "Auberdine (?)",
+  "gold": [
+   1,
+   41,
+   58
   ],
-  "quests": [
-    { "lvl": 10, "name": "Return to Nessa", "status": "ready", "turnIn": "Nessa Shadowsong, Rut'theran Village" },
-    { "lvl": 13, "name": "Beached Sea Turtle", "status": "ready", "turnIn": "Gwennyth Bly'Leggonde, Auberdine", "coord": "36.6, 45.6" },
-    { "lvl": 14, "name": "How Big a Threat?", "status": "ready", "turnIn": "Terenthis, Auberdine", "coord": "39.4, 43.5" },
-    { "lvl": 14, "name": "The Red Crystal", "status": "ready", "turnIn": "Sentinel Glynda Nal'Shea, Auberdine", "coord": "37.7, 43.4" },
-    { "lvl": 17, "name": "Grove of the Ancients", "status": "ready", "turnIn": "Onu, Grove of the Ancients", "coord": "43.5, 76.3" },
-    { "lvl": 20, "name": "The Absent Minded Prospector", "status": "ready", "turnIn": "Prospector Remtravel, south Darkshore", "coord": "35.7, 83.7" },
-    { "lvl": 17, "name": "Expanding Horizons", "status": "ready", "turnIn": "Stormwind City" },
-    { "lvl": 16, "name": "Buzzbox 525", "status": "open", "obj": "0/4 Grizzled Scalp (Grizzled Thistle Bears)", "coord": "38.6, 80.5", "turnIn": "Buzzbox 525 at 41.4, 80.6 → 8-slot bag" },
-    { "lvl": 17, "name": "Fruit of the Sea", "status": "open", "obj": "1/6 Fine Crab Chunks (Reef Crawlers)", "turnIn": "Gubber Blump, Auberdine", "coord": "36.1, 44.9" },
-    { "lvl": 17, "name": "Cave Mushrooms", "status": "open", "obj": "0/5 Scaber Stalk, 0/1 Death Cap", "coord": "55.7, 34.9", "turnIn": "Barithras Moonshade, Auberdine" },
-    { "lvl": 17, "name": "Deep Ocean, Vast Sea", "status": "open", "obj": "2 lockboxes in the wrecks", "coord": "38.2, 28.8", "turnIn": "Gorbold Steelhand, Auberdine" },
-    { "lvl": 18, "name": "The Tower of Althalaxx", "status": "open", "obj": "0/4 Worn Parchment (Dark Strand Fanatics)", "coord": "55.8, 26.7", "turnIn": "Balthule Shadowstrike, 55.0, 24.9" },
-    { "lvl": 18, "name": "The Blackwood Corrupted", "status": "open", "obj": "Talisman of Corruption (Xabraxxis, lvl 19)", "coord": "52.4, 33.4", "turnIn": "Thundris Windweaver, Auberdine" },
-    { "lvl": 18, "name": "Tharnariun's Hope", "status": "later", "obj": "Den Mother (18–19)", "coord": "51.5, 38.3", "note": "Wait for 19 or bring a partner." },
-    { "lvl": 18, "name": "WANTED: Murkdeep!", "status": "later", "obj": "Murkdeep (19) after murloc waves", "coord": "36.6, 76.5", "note": "Stand by the bonfire to start. Bring a partner if you can." },
-    { "lvl": 20, "name": "Gyromast's Retrieval", "status": "later", "obj": "Top: Giant Foreststrider · Middle: Greymist Oracle/Tidehunter · Bottom: Encrusted Tide / Raging Reef Crawler", "coord": "56.7, 13.5", "note": "Guide says bring 2 more players below 20. The follow-up is a level 20 elite." },
-    { "lvl": 19, "name": "Fight for Warsong Gulch", "status": "ignore", "obj": "PvP battleground quest", "note": "Ignore unless you want to try PvP." }
-  ],
-  "talents": [
-    { "lv": "10–11", "name": "Remorseless Attacks", "rank": "2/2", "tree": "Assassination", "state": "done", "desc": "+40% crit on your next Sinister Strike after a kill." },
-    { "lv": "12–13", "name": "Efficient Strikes", "rank": "2/2", "tree": "Combat", "state": "done", "desc": "Sinister Strike costs 5 less energy." },
-    { "lv": "14–15", "name": "Coup de Grace", "rank": "2/3", "tree": "Combat", "state": "done", "desc": "Eviscerate hits harder (+20% at 3/3)." },
-    { "lv": "16", "name": "Coup de Grace", "rank": "3/3", "tree": "Combat", "state": "next" },
-    { "lv": "17–19", "name": "Deflection", "rank": "3/3", "tree": "Combat", "state": "later", "desc": "+6% parry." },
-    { "lv": "20–21", "name": "Precision", "rank": "2/3", "tree": "Combat", "state": "later", "desc": "+hit chance." },
-    { "lv": "22", "name": "Riposte", "rank": "1/1", "tree": "Combat", "state": "later", "star": true, "desc": "Lights up after you parry. Press it every time it glows." },
-    { "lv": "23", "name": "Precision", "rank": "3/3", "tree": "Combat", "state": "later" },
-    { "lv": "24–25", "name": "Endurance", "rank": "2/2", "tree": "Combat", "state": "later", "desc": "Sprint and Evasion come back 60% faster." },
-    { "lv": "26", "name": "Composure", "rank": "1/2", "tree": "Combat", "state": "later" },
-    { "lv": "27", "name": "Flawless Execution", "rank": "1/1", "tree": "Combat", "state": "later", "desc": "Cheaper Eviscerate." },
-    { "lv": "28–29", "name": "Weapon Expertise", "rank": "2/2", "tree": "Combat", "state": "later" },
-    { "lv": "30–31", "name": "Aggression", "rank": "2/3", "tree": "Combat", "state": "later" },
-    { "lv": "32", "name": "Blade Flurry", "rank": "1/1", "tree": "Combat", "state": "later", "star": true, "desc": "Hit 2 enemies at once." },
-    { "lv": "33–34", "name": "Dual Wield Specialization", "rank": "2/2", "tree": "Combat", "state": "later" },
-    { "lv": "35–39", "name": "Hack and Slash", "rank": "5/5", "tree": "Combat", "state": "later", "desc": "A bonus for every weapon type." },
-    { "lv": "40–41", "name": "Flash of Steel", "rank": "2/5", "tree": "Combat", "state": "later" },
-    { "lv": "42", "name": "Adrenaline Rush", "rank": "1/1", "tree": "Combat", "state": "later", "star": true, "desc": "Double energy for 15 sec." },
-    { "lv": "43–45", "name": "Flash of Steel", "rank": "5/5", "tree": "Combat", "state": "later" },
-    { "lv": "46", "name": "Composure", "rank": "2/2", "tree": "Combat", "state": "later" },
-    { "lv": "47", "name": "Aggression", "rank": "3/3", "tree": "Combat", "state": "later" },
-    { "lv": "48–50", "name": "Malice", "rank": "3/5", "tree": "Assassination", "state": "later" },
-    { "lv": "51–53", "name": "Improved Slice and Dice", "rank": "3/3", "tree": "Assassination", "state": "later" },
-    { "lv": "54–55", "name": "Malice", "rank": "5/5", "tree": "Assassination", "state": "later" },
-    { "lv": "56–57", "name": "Lethality", "rank": "2/2", "tree": "Assassination", "state": "later" },
-    { "lv": "58–60", "name": "Ruthlessness", "rank": "3/3", "tree": "Assassination", "state": "later" }
-  ],
-  "trainer": [
-    { "lv": "10", "what": "Dual Wield, Slice and Dice, Sprint, Sap", "state": "done" },
-    { "lv": "12", "what": "Kick, Parry", "state": "done" },
-    { "lv": "14", "what": "Expose Armor, Garrote, Sinister Strike rank", "state": "due" },
-    { "lv": "16", "what": "Feint, Pick Lock", "state": "next" },
-    { "lv": "18", "what": "Ambush, Eviscerate rank", "state": "later" },
-    { "lv": "20", "what": "Rupture + Poisons class quest", "state": "later", "star": true },
-    { "lv": "22", "what": "Vanish, Distract, Sinister Strike rank", "state": "later", "star": true },
-    { "lv": "24", "what": "Shank, Eviscerate rank", "state": "later", "star": true },
-    { "lv": "26", "what": "Cheap Shot, Ambush rank", "state": "later" },
-    { "lv": "30", "what": "Kidney Shot, Disarm Trap, ranks", "state": "later" },
-    { "lv": "34", "what": "Blind", "state": "later" },
-    { "lv": "40", "what": "Riding (mount!), dual talent spec, Safe Fall", "state": "later", "star": true }
-  ],
-  "gear": [
-    ["Main hand", "Green dagger (Blade of Cunning?)", "uncommon", "Sheet: 22–32"],
-    ["Off hand", "Dagger", "common", "Sheet: 8–12"],
-    ["Ranged", "Thrown weapon", "common", "Sheet: 18–26"],
-    ["Head", "", "", ""], ["Neck", "", "", ""], ["Shoulders", "", "", ""],
-    ["Back", "Green cloak", "uncommon", ""],
-    ["Chest", "Green leather chest", "uncommon", ""],
-    ["Wrists", "Green bracers", "uncommon", ""],
-    ["Hands", "Green gloves", "uncommon", ""],
-    ["Waist", "Handstitched Leather Belt (crafted)", "common", "31 armor. Beats the 38-armor quest belt if it has Agi/Sta."],
-    ["Legs", "Green leather pants", "uncommon", ""],
-    ["Feet", "Leather boots", "common", ""],
-    ["Rings", "", "", ""], ["Trinkets", "", "", ""]
-  ],
-  "bags": [
-    "Backpack + 4 × 6-slot bags + Apprentice Skinning Satchel (4 slots, reagent slot)",
-    "Free 8-slot <b>Wizbang's Gunnysack</b> from Buzzbox 525",
-    "AH: Red Linen Bag 8 slots ~4–5s, Red Woolen Bag 10 slots ~20s. Skip Dalmond's 22.5s satchel (+2 slots only).",
-    "Leatherworking 30: Light Leather Reagent Bag (6 slots) pattern from Saenorion, Darnassus"
-  ],
-  "waiting": [
-    "Swords in bags (Brushwood Blade, Notched Shortsword?) wait for Swords training in Stormwind"
-  ],
-  "profs": [
-    { "name": "Skinning", "skill": 80, "cap": 150, "rank": "Journeyman", "next": "Keep skinning everything. Expert unlocks later." },
-    { "name": "Leatherworking", "skill": 30, "cap": 75, "rank": "Apprentice", "next": "Journeyman at skill 50: Simon Tanner (Stormwind), Faldron (Darnassus), Aayndia (Astranaar). Cured Light Hide at 30." },
-    { "name": "First Aid", "skill": 50, "cap": 75, "rank": "Apprentice", "next": "Train Journeyman First Aid before 75." },
-    { "name": "Cooking", "skill": 8, "cap": 75, "rank": "Apprentice", "next": "Cook the meat you loot. Well Fed food = stats + XP buff." },
-    { "name": "Fishing", "skill": 10, "cap": 75, "rank": "Apprentice", "next": "Optional. Auberdine dock is fine." }
-  ],
-  "tips": [
-    "Type <kbd>/tar Name</kbd> to target an NPC or mob by name.",
-    "Red text on a tooltip = you can't use it. Rogues wear leather only.",
-    "Off-hand is always a weapon. Orbs and shields replace it.",
-    "Gouge, then bandage mid-fight.",
-    "Log out in an inn for rested XP (double XP from kills).",
-    "Rares (silver dragon portrait) spawn rarely. Don't wait for them.",
-    "Train professions to the next rank before 75, or skill-ups stop.",
-    "Quest level colours: red/orange = hard, yellow = right, green = easy, grey = no XP."
-  ],
-  "photos": [
-    "Quest tracker (right side of the screen)",
-    "Character sheet (C), both stat pages",
-    "Talents (N) after spending points",
-    "Bags (B) when they get full",
-    "Any item tooltip you're unsure about"
-  ],
-  "links": [
-    ["Level-by-level plan", "https://github.com/chaglayan/gamingCompanions/blob/claude/wizardly-cori-qboa0f/wowCompanion/guides/leveling-plan.md"],
-    ["Rogue guide", "https://github.com/chaglayan/gamingCompanions/blob/claude/wizardly-cori-qboa0f/wowCompanion/guides/rogue.md"],
-    ["Maxroll rogue leveling", "https://maxroll.gg/wow-forever/class-guides/rogue-leveling-guide"],
-    ["Bind on Forever: Darkshore route", "https://bindonforever.com/zones/darkshore"]
+  "stats": [
+   [
+    "Health",
+    "423"
+   ],
+   [
+    "Agility",
+    "54"
+   ],
+   [
+    "Attack Power",
+    "94"
+   ],
+   [
+    "Crit",
+    "9.3%"
+   ],
+   [
+    "Dodge",
+    "19.5%"
+   ],
+   [
+    "Parry",
+    "4.9%"
+   ],
+   [
+    "Armor",
+    "374"
+   ]
   ]
+ },
+ "now": [
+  {
+   "id": "chores",
+   "title": "Level-up chores",
+   "where": "Anywhere",
+   "items": [
+    {
+     "id": "t16",
+     "text": "Talent at 16: <b>Coup de Grace 3/3</b> (Combat tab, <kbd>N</kbd>)"
+    },
+    {
+     "id": "fightprep",
+     "text": "Before tough fights: full health, eat <b>Well Fed</b> food, bandages + potions on your bar"
+    }
+   ]
+  },
+  {
+   "id": "sw",
+   "title": "Stormwind trip: do this next",
+   "where": "Boat from the Auberdine dock. Fixes your missing training and unlocks swords.",
+   "items": [
+    {
+     "id": "horizons",
+     "text": "Turn in <b>Expanding Horizons</b>"
+    },
+    {
+     "id": "swords",
+     "text": "Learn <b>Swords</b> from Woo Ping, the weapon master (ask a guard for “weapon master”)"
+    },
+    {
+     "id": "equipsword",
+     "text": "Equip <b>Brushwood Blade</b> (slow sword) in the main hand if its DPS beats your dagger; the new sword skill may miss more at first (?)"
+    },
+    {
+     "id": "rogue",
+     "text": "Rogue trainer in Old Town: <b>level 14 + 16 skills</b> (stronger Sinister Strike, Expose Armor, Garrote, Feint, Pick Lock)",
+     "coord": "80.3, 68.7"
+    },
+    {
+     "id": "lw",
+     "text": "Leatherworking 50+? Learn <b>Journeyman</b> from Simon Tanner (Old Town, Protective Hide)"
+    },
+    {
+     "id": "bags",
+     "text": "Auction House: Red Linen Bag (8 slots, ~4–5s) or Red Woolen Bag (10 slots, ~20s)"
+    },
+    {
+     "id": "bank",
+     "text": "Bank spare leather"
+    }
+   ]
+  },
+  {
+   "id": "south",
+   "title": "South Darkshore (you're here)",
+   "where": "Around Grove of the Ancients",
+   "items": [
+    {
+     "id": "onu",
+     "text": "Turn in <b>Grove of the Ancients</b> to Onu",
+     "coord": "43.5, 76.3"
+    },
+    {
+     "id": "bb525",
+     "text": "<b>Buzzbox 525</b>: 4 Grizzled Scalps from Grizzled Thistle Bears",
+     "coord": "38.6, 80.5",
+     "note": "Ravage = hard hit + short stun. Hand in at the box 41.4, 80.6 for the free 8-slot bag."
+    },
+    {
+     "id": "remt",
+     "text": "Turn in <b>The Absent Minded Prospector</b> to Prospector Remtravel",
+     "coord": "35.7, 83.7",
+     "note": "His next quest is a level 20 escort, very hard solo. Skip it for now."
+    }
+   ]
+  },
+  {
+   "id": "auber",
+   "title": "Back in Auberdine",
+   "where": "Turn-ins + prep",
+   "items": [
+    {
+     "id": "turtle",
+     "text": "Beached Sea Turtle → Gwennyth (flight platform)",
+     "coord": "36.6, 45.6"
+    },
+    {
+     "id": "threat",
+     "text": "How Big a Threat? → Terenthis",
+     "coord": "39.4, 43.5"
+    },
+    {
+     "id": "crystal",
+     "text": "The Red Crystal → Sentinel Glynda",
+     "coord": "37.7, 43.4"
+    },
+    {
+     "id": "crabs",
+     "text": "Fruit of the Sea: 5 more Fine Crab Chunks from Reef Crawlers on the coast → Gubber Blump",
+     "coord": "36.1, 44.9"
+    },
+    {
+     "id": "bowl",
+     "text": "Fill the <b>Empty Cleansing Bowl</b> at Auberdine's moonwell (for The Blackwood Corrupted)",
+     "coord": "37.8, 44.0"
+    },
+    {
+     "id": "cook",
+     "text": "Cook your meat at a fire, sell leftovers, pearls and junk"
+    }
+   ]
+  },
+  {
+   "id": "ne",
+   "title": "North-east (level 17–19)",
+   "where": "Tower of Althalaxx, Blackwood camp, Cliffspring",
+   "items": [
+    {
+     "id": "althalaxx",
+     "text": "Tower of Althalaxx: 4 Worn Parchment from Dark Strand Fanatics",
+     "coord": "55.8, 26.7",
+     "note": "Turn in to Balthule Shadowstrike 55.0, 24.9."
+    },
+    {
+     "id": "blackwood",
+     "text": "The Blackwood Corrupted: loot the Grain, Nut and Fruit stores, then use the bowl at the north bonfire",
+     "coord": "52.4, 33.4",
+     "note": "Xabraxxis (level 19) appears. Be at full health."
+    },
+    {
+     "id": "mush",
+     "text": "Cave Mushrooms: naga cave by Cliffspring Falls, keep to the upper path",
+     "coord": "55.7, 34.9"
+    },
+    {
+     "id": "wrecks",
+     "text": "Deep Ocean, Vast Sea: lockboxes on the lowest deck of two wrecks. Watch the breath bar!",
+     "coord": "38.2, 28.8"
+    }
+   ]
+  },
+  {
+   "id": "after",
+   "title": "After that",
+   "where": "Level 18–20",
+   "items": [
+    {
+     "id": "nessa",
+     "text": "Return to Nessa → Rut'theran Village (next time you fly there)"
+    },
+    {
+     "id": "dungeon",
+     "text": "Try a first dungeon with the Group Finder: Wailing Caverns (15–25) or The Deadmines (18–23)"
+    },
+    {
+     "id": "ashen",
+     "text": "Move on to Ashenvale around 18–20 (Astranaar has a Journeyman Leatherworking trainer)"
+    }
+   ]
+  }
+ ],
+ "quests": [
+  {
+   "lvl": 10,
+   "name": "Return to Nessa",
+   "status": "ready",
+   "turnIn": "Nessa Shadowsong, Rut'theran Village"
+  },
+  {
+   "lvl": 13,
+   "name": "Beached Sea Turtle",
+   "status": "ready",
+   "turnIn": "Gwennyth Bly'Leggonde, Auberdine",
+   "coord": "36.6, 45.6"
+  },
+  {
+   "lvl": 14,
+   "name": "How Big a Threat?",
+   "status": "ready",
+   "turnIn": "Terenthis, Auberdine",
+   "coord": "39.4, 43.5"
+  },
+  {
+   "lvl": 14,
+   "name": "The Red Crystal",
+   "status": "ready",
+   "turnIn": "Sentinel Glynda Nal'Shea, Auberdine",
+   "coord": "37.7, 43.4"
+  },
+  {
+   "lvl": 17,
+   "name": "Grove of the Ancients",
+   "status": "ready",
+   "turnIn": "Onu, Grove of the Ancients",
+   "coord": "43.5, 76.3"
+  },
+  {
+   "lvl": 20,
+   "name": "The Absent Minded Prospector",
+   "status": "ready",
+   "turnIn": "Prospector Remtravel, south Darkshore",
+   "coord": "35.7, 83.7"
+  },
+  {
+   "lvl": 17,
+   "name": "Expanding Horizons",
+   "status": "ready",
+   "turnIn": "Stormwind City"
+  },
+  {
+   "lvl": 16,
+   "name": "Buzzbox 525",
+   "status": "open",
+   "obj": "0/4 Grizzled Scalp (Grizzled Thistle Bears)",
+   "coord": "38.6, 80.5",
+   "turnIn": "Buzzbox 525 at 41.4, 80.6 → 8-slot bag"
+  },
+  {
+   "lvl": 17,
+   "name": "Fruit of the Sea",
+   "status": "open",
+   "obj": "1/6 Fine Crab Chunks (Reef Crawlers)",
+   "turnIn": "Gubber Blump, Auberdine",
+   "coord": "36.1, 44.9"
+  },
+  {
+   "lvl": 17,
+   "name": "Cave Mushrooms",
+   "status": "open",
+   "obj": "0/5 Scaber Stalk, 0/1 Death Cap",
+   "coord": "55.7, 34.9",
+   "turnIn": "Barithras Moonshade, Auberdine"
+  },
+  {
+   "lvl": 17,
+   "name": "Deep Ocean, Vast Sea",
+   "status": "open",
+   "obj": "2 lockboxes in the wrecks",
+   "coord": "38.2, 28.8",
+   "turnIn": "Gorbold Steelhand, Auberdine"
+  },
+  {
+   "lvl": 18,
+   "name": "The Tower of Althalaxx",
+   "status": "open",
+   "obj": "0/4 Worn Parchment (Dark Strand Fanatics)",
+   "coord": "55.8, 26.7",
+   "turnIn": "Balthule Shadowstrike, 55.0, 24.9"
+  },
+  {
+   "lvl": 18,
+   "name": "The Blackwood Corrupted",
+   "status": "open",
+   "obj": "Talisman of Corruption (Xabraxxis, lvl 19)",
+   "coord": "52.4, 33.4",
+   "turnIn": "Thundris Windweaver, Auberdine"
+  },
+  {
+   "lvl": 18,
+   "name": "Tharnariun's Hope",
+   "status": "later",
+   "obj": "Den Mother (18–19)",
+   "coord": "51.5, 38.3",
+   "note": "Wait for 19 or bring a partner."
+  },
+  {
+   "lvl": 18,
+   "name": "WANTED: Murkdeep!",
+   "status": "later",
+   "obj": "Murkdeep (19) after murloc waves",
+   "coord": "36.6, 76.5",
+   "note": "Stand by the bonfire to start. Bring a partner if you can."
+  },
+  {
+   "lvl": 20,
+   "name": "Gyromast's Retrieval",
+   "status": "later",
+   "obj": "Top: Giant Foreststrider · Middle: Greymist Oracle/Tidehunter · Bottom: Encrusted Tide / Raging Reef Crawler",
+   "coord": "56.7, 13.5",
+   "note": "Guide says bring 2 more players below 20. The follow-up is a level 20 elite."
+  },
+  {
+   "lvl": 19,
+   "name": "Fight for Warsong Gulch",
+   "status": "ignore",
+   "obj": "PvP battleground quest",
+   "note": "Ignore unless you want to try PvP."
+  }
+ ],
+ "talents": [
+  {
+   "lv": "10–11",
+   "name": "Remorseless Attacks",
+   "rank": "2/2",
+   "tree": "Assassination",
+   "state": "done",
+   "desc": "+40% crit on your next Sinister Strike after a kill."
+  },
+  {
+   "lv": "12–13",
+   "name": "Efficient Strikes",
+   "rank": "2/2",
+   "tree": "Combat",
+   "state": "done",
+   "desc": "Sinister Strike costs 5 less energy."
+  },
+  {
+   "lv": "14–15",
+   "name": "Coup de Grace",
+   "rank": "2/3",
+   "tree": "Combat",
+   "state": "done",
+   "desc": "Eviscerate hits harder (+20% at 3/3)."
+  },
+  {
+   "lv": "16",
+   "name": "Coup de Grace",
+   "rank": "3/3",
+   "tree": "Combat",
+   "state": "next"
+  },
+  {
+   "lv": "17–19",
+   "name": "Deflection",
+   "rank": "3/3",
+   "tree": "Combat",
+   "state": "later",
+   "desc": "+6% parry."
+  },
+  {
+   "lv": "20–21",
+   "name": "Precision",
+   "rank": "2/3",
+   "tree": "Combat",
+   "state": "later",
+   "desc": "+hit chance."
+  },
+  {
+   "lv": "22",
+   "name": "Riposte",
+   "rank": "1/1",
+   "tree": "Combat",
+   "state": "later",
+   "star": true,
+   "desc": "Lights up after you parry. Press it every time it glows."
+  },
+  {
+   "lv": "23",
+   "name": "Precision",
+   "rank": "3/3",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "24–25",
+   "name": "Endurance",
+   "rank": "2/2",
+   "tree": "Combat",
+   "state": "later",
+   "desc": "Sprint and Evasion come back 60% faster."
+  },
+  {
+   "lv": "26",
+   "name": "Composure",
+   "rank": "1/2",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "27",
+   "name": "Flawless Execution",
+   "rank": "1/1",
+   "tree": "Combat",
+   "state": "later",
+   "desc": "Cheaper Eviscerate."
+  },
+  {
+   "lv": "28–29",
+   "name": "Weapon Expertise",
+   "rank": "2/2",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "30–31",
+   "name": "Aggression",
+   "rank": "2/3",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "32",
+   "name": "Blade Flurry",
+   "rank": "1/1",
+   "tree": "Combat",
+   "state": "later",
+   "star": true,
+   "desc": "Hit 2 enemies at once."
+  },
+  {
+   "lv": "33–34",
+   "name": "Dual Wield Specialization",
+   "rank": "2/2",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "35–39",
+   "name": "Hack and Slash",
+   "rank": "5/5",
+   "tree": "Combat",
+   "state": "later",
+   "desc": "A bonus for every weapon type."
+  },
+  {
+   "lv": "40–41",
+   "name": "Flash of Steel",
+   "rank": "2/5",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "42",
+   "name": "Adrenaline Rush",
+   "rank": "1/1",
+   "tree": "Combat",
+   "state": "later",
+   "star": true,
+   "desc": "Double energy for 15 sec."
+  },
+  {
+   "lv": "43–45",
+   "name": "Flash of Steel",
+   "rank": "5/5",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "46",
+   "name": "Composure",
+   "rank": "2/2",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "47",
+   "name": "Aggression",
+   "rank": "3/3",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "48–50",
+   "name": "Malice",
+   "rank": "3/5",
+   "tree": "Assassination",
+   "state": "later"
+  },
+  {
+   "lv": "51–53",
+   "name": "Improved Slice and Dice",
+   "rank": "3/3",
+   "tree": "Assassination",
+   "state": "later"
+  },
+  {
+   "lv": "54–55",
+   "name": "Malice",
+   "rank": "5/5",
+   "tree": "Assassination",
+   "state": "later"
+  },
+  {
+   "lv": "56–57",
+   "name": "Lethality",
+   "rank": "2/2",
+   "tree": "Assassination",
+   "state": "later"
+  },
+  {
+   "lv": "58–60",
+   "name": "Ruthlessness",
+   "rank": "3/3",
+   "tree": "Assassination",
+   "state": "later"
+  }
+ ],
+ "trainer": [
+  {
+   "lv": "10",
+   "what": "Dual Wield, Slice and Dice, Sprint, Sap",
+   "state": "done"
+  },
+  {
+   "lv": "12",
+   "what": "Kick, Parry",
+   "state": "done"
+  },
+  {
+   "lv": "14",
+   "what": "Expose Armor, Garrote, Sinister Strike rank",
+   "state": "due"
+  },
+  {
+   "lv": "16",
+   "what": "Feint, Pick Lock",
+   "state": "next"
+  },
+  {
+   "lv": "18",
+   "what": "Ambush, Eviscerate rank",
+   "state": "later"
+  },
+  {
+   "lv": "20",
+   "what": "Rupture + Poisons class quest",
+   "state": "later",
+   "star": true
+  },
+  {
+   "lv": "22",
+   "what": "Vanish, Distract, Sinister Strike rank",
+   "state": "later",
+   "star": true
+  },
+  {
+   "lv": "24",
+   "what": "Shank, Eviscerate rank",
+   "state": "later",
+   "star": true
+  },
+  {
+   "lv": "26",
+   "what": "Cheap Shot, Ambush rank",
+   "state": "later"
+  },
+  {
+   "lv": "30",
+   "what": "Kidney Shot, Disarm Trap, ranks",
+   "state": "later"
+  },
+  {
+   "lv": "34",
+   "what": "Blind",
+   "state": "later"
+  },
+  {
+   "lv": "40",
+   "what": "Riding (mount!), dual talent spec, Safe Fall",
+   "state": "later",
+   "star": true
+  }
+ ],
+ "gear": [
+  [
+   "Main hand",
+   "Green dagger (Blade of Cunning?)",
+   "uncommon",
+   "Sheet: 22–32"
+  ],
+  [
+   "Off hand",
+   "Dagger",
+   "common",
+   "Sheet: 8–12"
+  ],
+  [
+   "Ranged",
+   "Thrown weapon",
+   "common",
+   "Sheet: 18–26"
+  ],
+  [
+   "Head",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Neck",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Shoulders",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Back",
+   "Green cloak",
+   "uncommon",
+   ""
+  ],
+  [
+   "Chest",
+   "Green leather chest",
+   "uncommon",
+   ""
+  ],
+  [
+   "Wrists",
+   "Green bracers",
+   "uncommon",
+   ""
+  ],
+  [
+   "Hands",
+   "Green gloves",
+   "uncommon",
+   ""
+  ],
+  [
+   "Waist",
+   "Handstitched Leather Belt (crafted)",
+   "common",
+   "31 armor. Beats the 38-armor quest belt if it has Agi/Sta."
+  ],
+  [
+   "Legs",
+   "Green leather pants",
+   "uncommon",
+   ""
+  ],
+  [
+   "Feet",
+   "Leather boots",
+   "common",
+   ""
+  ],
+  [
+   "Rings",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Trinkets",
+   "",
+   "",
+   ""
+  ]
+ ],
+ "bags": [
+  "Backpack + 4 × 6-slot bags + Apprentice Skinning Satchel (4 slots, reagent slot)",
+  "Free 8-slot <b>Wizbang's Gunnysack</b> from Buzzbox 525",
+  "AH: Red Linen Bag 8 slots ~4–5s, Red Woolen Bag 10 slots ~20s. Skip Dalmond's 22.5s satchel (+2 slots only).",
+  "Leatherworking 30: Light Leather Reagent Bag (6 slots) pattern from Saenorion, Darnassus"
+ ],
+ "waiting": [
+  "Swords in bags (Brushwood Blade, Notched Shortsword?) wait for Swords training in Stormwind"
+ ],
+ "profs": [
+  {
+   "name": "Skinning",
+   "skill": 80,
+   "cap": 150,
+   "rank": "Journeyman",
+   "next": "Keep skinning everything. Expert unlocks later."
+  },
+  {
+   "name": "Leatherworking",
+   "skill": 30,
+   "cap": 75,
+   "rank": "Apprentice",
+   "next": "Journeyman at skill 50: Simon Tanner (Stormwind), Faldron (Darnassus), Aayndia (Astranaar). Cured Light Hide at 30."
+  },
+  {
+   "name": "First Aid",
+   "skill": 50,
+   "cap": 75,
+   "rank": "Apprentice",
+   "next": "Train Journeyman First Aid before 75."
+  },
+  {
+   "name": "Cooking",
+   "skill": 8,
+   "cap": 75,
+   "rank": "Apprentice",
+   "next": "Cook the meat you loot. Well Fed food = stats + XP buff."
+  },
+  {
+   "name": "Fishing",
+   "skill": 10,
+   "cap": 75,
+   "rank": "Apprentice",
+   "next": "Optional. Auberdine dock is fine."
+  }
+ ],
+ "tips": [
+  "Mobs 2+ levels above you (orange/red name level) hit harder and you miss them more. Solo the yellow ones.",
+  "Hard fight? Sinister Strike to 2–3 points → Slice and Dice → Sinister Strike → Eviscerate at 4–5. Hit Evasion early, not at 20% health.",
+  "Crabs (Reef Crawlers) have high armor. Expose Armor (trainer, 14) helps.",
+  "Type <kbd>/tar Name</kbd> to target an NPC or mob by name.",
+  "Red text on a tooltip = you can't use it. Rogues wear leather only.",
+  "Off-hand is always a weapon. Orbs and shields replace it.",
+  "Gouge, then bandage mid-fight.",
+  "Log out in an inn for rested XP (double XP from kills).",
+  "Rares (silver dragon portrait) spawn rarely. Don't wait for them.",
+  "Train professions to the next rank before 75, or skill-ups stop.",
+  "Quest level colours: red/orange = hard, yellow = right, green = easy, grey = no XP."
+ ],
+ "photos": [
+  "Quest tracker (right side of the screen)",
+  "Character sheet (C), both stat pages",
+  "Talents (N) after spending points",
+  "Bags (B) when they get full",
+  "Any item tooltip you're unsure about"
+ ],
+ "links": [
+  [
+   "Level-by-level plan",
+   "https://github.com/chaglayan/gamingCompanions/blob/claude/wizardly-cori-qboa0f/wowCompanion/guides/leveling-plan.md"
+  ],
+  [
+   "Rogue guide",
+   "https://github.com/chaglayan/gamingCompanions/blob/claude/wizardly-cori-qboa0f/wowCompanion/guides/rogue.md"
+  ],
+  [
+   "Maxroll rogue leveling",
+   "https://maxroll.gg/wow-forever/class-guides/rogue-leveling-guide"
+  ],
+  [
+   "Bind on Forever: Darkshore route",
+   "https://bindonforever.com/zones/darkshore"
+  ]
+ ]
 }
 </script>
 

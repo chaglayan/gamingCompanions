@@ -33,3 +33,4 @@
 | 2026-11-14 | Quest photo (level ~16, south Darkshore): 7 ready to turn in. Corrected: The Absent Minded Prospector turns in to Prospector Remtravel (south Darkshore), not Darnassus. New: Buzzbox 525, Blackwood Corrupted, Gyromast's Retrieval (20, group), Murkdeep (19). Plan in `goals.md`. |
 | 2026-11-14 | Built the journal page artifact (https://claude.ai/artifact/Dx91uLWnS4SzAQ5nGr5YXU): Now checklist, quests by status with coordinates, talents/trainer, gear/bags, professions, tips. |
 | 2026-11-14 | Chest Q: Greasy Jerkin of the Gorilla (71 armor, +3 Str, +3 Int) vs current (58 armor, +2 Agi). Basically even; keep current (Agi), sell the Gorilla one. |
+| 2026-11-14 | Dying to Reef Crawlers (17) at level 15–16; still no sword skill. Causes: orange-level mobs, level 14/16 training not bought yet, crabs have high armor. Moved the **Stormwind trip to step 2** on the journal page; added fight tips. |
