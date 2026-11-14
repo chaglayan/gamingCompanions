@@ -30,6 +30,10 @@ Swords: can't use yet. Need the **Swords** skill from **Woo Ping in Stormwind** 
 - **Bark mail leggings** (?) (2026-11-07): **mail**, rogues can only wear leather. Sell it.
 - Buying a **Stiletto** (dagger) from the weaponsmith. Plan: Stiletto main hand + simple dagger off-hand (after Dual Wield) → later Blade of Cunning main hand + Stiletto off-hand.
 
+## Bags (2026-11-14)
+- Backpack + **4 × 6-slot bags** + a **4-slot leatherworking bag** (holds only LW materials). ~10 free slots.
+- Brown Leather Satchel (8 slots, 22.5s at Dalmond) **skipped**: replacing a 6-slot bag = only +2 slots. Upgrade later to 10+ slot bags (check Stormwind AH).
+
 ## Bags (2026-11-07)
 - ~13 free slots. Gold: **19s 3c**.
 - Lots of skinning leather (two stacks of 20 + 6 more) → keep for Leatherworking, or sell.
