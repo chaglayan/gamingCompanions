@@ -14,7 +14,7 @@
 | 20–21 | Precision 2/3 | |
 | 22 | ⭐ Riposte | |
 
-Points spent: **3 / 3** (Remorseless Attacks 2/2, Efficient Strikes 1/2)
+Points spent (expected at 15): Remorseless Attacks 2/2, Efficient Strikes 2/2, Coup de Grace 2/3 (_unconfirmed_)
 
 ## Abilities known (spellbook photos, 2026-11-07, level 9)
 | Tab | Abilities |

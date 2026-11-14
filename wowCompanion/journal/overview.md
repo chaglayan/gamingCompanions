@@ -8,20 +8,20 @@
 | Name | **Chagielle Chag** (as shown on the character sheet) |
 | Race / class | Night Elf Rogue |
 | Faction | Alliance |
-| Level | **14** (2026-11-09) |
+| Level | **15** (almost 16) (2026-11-14) |
 | Spec | **Remorseless Attacks 2/2** spent. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
 | Mode | Normal (not Hardcore) (?) |
 | Realm | _unknown_ |
 | Zone | **Darkshore**, Auberdine (37.0, 41.2) |
 | Hearthstone set to | _unknown_ (probably Dolanaar) |
-| Gold | **91s 21c** (2026-11-09) |
+| Gold | **1g 41s 58c** (2026-11-14) |
 | Professions (2026-11-09, player's estimate) | **Skinning ~80/150** · **Leatherworking 30+/75** · **First Aid 50+/75** · **Cooking <10/75** · **Fishing ~10** |
 | Guild | _unknown_ |
 | Addons | **Questie installed** (2026-11-08, via CurseForge). Recommended next: Leatrix Plus, Leatrix Maps, Auctionator |
 
-## Stats (level 14, 2026-11-09, some buffs: green numbers)
-Health 296 · Energy 100 · Str 28 · **Agi 51** · Sta 32 · Int 22 · Spi 25 · Main hand 21–31 · Off hand 8–12 · Ranged 19–25 · AP 87 · RAP 96 · Crit 9.8% · Dodge 20.6% · **Parry 5.0%** (trained) · Defense 69/70 · Armor 360
-Gear: green cloak, green chest, wrist, green gloves, green legs, boots. Main hand = curved green dagger (Blade of Cunning? (?)), off-hand = blue green-quality dagger.
+## Stats (level 15, 2026-11-14, some buffs: green numbers)
+Health 423 · Energy 100 · Str 30 · **Agi 54** · Sta 43 · Int 23 · Spi 25 · Main hand 22–32 · Off hand 8–12 · Ranged 18–26 · AP 94 · RAP 103 · Crit 9.3% · Dodge 19.5% · Parry 4.9% · Defense 73/75 · Armor 374
+Gear: green cloak, green chest, green wrists, green gloves, green legs, boots, crafted belt (31 armor, +1 stat (?)); new thrown weapon (?).
 
 
 ## Player preferences

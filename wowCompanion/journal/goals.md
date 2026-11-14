@@ -1,5 +1,12 @@
 # Goals
 
+## Status 2026-11-14 (level 15 → 16, Auberdine)
+**Ready to turn in:** Bashal'Aran (Asterion ~44.2, 36.3) · **Buzzbox 323** (box at the top of a ramp ~51.3, 24.6 → next **Buzzbox 525** = free 8-slot Wizbang's Gunnysack) · **Grove of the Ancients** (Onu ~43.5, 76.3) · Tower of Althalaxx (Balthule ~55.0, 24.9) · Return to Nessa (Rut'theran) · **The Absent Minded Prospector** (Darnassus, Chief Archaeologist Greywhisker (?)) · Expanding Horizons (Stormwind).
+**Open:** How Big a Threat? (8 Blackwood Pathfinders + 5 Windtalkers, furbolg camp ~39, 53) · The Red Crystal (~47.3, 48.7, from the east) · The Cliffspring River (sample at the pool below the waterfall ~50.8, 25.5) · Cave Mushrooms (17) · Deep Ocean, Vast Sea (17) · Fruit of the Sea (17, 6 Fine Crab Chunks) · WANTED: Murkdeep! (18) · **Tharnariun's Hope: Den Mother (18–19) → wait for 19 or a partner**.
+**Talents:** 15 → Coup de Grace 2/3 · 16 → Coup de Grace 3/3 · 17 → Deflection 1/3 · 18 → Deflection 2/3 (19 → 3/3).
+**Trainer 16:** Feint + **Pick Lock** (lockboxes = gold). Still due from 14: Expose Armor, Garrote, SS rank.
+**Leatherworking:** Apprentice cap 75. **Journeyman needs LW 50** (5s): Faldron (Darnassus, Craftsmen's Terrace upstairs), Simon Tanner (Stormwind Old Town, Protective Hide), Aayndia Floralwind (Astranaar, Ashenvale). No LW trainer in Auberdine.
+
 ## Weekend restart (checked 2026-11-14)
 Guides re-checked: Warcraft Tavern (13 Nov) and Method (14 Nov) updated, **Combat leveling build unchanged**; only rogue hotfix since launch = Shank tooltip (10 Nov). Plan below still stands.
 Quick order: talent → south loop → turn-ins → Stormwind trip (swords, skills, Journeyman professions, bags) → north loop at 15–17 → Ashenvale/Wetlands ~18–20, first dungeon ~15–18.

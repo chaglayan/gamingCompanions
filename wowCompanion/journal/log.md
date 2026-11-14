@@ -29,3 +29,4 @@
 | 2026-11-14 | Bag question: 4×6-slot bags + LW bag. Advised skipping the 22.5s 8-slot satchel (+2 slots only); free space by cooking/selling/banking; look for 10-slot bags on the AH. |
 | 2026-11-14 | Bags follow-up: skinning satchel sits in the separate reagent slot, so the vendor satchel = +2 only. Better: free 8-slot Wizbang's Gunnysack (Buzzbox 525), AH Red Linen Bag 8-slot ~4–5s, Light Leather Reagent Bag at LW 30. |
 | 2026-11-14 | Cleansing of the Infected: player found normal Thistle Bears + Sickly Deer near ~39, 59. Pointed to **Rabid** Thistle Bears further south ~37, 71; use `/tar Rabid`. |
+| 2026-11-14 | Photos: level 15 sheet (423 HP, Agi 54), bags (1g 41s 58c, ~12 free), 16 quests (several ready to turn in). Belt Q: quest belt 38 armor + useless stat vs crafted 31 armor + 1 stat → crafted if Agi/Sta. LW: Journeyman at skill 50 (Faldron/Simon Tanner/Aayndia). Talents 15–18 listed. |
