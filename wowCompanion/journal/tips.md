@@ -91,6 +91,11 @@ Trainer: 30 Cured Light Hide · 35 Embossed Leather Vest · 40 Embossed Leather 
 Vendor: 35 Dark Leather Boots (new in Forever). Quest: 30 Light Leather Reagent Bag.
 When skill stops going up, the known recipes are grey → buy the next ones. Craft what you can wear; vendor the rest.
 
+## Rogue reagents
+- **Thieves' Tools**: must be in your bags for Pick Lock (not used up). Bought one 2026-11-15 (?) from Jasper Fel, Stormwind.
+- **Flash Powder**: used up by **Vanish** (level 22). Same vendors. Blinding Powder for Blind (34).
+- Lockpicking skill goes up by opening locked boxes/chests; higher-level boxes need more skill.
+
 ## Cities
 - **Guards give directions**: talk to any city guard and ask for the bank / trainer / auction house; they put a flag on your map.
 - **Bank**: free storage, in every capital. **Auction House**: buy/sell with players.
