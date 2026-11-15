@@ -38,3 +38,4 @@
 | 2026-11-15 | In Stormwind. Explained the Auction House (deposit, 5% cut, don't list cheap items) and BoE. Professions: LW 44/75 (stuck, grey recipes), Skinning 117/150, First Aid 62/150, Cooking 7, Fishing 17. LW recipe list added to tips + journal page. |
 | 2026-11-15 | Found Osborne the Night Man (Stormwind rogue trainer), 1g 99s 94c, level 16. Available: Sap (missed at 10), Expose Armor, Garrote, Sinister Strike R3, Eviscerate R3, Feint, Pick Lock (~81s total). Advised buying all. |
 | 2026-11-15 | Pick Lock needs Thieves' Tools in bags (reusable): buy one from Jasper Fel (Stormwind). Flash Powder (same vendor) needed for Vanish at 22. |
+| 2026-11-15 | Trained SS R3, Eviscerate R3, Expose Armor, Pick Lock; skipped Sap, Garrote, Feint. Leatherworking 50/150 (Journeyman). Level 16. Journal page updated. |

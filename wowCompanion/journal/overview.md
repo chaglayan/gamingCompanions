@@ -8,14 +8,14 @@
 | Name | **Chagielle Chag** (as shown on the character sheet) |
 | Race / class | Night Elf Rogue |
 | Faction | Alliance |
-| Level | **15** (almost 16) (2026-11-14) |
+| Level | **16** (2026-11-15) |
 | Spec | **Remorseless Attacks 2/2** spent. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
 | Mode | Normal (not Hardcore) (?) |
 | Realm | _unknown_ |
 | Zone | **Darkshore**, Auberdine (37.0, 41.2) |
 | Hearthstone set to | _unknown_ (probably Dolanaar) |
 | Gold | **1g 41s 58c** (2026-11-14) |
-| Professions (2026-11-15) | **Skinning 117/150** (Journeyman) · **Leatherworking 44/75** (stuck: recipes grey) · **First Aid 62/150** (Journeyman) · **Cooking 7/75** · **Fishing 17/75** |
+| Professions (2026-11-15) | **Skinning 117/150** (Journeyman) · **Leatherworking 50/150** (Journeyman, 2026-11-15) · **First Aid 62/150** (Journeyman) · **Cooking 7/75** · **Fishing 17/75** |
 | Guild | _unknown_ |
 | Addons | **Questie installed** (2026-11-08, via CurseForge). Recommended next: Leatrix Plus, Leatrix Maps, Auctionator |
 
