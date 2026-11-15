@@ -38,6 +38,13 @@ Most WoW info online is for **retail** or **Classic Era**, and Forever changed a
 
 Mark unknowns `_unknown_` and shaky readings `(?)`. **Never invent facts** (item stats, quest names, talent names). Ask for a photo.
 
+## Starting a new session
+
+1. `git fetch --all`; the latest notes are merged into the repo's default branch. If `journal/log.md` looks stale, check other branches (`git log --all --oneline -- wowCompanion/`).
+2. Read `journal/overview.md`, then `journal/goals.md` ("Next session"), then the tail of `journal/log.md`.
+3. The journal page lives at the URL below. **Read it with the Artifact tool before publishing**, then republish with `url` set, so the link stays the same.
+4. Work on your session branch, commit + push after every update. When the player asks, open a PR into the default branch and merge it.
+
 ## Journal page (artifact)
 
 The player's iPad/phone view: **https://claude.ai/artifact/Dx91uLWnS4SzAQ5nGr5YXU**

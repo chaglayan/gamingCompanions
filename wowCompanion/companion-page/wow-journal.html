@@ -209,12 +209,13 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
      "text": "Talents: 16 → <b>Coup de Grace 3/3</b>, 17 → <b>Deflection 1/3</b> (Combat tab, <kbd>N</kbd>)"
     },
     {
-     "id": "swordskill",
-     "text": "<b>Swords skill is 1/85.</b> A new weapon misses a lot until the skill climbs. Raise it on easy (green) mobs; keep daggers (80/85) for hard fights."
+     "id": "mhswap",
+     "text": "<b>Main hand: go back to a dagger for now.</b> Your Swords skill is 1/85, so a sword misses a lot. Level Swords on easy green mobs (or with the sword in the off-hand), then switch back when it's 70+.",
+     "note": "Dagger skill 80/85 is normal: the cap is 5 × your level and rises by itself every level."
     },
     {
-     "id": "lockskill",
-     "text": "Lockpicking 1/85: use Pick Lock on every lockbox you loot to raise it"
+     "id": "ambush18",
+     "text": "At 18: buy <b>Ambush</b> (needs a dagger in the main hand; huge opener from stealth)"
     }
    ]
   },
@@ -225,8 +226,8 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
    "items": [
     {
      "id": "wine",
-     "text": "<b>Wine Shop Advert</b>: give the Wine Ticket to <b>Suzetta Gallina</b> at the <b>Gallina Winery</b>, by the canals next to the Trade District. Type <kbd>/tar Suzetta</kbd> when close.",
-     "note": "Tiny reward (a free bottle of wine). Skip it if it's a hassle."
+     "text": "<b>Wine Shop Advert</b>: Suzetta Gallina is <b>inside</b> the Gallina Winery shop on the canals, about <span class=\"coord\">60.0, 76.8</span> (Warcraft Wiki). Look indoors and type <kbd>/tar Suzetta</kbd>.",
+     "note": "If she isn't there or at Questie's ?, it may be bugged in Forever. It's a level 2 quest: abandon it."
     },
     {
      "id": "lwrec",
@@ -249,12 +250,16 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
    "items": [
     {
      "id": "lucius",
-     "text": "<b>Redridge Rendezvous</b>: talk to <b>Lucius</b> on the docks of Lakeshire"
+     "text": "<b>Redridge Rendezvous</b>: talk to <b>Lucius</b> on the pier in Lakeshire"
     },
     {
      "id": "althers",
-     "text": "Next: <b>Alther's Mill</b>, a lockpicking quest (open Lucius's lockbox for a Token of Thievery)",
-     "note": "Raise Lockpicking on lockboxes first if the box says your skill is too low."
+     "text": "<b>Alther's Mill</b>: he sends you to a spot with <b>practice lockboxes</b>. Spam Pick Lock on them until Lockpicking ~80, then open Lucius's box and turn it in.",
+     "note": "This is how lockpicking is meant to be levelled. No need to hunt for lockboxes."
+    },
+    {
+     "id": "footlockers",
+     "text": "Optional: Waterlogged Footlockers in Lake Everstill (underwater) take Lockpicking up to ~110"
     },
     {
      "id": "lakeshirehearth",
@@ -306,14 +311,16 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
    "lvl": 2,
    "name": "Wine Shop Advert",
    "status": "ready",
-   "turnIn": "Suzetta Gallina, Gallina Winery (Stormwind canals by the Trade District)"
+   "turnIn": "Suzetta Gallina, inside the Gallina Winery (Stormwind canals)",
+   "coord": "60.0, 76.8",
+   "note": "Abandon it if she can't be found."
   },
   {
    "lvl": 16,
    "name": "Redridge Rendezvous",
    "status": "ready",
    "turnIn": "Lucius, Lakeshire docks (Redridge)",
-   "note": "Rogue class quest. Next: Alther's Mill (lockpicking)."
+   "note": "Rogue class quest. Next: Alther's Mill = practice lockboxes to ~80 Lockpicking."
   },
   {
    "lvl": 15,
@@ -596,7 +603,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
   },
   {
    "lv": "18",
-   "what": "Ambush, Eviscerate rank",
+   "what": "Ambush (needs a dagger in the main hand), Eviscerate rank",
    "state": "next"
   },
   {
@@ -781,17 +788,18 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
    "skill": 1,
    "cap": 85,
    "rank": "Rogue skill",
-   "next": "Use Pick Lock on every lockbox. Needed for Alther's Mill."
+   "next": "Alther's Mill (Redridge) gives practice lockboxes: spam them to ~80, then Waterlogged Footlockers (Lake Everstill) to ~110. Cap = 5 × level."
   },
   {
    "name": "Swords",
    "skill": 1,
    "cap": 85,
    "rank": "Weapon skill",
-   "next": "Trained! Rises as you hit with a sword. Daggers 80/85, Thrown 79/85."
+   "next": "Trained. Rises as you hit with a sword (either hand). Use a dagger main hand until ~70. Daggers 80/85 is at the level cap (5 × level)."
   }
  ],
  "tips": [
+  "Weapon skill cap = 5 × your level. Daggers 80/85 at level 17 is normal and goes up by itself.",
   "Mobs 2+ levels above you (orange/red name level) hit harder and you miss them more. Solo the yellow ones.",
   "Hard fight? Sinister Strike to 2–3 points → Slice and Dice → Sinister Strike → Eviscerate at 4–5. Hit Evasion early, not at 20% health.",
   "Crabs (Reef Crawlers) have high armor. Expose Armor (trainer, 14) helps.",

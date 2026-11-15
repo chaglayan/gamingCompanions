@@ -2,9 +2,9 @@
 
 ## Next session (level 17, Stormwind) — 2026-11-16
 Live checklist: **https://claude.ai/artifact/Dx91uLWnS4SzAQ5nGr5YXU** (Now tab).
-1. Talents: Coup de Grace 3/3 (16), Deflection 1/3 (17). Swords skill 1/85: level it on easy mobs.
-2. Stormwind leftovers: **Wine Shop Advert** → Suzetta Gallina, Gallina Winery (canals by the Trade District; `/tar Suzetta`) · LW recipes from Simon Tanner · Red Linen Bag.
-3. **Redridge Rendezvous** (rogue class quest) → Lucius, Lakeshire docks → **Alther's Mill** (lockpicking).
+1. Talents: Coup de Grace 3/3 (16), Deflection 1/3 (17). **Main hand back to a dagger** (Swords 1/85 misses a lot); level Swords on easy mobs. Buy **Ambush** at 18.
+2. Stormwind leftovers: **Wine Shop Advert** → Suzetta Gallina, **inside** the Gallina Winery (~60.0, 76.8, canals; `/tar Suzetta`; abandon if bugged) · LW recipes from Simon Tanner · Red Linen Bag.
+3. **Redridge Rendezvous** (rogue class quest) → Lucius, Lakeshire docks → **Alther's Mill** (practice lockboxes: Lockpicking to ~80).
 4. **The Deadmines** at 18+ via Group Finder: Collecting Memories, Oh Brother..., Underground Assault already in the log.
 5. Later: Loch Modan (Find Bingles, Stormpike's Delivery), Darkshore leftovers (boat), Humble Beginnings (unknown; ask for quest text).
 

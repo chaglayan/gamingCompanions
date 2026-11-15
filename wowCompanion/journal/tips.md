@@ -96,6 +96,13 @@ When skill stops going up, the known recipes are grey → buy the next ones. Cra
 - **Flash Powder**: used up by **Vanish** (level 22). Same vendors. Blinding Powder for Blind (34).
 - Lockpicking skill goes up by opening locked boxes/chests; higher-level boxes need more skill.
 
+## Weapon skills & lockpicking (2026-11-16)
+- **Weapon skill cap = 5 × level** (85 at 17). It rises by hitting things. Daggers 80/85 is normal; nothing to buy.
+- A newly trained weapon starts at **1** and misses a lot. Level it on easy mobs before relying on it.
+- **Ambush** needs a **dagger in the main hand**. Combat with a sword main hand doesn't use it.
+- **Lockpicking** (Forever): Redridge Rendezvous → **Alther's Mill** sends you to **practice lockboxes**: spam to ~80, then Waterlogged Footlockers in Lake Everstill to ~110, Battered Footlockers (Menethil murloc camps, Durnholde Keep) to ~150. Cap = 5 × level. (Warcraft Tavern Forever lockpicking guide.)
+- **Suzetta Gallina** (Wine Shop Advert): inside the Gallina Winery, Stormwind canals ~60.0, 76.8 (Warcraft Wiki; may differ in Forever).
+
 ## Cities
 - **Guards give directions**: talk to any city guard and ask for the bank / trainer / auction house; they put a flag on your map.
 - **Bank**: free storage, in every capital. **Auction House**: buy/sell with players.
