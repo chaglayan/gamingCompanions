@@ -1,0 +1,993 @@
+<title>Chagielle's Rogue Journal</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a moonlit field journal. Character header, sticky tabs, one panel per tab. Single dark theme on purpose (night elf night). */
+:root {
+  --night: #0e1322;
+  --panel: #151c31;
+  --panel-2: #1b2440;
+  --line: #2a3557;
+  --fg: #e4e8f6;
+  --muted: #97a0bf;
+  --well: #62d2c3;          /* moonwell teal: the accent */
+  --well-soft: rgba(98,210,195,.12);
+  --moon: #c7d0ff;
+  /* WoW difficulty + quality colours, softened for reading */
+  --d-red: #ff5b5b; --d-orange: #ff9a4d; --d-yellow: #f2e15a; --d-green: #5fd068; --d-grey: #8d93a6;
+  --q-uncommon: #3fdc4a; --q-common: #e9ecf3; --q-poor: #9aa0ad;
+  --gold: #e8c45a; --silver: #c9d0dc; --copper: #d08a55;
+  --ok: #5fd068; --warn: #f2c14e; --crit: #ff6b6b;
+  --display: "Marcellus", "Trajan Pro", Georgia, serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--night);
+  background-image: radial-gradient(1200px 500px at 85% -10%, rgba(98,210,195,.08), transparent 60%), radial-gradient(900px 400px at 0% 0%, rgba(199,208,255,.06), transparent 60%);
+  background-attachment: fixed;
+  color: var(--fg);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 56px;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--night); }
+.wrap { max-width: 1060px; margin: 0 auto; display: grid; gap: 20px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; margin: 0; line-height: 1.15; text-wrap: balance; }
+h1 { font-size: clamp(30px, 5.4vw, 46px); letter-spacing: .01em; }
+h2 { font-size: 24px; }
+h3 { font-size: 19px; }
+.eyebrow { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--well); font-weight: 700; }
+.muted { color: var(--muted); }
+.num, .coord { font-variant-numeric: tabular-nums; }
+a { color: var(--well); }
+a:focus-visible, button:focus-visible, input:focus-visible + .box { outline: 2px solid var(--well); outline-offset: 2px; }
+
+/* Header */
+header.top { display: grid; gap: 10px; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+.who { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: baseline; color: var(--muted); }
+.who b { color: var(--fg); font-weight: 600; }
+.lvl { font-family: var(--display); font-size: 20px; color: var(--moon); }
+.coins { display: inline-flex; gap: 8px; align-items: center; font-variant-numeric: tabular-nums; }
+.coin { display: inline-flex; align-items: center; gap: 3px; color: var(--fg); }
+.coin::after { content: ""; width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.coin.g::after { background: var(--gold); } .coin.s::after { background: var(--silver); } .coin.c::after { background: var(--copper); }
+.stats { display: flex; flex-wrap: wrap; gap: 8px; }
+.stat { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px; font-size: 14px; color: var(--muted); }
+.stat b { color: var(--fg); font-variant-numeric: tabular-nums; margin-left: 4px; }
+
+/* Tabs */
+nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--night); display: flex; gap: 6px; overflow-x: auto; padding-block: 8px; scrollbar-width: thin; }
+.tab { flex: 0 0 auto; font: 600 15px var(--body); color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; cursor: pointer; }
+.tab[aria-selected="true"] { color: var(--night); background: var(--well); border-color: var(--well); }
+.tab .n { font-variant-numeric: tabular-nums; opacity: .8; margin-left: 4px; }
+
+section.panel { display: grid; gap: 16px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 10px; min-width: 0; }
+.grid2 { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); align-items: start; }
+.lede { max-width: 68ch; color: var(--muted); margin: 0; }
+
+/* Steps (Now tab) */
+.steps { display: grid; gap: 14px; counter-reset: step; }
+.step { counter-increment: step; }
+.step h3 { display: flex; gap: 10px; align-items: baseline; }
+.step h3::before { content: counter(step); font: 600 13px var(--mono); color: var(--night); background: var(--moon); border-radius: 6px; padding: 1px 7px; transform: translateY(-2px); }
+.step .where { font-size: 14px; color: var(--muted); }
+ul.checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.check { display: grid; grid-template-columns: 24px 1fr; gap: 10px; align-items: start; }
+.check input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.check .box { width: 22px; height: 22px; border: 2px solid var(--line); border-radius: 6px; margin-top: 1px; display: grid; place-items: center; cursor: pointer; background: var(--panel-2); }
+.check input:checked + .box { background: var(--well); border-color: var(--well); }
+.check input:checked + .box::after { content: ""; width: 10px; height: 6px; border-left: 3px solid var(--night); border-bottom: 3px solid var(--night); transform: rotate(-45deg) translate(1px,-1px); }
+.check .txt { min-width: 0; }
+.check.done .txt { color: var(--muted); text-decoration: line-through; text-decoration-color: rgba(151,160,191,.6); }
+.note { display: block; font-size: 14px; color: var(--muted); }
+.coord { font: 500 13px var(--mono); color: var(--moon); background: var(--panel-2); border: 1px solid var(--line); border-radius: 5px; padding: 0 6px; white-space: nowrap; }
+.star { color: var(--gold); }
+
+/* Quests */
+.qgroup { display: grid; gap: 8px; }
+.qhead { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.pill { font: 700 12px var(--body); letter-spacing: .06em; text-transform: uppercase; border-radius: 999px; padding: 3px 10px; border: 1px solid currentColor; }
+.pill.ready { color: var(--ok); } .pill.open { color: var(--moon); } .pill.later { color: var(--warn); } .pill.ignore { color: var(--d-grey); }
+.q { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; padding: 10px 12px; border-radius: 10px; background: var(--panel); border: 1px solid var(--line); }
+.q.ready { border-left: 4px solid var(--ok); } .q.later { border-left: 4px solid var(--warn); } .q.ignore { opacity: .65; }
+.qlvl { font: 600 13px var(--mono); padding: 1px 6px; border-radius: 5px; background: var(--panel-2); height: fit-content; }
+.qname { font-weight: 700; }
+.qbody { grid-column: 2; font-size: 14px; color: var(--muted); display: grid; gap: 2px; min-width: 0; }
+.qbody b { color: var(--fg); font-weight: 600; }
+.dr { color: var(--d-red); } .do { color: var(--d-orange); } .dy { color: var(--d-yellow); } .dg { color: var(--d-green); } .dx { color: var(--d-grey); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted); }
+
+/* Talents */
+.tl { display: grid; gap: 6px; }
+.trow { display: grid; grid-template-columns: 64px 1fr auto; gap: 10px; align-items: center; padding: 8px 12px; border-radius: 10px; background: var(--panel); border: 1px solid var(--line); }
+.trow .lv { font: 500 13px var(--mono); color: var(--muted); }
+.trow .tn { min-width: 0; }
+.trow .tree { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-left: 6px; }
+.trow.done { opacity: .6; }
+.trow.next { border-color: var(--well); background: var(--well-soft); }
+.state { font: 700 12px var(--body); letter-spacing: .06em; text-transform: uppercase; }
+.state.done { color: var(--ok); } .state.next { color: var(--well); } .state.later { color: var(--muted); } .state.due { color: var(--warn); }
+.tdesc { display: block; font-size: 13px; color: var(--muted); }
+
+/* Gear */
+.slots { display: grid; gap: 6px; }
+.slot { display: grid; grid-template-columns: 96px 1fr; gap: 10px; padding: 8px 12px; border-radius: 10px; background: var(--panel-2); align-items: baseline; }
+.slot .sn { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.slot .it { min-width: 0; }
+.uncommon { color: var(--q-uncommon); } .rare { color: #5aa6ff; } .common { color: var(--q-common); } .empty { color: var(--q-poor); font-style: italic; }
+
+/* Professions */
+.prof { display: grid; gap: 6px; }
+.bar { height: 10px; background: var(--panel-2); border-radius: 999px; overflow: hidden; border: 1px solid var(--line); }
+.bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--well), var(--moon)); border-radius: 999px; }
+.profline { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+
+ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 14px; display: grid; gap: 4px; }
+@media (max-width: 520px) { .trow { grid-template-columns: 48px 1fr; } .trow .state { grid-column: 2; } .slot { grid-template-columns: 1fr; gap: 2px; } }
+@media (prefers-reduced-motion: no-preference) { .panel { animation: rise .25s ease-out; } @keyframes rise { from { transform: translateY(6px); } to { transform: none; } } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow" id="where">Darkshore</div>
+    <h1 id="name">Chagielle Chag</h1>
+    <div class="who" id="who"></div>
+    <div class="stats" id="stats"></div>
+  </header>
+  <nav class="tabs" role="tablist" id="tabs" aria-label="Journal sections"></nav>
+  <main id="main"></main>
+  <footer id="foot"></footer>
+</div>
+
+<script type="application/json" id="journal-data">
+{
+ "updated": "2026-11-16",
+ "char": {
+  "name": "Chagielle Chag",
+  "level": 17,
+  "levelNote": "",
+  "race": "Night Elf",
+  "cls": "Rogue",
+  "spec": "Combat (leveling)",
+  "zone": "Stormwind City",
+  "spot": "Trade District area, around 63, 72",
+  "hearth": "Auberdine (?)",
+  "gold": [
+   1,
+   41,
+   58
+  ],
+  "stats": [
+   [
+    "Health",
+    "440"
+   ],
+   [
+    "Agility",
+    "61"
+   ],
+   [
+    "Attack Power",
+    "107"
+   ],
+   [
+    "Crit",
+    "9.0%"
+   ],
+   [
+    "Dodge",
+    "19.2%"
+   ],
+   [
+    "Parry",
+    "4.8%"
+   ],
+   [
+    "Armor",
+    "431"
+   ]
+  ]
+ },
+ "now": [
+  {
+   "id": "c17",
+   "title": "Level-up chores",
+   "where": "Anywhere",
+   "items": [
+    {
+     "id": "t16b",
+     "text": "Talents: 16 → <b>Coup de Grace 3/3</b>, 17 → <b>Deflection 1/3</b> (Combat tab, <kbd>N</kbd>)"
+    },
+    {
+     "id": "mhswap",
+     "text": "<b>Main hand: go back to a dagger for now.</b> Your Swords skill is 1/85, so a sword misses a lot. Level Swords on easy green mobs (or with the sword in the off-hand), then switch back when it's 70+.",
+     "note": "Dagger skill 80/85 is normal: the cap is 5 × your level and rises by itself every level."
+    },
+    {
+     "id": "ambush18",
+     "text": "At 18: buy <b>Ambush</b> (needs a dagger in the main hand; huge opener from stealth)"
+    }
+   ]
+  },
+  {
+   "id": "swleft",
+   "title": "Stormwind leftovers",
+   "where": "You're here",
+   "items": [
+    {
+     "id": "wine",
+     "text": "<b>Wine Shop Advert</b>: Suzetta Gallina is <b>inside</b> the Gallina Winery shop on the canals, about <span class=\"coord\">60.0, 76.8</span> (Warcraft Wiki). Look indoors and type <kbd>/tar Suzetta</kbd>.",
+     "note": "If she isn't there or at Questie's ?, it may be bugged in Forever. It's a level 2 quest: abandon it."
+    },
+    {
+     "id": "lwrec",
+     "text": "Buy Leatherworking recipes from <b>Simon Tanner</b> (Old Town): Embossed Leather Boots, Embossed Leather Pants, Fine Leather Cloak"
+    },
+    {
+     "id": "bag2",
+     "text": "Auction House: Red Linen Bag (8 slots, ~4–5s)"
+    },
+    {
+     "id": "sap2",
+     "text": "Optional: Sap (3s) at Osborne the Night Man"
+    }
+   ]
+  },
+  {
+   "id": "redridge",
+   "title": "Rogue class quest: Redridge",
+   "where": "Walk east through Elwynn Forest to Lakeshire (Redridge Mountains)",
+   "items": [
+    {
+     "id": "lucius",
+     "text": "<b>Redridge Rendezvous</b>: talk to <b>Lucius</b> on the pier in Lakeshire"
+    },
+    {
+     "id": "althers",
+     "text": "<b>Alther's Mill</b>: he sends you to a spot with <b>practice lockboxes</b>. Spam Pick Lock on them until Lockpicking ~80, then open Lucius's box and turn it in.",
+     "note": "This is how lockpicking is meant to be levelled. No need to hunt for lockboxes."
+    },
+    {
+     "id": "footlockers",
+     "text": "Optional: Waterlogged Footlockers in Lake Everstill (underwater) take Lockpicking up to ~110"
+    },
+    {
+     "id": "lakeshirehearth",
+     "text": "Redridge is a good level 15–25 zone: set your hearthstone at the Lakeshire inn if you quest there"
+    }
+   ]
+  },
+  {
+   "id": "vc",
+   "title": "First dungeon: The Deadmines",
+   "where": "Westfall, level 18–23. Use the Group Finder.",
+   "items": [
+    {
+     "id": "dm1",
+     "text": "You already have 3 Deadmines quests: Collecting Memories, Oh Brother..., Underground Assault"
+    },
+    {
+     "id": "dm2",
+     "text": "Queue at 18+ (Group Finder). As a rogue: attack from behind, let the tank pull, Kick casters, don't pull extra mobs"
+    },
+    {
+     "id": "dm3",
+     "text": "Rogue loot to look for: <b>Cruel Barb</b>, Thief's Blade, Miner's Cape, Blackened Defias Belt"
+    }
+   ]
+  },
+  {
+   "id": "later2",
+   "title": "Later or optional",
+   "where": "",
+   "items": [
+    {
+     "id": "loch",
+     "text": "Loch Modan quests: Find Bingles, Stormpike's Delivery (via Ironforge and the Deeprun Tram)"
+    },
+    {
+     "id": "dsleft",
+     "text": "Darkshore leftovers (boat back from Stormwind): Buzzbox 525 bag, Blackwood Corrupted, Tower of Althalaxx, Return to Nessa. Fine to drop the ones you no longer want."
+    },
+    {
+     "id": "humble",
+     "text": "Humble Beginnings (A Simple Compass): send Claude the quest text, I couldn't find it"
+    }
+   ]
+  }
+ ],
+ "quests": [
+  {
+   "lvl": 2,
+   "name": "Wine Shop Advert",
+   "status": "ready",
+   "turnIn": "Suzetta Gallina, inside the Gallina Winery (Stormwind canals)",
+   "coord": "60.0, 76.8",
+   "note": "Abandon it if she can't be found."
+  },
+  {
+   "lvl": 16,
+   "name": "Redridge Rendezvous",
+   "status": "ready",
+   "turnIn": "Lucius, Lakeshire docks (Redridge)",
+   "note": "Rogue class quest. Next: Alther's Mill = practice lockboxes to ~80 Lockpicking."
+  },
+  {
+   "lvl": 15,
+   "name": "Find Bingles",
+   "status": "ready",
+   "turnIn": "Bingles Blastenheimer, Loch Modan"
+  },
+  {
+   "lvl": 15,
+   "name": "Stormpike's Delivery",
+   "status": "ready",
+   "turnIn": "Mountaineer Stormpike, Loch Modan"
+  },
+  {
+   "lvl": 12,
+   "name": "Fishin' Time",
+   "status": "open",
+   "obj": "1/1 Shiny Bauble, 0/3 Nightcrawlers"
+  },
+  {
+   "lvl": 15,
+   "name": "Humble Beginnings",
+   "status": "open",
+   "obj": "0/1 A Simple Compass",
+   "note": "Unknown to Claude: send the quest text."
+  },
+  {
+   "lvl": 18,
+   "name": "Collecting Memories",
+   "status": "open",
+   "obj": "0/4 Miners' Union Card",
+   "note": "The Deadmines (dungeon)."
+  },
+  {
+   "lvl": 20,
+   "name": "Oh Brother...",
+   "status": "open",
+   "obj": "Thistlenettle's Badge",
+   "note": "The Deadmines (dungeon)."
+  },
+  {
+   "lvl": 20,
+   "name": "Underground Assault",
+   "status": "open",
+   "obj": "Gnoam Sprecklesprocket",
+   "note": "The Deadmines (dungeon)."
+  },
+  {
+   "lvl": 17,
+   "name": "Darkshore quests (collapsed in tracker)",
+   "status": "later",
+   "obj": "Buzzbox 525, Fruit of the Sea, Cave Mushrooms, Deep Ocean, Tower of Althalaxx, Blackwood Corrupted, Murkdeep, Den Mother, Gyromast",
+   "note": "Status since 15 Nov unknown: expand 'Darkshore +' in the tracker and send a photo."
+  },
+  {
+   "lvl": 19,
+   "name": "Fight for Warsong Gulch",
+   "status": "ignore",
+   "obj": "PvP battleground quest"
+  }
+ ],
+ "talents": [
+  {
+   "lv": "10–11",
+   "name": "Remorseless Attacks",
+   "rank": "2/2",
+   "tree": "Assassination",
+   "state": "done",
+   "desc": "+40% crit on your next Sinister Strike after a kill."
+  },
+  {
+   "lv": "12–13",
+   "name": "Efficient Strikes",
+   "rank": "2/2",
+   "tree": "Combat",
+   "state": "done",
+   "desc": "Sinister Strike costs 5 less energy."
+  },
+  {
+   "lv": "14–15",
+   "name": "Coup de Grace",
+   "rank": "2/3",
+   "tree": "Combat",
+   "state": "done",
+   "desc": "Eviscerate hits harder (+20% at 3/3)."
+  },
+  {
+   "lv": "16",
+   "name": "Coup de Grace",
+   "rank": "3/3",
+   "tree": "Combat",
+   "state": "done"
+  },
+  {
+   "lv": "17–19",
+   "name": "Deflection",
+   "rank": "3/3",
+   "tree": "Combat",
+   "state": "next",
+   "desc": "+6% parry."
+  },
+  {
+   "lv": "20–21",
+   "name": "Precision",
+   "rank": "2/3",
+   "tree": "Combat",
+   "state": "later",
+   "desc": "+hit chance."
+  },
+  {
+   "lv": "22",
+   "name": "Riposte",
+   "rank": "1/1",
+   "tree": "Combat",
+   "state": "later",
+   "star": true,
+   "desc": "Lights up after you parry. Press it every time it glows."
+  },
+  {
+   "lv": "23",
+   "name": "Precision",
+   "rank": "3/3",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "24–25",
+   "name": "Endurance",
+   "rank": "2/2",
+   "tree": "Combat",
+   "state": "later",
+   "desc": "Sprint and Evasion come back 60% faster."
+  },
+  {
+   "lv": "26",
+   "name": "Composure",
+   "rank": "1/2",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "27",
+   "name": "Flawless Execution",
+   "rank": "1/1",
+   "tree": "Combat",
+   "state": "later",
+   "desc": "Cheaper Eviscerate."
+  },
+  {
+   "lv": "28–29",
+   "name": "Weapon Expertise",
+   "rank": "2/2",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "30–31",
+   "name": "Aggression",
+   "rank": "2/3",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "32",
+   "name": "Blade Flurry",
+   "rank": "1/1",
+   "tree": "Combat",
+   "state": "later",
+   "star": true,
+   "desc": "Hit 2 enemies at once."
+  },
+  {
+   "lv": "33–34",
+   "name": "Dual Wield Specialization",
+   "rank": "2/2",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "35–39",
+   "name": "Hack and Slash",
+   "rank": "5/5",
+   "tree": "Combat",
+   "state": "later",
+   "desc": "A bonus for every weapon type."
+  },
+  {
+   "lv": "40–41",
+   "name": "Flash of Steel",
+   "rank": "2/5",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "42",
+   "name": "Adrenaline Rush",
+   "rank": "1/1",
+   "tree": "Combat",
+   "state": "later",
+   "star": true,
+   "desc": "Double energy for 15 sec."
+  },
+  {
+   "lv": "43–45",
+   "name": "Flash of Steel",
+   "rank": "5/5",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "46",
+   "name": "Composure",
+   "rank": "2/2",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "47",
+   "name": "Aggression",
+   "rank": "3/3",
+   "tree": "Combat",
+   "state": "later"
+  },
+  {
+   "lv": "48–50",
+   "name": "Malice",
+   "rank": "3/5",
+   "tree": "Assassination",
+   "state": "later"
+  },
+  {
+   "lv": "51–53",
+   "name": "Improved Slice and Dice",
+   "rank": "3/3",
+   "tree": "Assassination",
+   "state": "later"
+  },
+  {
+   "lv": "54–55",
+   "name": "Malice",
+   "rank": "5/5",
+   "tree": "Assassination",
+   "state": "later"
+  },
+  {
+   "lv": "56–57",
+   "name": "Lethality",
+   "rank": "2/2",
+   "tree": "Assassination",
+   "state": "later"
+  },
+  {
+   "lv": "58–60",
+   "name": "Ruthlessness",
+   "rank": "3/3",
+   "tree": "Assassination",
+   "state": "later"
+  }
+ ],
+ "trainer": [
+  {
+   "lv": "10",
+   "what": "Dual Wield, Slice and Dice, Sprint (Sap skipped, 3s, optional)",
+   "state": "done"
+  },
+  {
+   "lv": "12",
+   "what": "Kick, Parry",
+   "state": "done"
+  },
+  {
+   "lv": "14",
+   "what": "Expose Armor, Sinister Strike rank 3 (Garrote skipped, optional)",
+   "state": "done"
+  },
+  {
+   "lv": "16",
+   "what": "Pick Lock, Eviscerate rank 3 (Feint skipped: mostly for dungeons)",
+   "state": "done"
+  },
+  {
+   "lv": "18",
+   "what": "Ambush (needs a dagger in the main hand), Eviscerate rank",
+   "state": "next"
+  },
+  {
+   "lv": "20",
+   "what": "Rupture + Poisons class quest",
+   "state": "later",
+   "star": true
+  },
+  {
+   "lv": "22",
+   "what": "Vanish, Distract, Sinister Strike rank",
+   "state": "later",
+   "star": true
+  },
+  {
+   "lv": "24",
+   "what": "Shank, Eviscerate rank",
+   "state": "later",
+   "star": true
+  },
+  {
+   "lv": "26",
+   "what": "Cheap Shot, Ambush rank",
+   "state": "later"
+  },
+  {
+   "lv": "30",
+   "what": "Kidney Shot, Disarm Trap, ranks",
+   "state": "later"
+  },
+  {
+   "lv": "34",
+   "what": "Blind",
+   "state": "later"
+  },
+  {
+   "lv": "40",
+   "what": "Riding (mount!), dual talent spec, Safe Fall",
+   "state": "later",
+   "star": true
+  }
+ ],
+ "gear": [
+  [
+   "Main hand",
+   "New main hand (sword?)",
+   "uncommon",
+   "Sheet: 31–44. If it's a sword, Swords skill is only 1/85."
+  ],
+  [
+   "Off hand",
+   "Curved dagger",
+   "uncommon",
+   "Sheet: 12–17"
+  ],
+  [
+   "Ranged",
+   "Thrown weapon",
+   "common",
+   "Sheet: 20–28"
+  ],
+  [
+   "Head",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Neck",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Shoulders",
+   "Green shoulders",
+   "uncommon",
+   ""
+  ],
+  [
+   "Back",
+   "Green cloak",
+   "uncommon",
+   ""
+  ],
+  [
+   "Chest",
+   "Green leather chest",
+   "uncommon",
+   ""
+  ],
+  [
+   "Wrists",
+   "Green bracers",
+   "uncommon",
+   ""
+  ],
+  [
+   "Hands",
+   "Green gloves",
+   "uncommon",
+   ""
+  ],
+  [
+   "Waist",
+   "Handstitched Leather Belt (crafted)",
+   "common",
+   "31 armor. Beats the 38-armor quest belt if it has Agi/Sta."
+  ],
+  [
+   "Legs",
+   "Green leather pants",
+   "uncommon",
+   ""
+  ],
+  [
+   "Feet",
+   "Blue (rare) boots",
+   "rare",
+   ""
+  ],
+  [
+   "Rings",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Trinkets",
+   "",
+   "",
+   ""
+  ]
+ ],
+ "bags": [
+  "Backpack + 4 × 6-slot bags + Apprentice Skinning Satchel (4 slots, reagent slot)",
+  "Free 8-slot <b>Wizbang's Gunnysack</b> from Buzzbox 525",
+  "AH: Red Linen Bag 8 slots ~4–5s, Red Woolen Bag 10 slots ~20s. Skip Dalmond's 22.5s satchel (+2 slots only).",
+  "Leatherworking 30: Light Leather Reagent Bag (6 slots) pattern from Saenorion, Darnassus"
+ ],
+ "waiting": [
+  "Old swords / daggers: keep only what you'll use"
+ ],
+ "profs": [
+  {
+   "name": "Skinning",
+   "skill": 117,
+   "cap": 150,
+   "rank": "Journeyman",
+   "next": "Expert (to 225) needs skill 125 + level 20 at a skinning trainer."
+  },
+  {
+   "name": "Leatherworking",
+   "skill": 50,
+   "cap": 150,
+   "rank": "Journeyman",
+   "next": "Orange now: Embossed Leather Boots/Pants, Fine Leather Cloak (50) → Fine Leather Belt (55) → Fine Leather Tunic (60) → Light Leather Pants (70) → Medium Leather + Medium Armor Kit (75)."
+  },
+  {
+   "name": "First Aid",
+   "skill": 62,
+   "cap": 150,
+   "rank": "Journeyman",
+   "next": "Keep making the best bandage that still gives points."
+  },
+  {
+   "name": "Cooking",
+   "skill": 7,
+   "cap": 75,
+   "rank": "Apprentice",
+   "next": "Cook the meat you loot. Well Fed food = stats + XP buff."
+  },
+  {
+   "name": "Fishing",
+   "skill": 17,
+   "cap": 75,
+   "rank": "Apprentice",
+   "next": "Optional. Auberdine dock is fine."
+  },
+  {
+   "name": "Lockpicking",
+   "skill": 1,
+   "cap": 85,
+   "rank": "Rogue skill",
+   "next": "Alther's Mill (Redridge) gives practice lockboxes: spam them to ~80, then Waterlogged Footlockers (Lake Everstill) to ~110. Cap = 5 × level."
+  },
+  {
+   "name": "Swords",
+   "skill": 1,
+   "cap": 85,
+   "rank": "Weapon skill",
+   "next": "Trained. Rises as you hit with a sword (either hand). Use a dagger main hand until ~70. Daggers 80/85 is at the level cap (5 × level)."
+  }
+ ],
+ "tips": [
+  "Weapon skill cap = 5 × your level. Daggers 80/85 at level 17 is normal and goes up by itself.",
+  "Mobs 2+ levels above you (orange/red name level) hit harder and you miss them more. Solo the yellow ones.",
+  "Hard fight? Sinister Strike to 2–3 points → Slice and Dice → Sinister Strike → Eviscerate at 4–5. Hit Evasion early, not at 20% health.",
+  "Crabs (Reef Crawlers) have high armor. Expose Armor (trainer, 14) helps.",
+  "BoE = Bind on Equip: tradeable until you wear it. BoP = Bind on Pickup: yours forever once looted.",
+  "Type <kbd>/tar Name</kbd> to target an NPC or mob by name.",
+  "Red text on a tooltip = you can't use it. Rogues wear leather only.",
+  "Off-hand is always a weapon. Orbs and shields replace it.",
+  "Gouge, then bandage mid-fight.",
+  "Log out in an inn for rested XP (double XP from kills).",
+  "Rares (silver dragon portrait) spawn rarely. Don't wait for them.",
+  "Train professions to the next rank before 75, or skill-ups stop.",
+  "Quest level colours: red/orange = hard, yellow = right, green = easy, grey = no XP."
+ ],
+ "photos": [
+  "Quest tracker (right side of the screen)",
+  "Character sheet (C), both stat pages",
+  "Talents (N) after spending points",
+  "Bags (B) when they get full",
+  "Any item tooltip you're unsure about"
+ ],
+ "links": [
+  [
+   "Level-by-level plan",
+   "https://github.com/chaglayan/gamingCompanions/blob/claude/wizardly-cori-qboa0f/wowCompanion/guides/leveling-plan.md"
+  ],
+  [
+   "Rogue guide",
+   "https://github.com/chaglayan/gamingCompanions/blob/claude/wizardly-cori-qboa0f/wowCompanion/guides/rogue.md"
+  ],
+  [
+   "Maxroll rogue leveling",
+   "https://maxroll.gg/wow-forever/class-guides/rogue-leveling-guide"
+  ],
+  [
+   "Bind on Forever: Darkshore route",
+   "https://bindonforever.com/zones/darkshore"
+  ]
+ ]
+}
+</script>
+
+<script>
+(function () {
+  var D = JSON.parse(document.getElementById('journal-data').textContent);
+  var KEY = 'wowjournal-checks';
+  var checks = {};
+  try { checks = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { checks = {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(checks)); } catch (e) {} }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]; }); }
+  function coord(c) { return c ? ' <span class="coord">' + esc(c) + '</span>' : ''; }
+
+  // Classic quest difficulty colour
+  function diff(q, p) {
+    var d = q - p;
+    if (d >= 5) return 'dr';
+    if (d >= 3) return 'do';
+    if (d >= -2) return 'dy';
+    var grey = p <= 5 ? 0 : p - Math.floor(p / 10) - 5;
+    return q > grey ? 'dg' : 'dx';
+  }
+
+  var C = D.char;
+  document.getElementById('where').textContent = C.zone + ' · ' + C.spot;
+  document.getElementById('name').textContent = C.name;
+  document.getElementById('who').innerHTML =
+    '<span class="lvl">Level ' + C.level + '</span>' +
+    (C.levelNote ? '<span>(' + esc(C.levelNote) + ')</span>' : '') +
+    '<span><b>' + esc(C.race) + ' ' + esc(C.cls) + '</b> · ' + esc(C.spec) + '</span>' +
+    '<span class="coins"><span class="coin g">' + C.gold[0] + '</span><span class="coin s">' + C.gold[1] + '</span><span class="coin c">' + C.gold[2] + '</span></span>' +
+    '<span>Hearth: ' + esc(C.hearth) + '</span>';
+  document.getElementById('stats').innerHTML = C.stats.map(function (s) { return '<span class="stat">' + esc(s[0]) + '<b>' + esc(s[1]) + '</b></span>'; }).join('');
+
+  var nowCount = 0, nowDone = 0;
+  D.now.forEach(function (g) { g.items.forEach(function (it) { nowCount++; if (checks[it.id]) nowDone++; }); });
+
+  var TABS = [
+    { id: 'now', label: 'Now' },
+    { id: 'quests', label: 'Quests', n: D.quests.filter(function (q) { return q.status !== 'ignore'; }).length },
+    { id: 'talents', label: 'Talents & trainer' },
+    { id: 'gear', label: 'Gear & bags' },
+    { id: 'crafts', label: 'Professions' },
+    { id: 'tips', label: 'Tips & links' }
+  ];
+
+  function renderNow() {
+    var html = '<p class="lede">Your plan for the next session, in order. Tick things off as you go (the ticks stay on this device).</p><div class="steps">';
+    D.now.forEach(function (g) {
+      html += '<div class="card step"><h3>' + esc(g.title) + '</h3>' + (g.where ? '<div class="where">' + esc(g.where) + '</div>' : '') + '<ul class="checks">';
+      g.items.forEach(function (it) {
+        var on = !!checks[it.id];
+        html += '<li class="check' + (on ? ' done' : '') + '"><input type="checkbox" id="c-' + it.id + '" data-id="' + it.id + '"' + (on ? ' checked' : '') + '>' +
+          '<label class="box" for="c-' + it.id + '" aria-hidden="true"></label>' +
+          '<label class="txt" for="c-' + it.id + '">' + it.text + coord(it.coord) + (it.note ? '<span class="note">' + esc(it.note) + '</span>' : '') + '</label></li>';
+      });
+      html += '</ul></div>';
+    });
+    return html + '</div>';
+  }
+
+  function renderQuests() {
+    var groups = [['ready', 'Ready to turn in'], ['open', 'Working on'], ['later', 'Later or with a group'], ['ignore', 'Ignore for now']];
+    var html = '<div class="legend"><span>Level colours (vs. level ' + C.level + '):</span><span class="dr">red: too hard</span><span class="do">orange: hard</span><span class="dy">yellow: right level</span><span class="dg">green: easy</span><span class="dx">grey: no XP</span></div>';
+    groups.forEach(function (g) {
+      var qs = D.quests.filter(function (q) { return q.status === g[0]; });
+      if (!qs.length) return;
+      html += '<div class="qgroup"><div class="qhead"><span class="pill ' + g[0] + '">' + g[1] + '</span><span class="muted num">' + qs.length + '</span></div>';
+      qs.forEach(function (q) {
+        html += '<div class="q ' + q.status + '"><span class="qlvl ' + diff(q.lvl, C.level) + '">' + q.lvl + '</span><span class="qname">' + esc(q.name) + coord(q.coord) + '</span><div class="qbody">' +
+          (q.obj ? '<span>' + esc(q.obj) + '</span>' : '') +
+          (q.turnIn ? '<span>Turn in: <b>' + esc(q.turnIn) + '</b></span>' : '') +
+          (q.note ? '<span>' + esc(q.note) + '</span>' : '') + '</div></div>';
+      });
+      html += '</div>';
+    });
+    return html;
+  }
+
+  function renderTalents() {
+    var spent = D.talents.filter(function (t) { return t.state === 'done'; });
+    var html = '<div class="grid2"><div class="card"><div class="eyebrow">Combat leveling build</div><h2>Talent order</h2><p class="lede">Press <kbd>N</kbd>. One point per level. Ends at 15 Assassination / 36 Combat.</p><div class="tl">';
+    D.talents.forEach(function (t) {
+      html += '<div class="trow ' + t.state + '"><span class="lv">' + esc(t.lv) + '</span><span class="tn">' + (t.star ? '<span class="star" title="Power spike">★ </span>' : '') + '<b>' + esc(t.name) + '</b> ' + esc(t.rank) + '<span class="tree">' + esc(t.tree) + '</span>' + (t.desc ? '<span class="tdesc">' + esc(t.desc) + '</span>' : '') + '</span><span class="state ' + t.state + '">' + ({ done: 'Done', next: 'Next', later: '' })[t.state] + '</span></div>';
+    });
+    html += '</div></div><div class="card"><div class="eyebrow">Rogue trainer</div><h2>New skills by level</h2><p class="lede">Darnassus (underground, Cenarion Enclave) or Stormwind (Old Town). Auberdine has no rogue trainer.</p><div class="tl">';
+    D.trainer.forEach(function (t) {
+      html += '<div class="trow ' + (t.state === 'due' ? 'next' : t.state) + '"><span class="lv">' + esc(t.lv) + '</span><span class="tn">' + (t.star ? '<span class="star">★ </span>' : '') + esc(t.what) + '</span><span class="state ' + t.state + '">' + ({ done: 'Done', next: 'Next', due: 'Due', later: '' })[t.state] + '</span></div>';
+    });
+    return html + '</div></div></div>';
+  }
+
+  function renderGear() {
+    var html = '<div class="grid2"><div class="card"><div class="eyebrow">Equipped</div><h2>Gear by slot</h2><div class="slots">';
+    D.gear.forEach(function (g) {
+      html += '<div class="slot"><span class="sn">' + esc(g[0]) + '</span><span class="it">' + (g[1] ? '<span class="' + g[2] + '">' + esc(g[1]) + '</span>' : '<span class="empty">Empty</span>') + (g[3] ? '<span class="note">' + esc(g[3]) + '</span>' : '') + '</span></div>';
+    });
+    html += '</div><p class="muted" style="margin:0;font-size:14px">Agility first, then Strength and Stamina. Empty neck, rings and trinkets are normal at this level.</p></div><div style="display:grid;gap:16px"><div class="card"><div class="eyebrow">Inventory</div><h2>Bags</h2><ul class="plain">' +
+      D.bags.map(function (b) { return '<li>' + b + '</li>'; }).join('') + '</ul></div><div class="card"><div class="eyebrow">Waiting</div><h2>In your bags for later</h2><ul class="plain">' +
+      D.waiting.map(function (b) { return '<li>' + b + '</li>'; }).join('') + '</ul></div></div></div>';
+    return html;
+  }
+
+  function renderCrafts() {
+    var html = '<div class="grid2">';
+    D.profs.forEach(function (p) {
+      var pct = Math.min(100, Math.round(p.skill / p.cap * 100));
+      html += '<div class="card prof"><div class="profline"><h3>' + esc(p.name) + '</h3><span class="num muted">~' + p.skill + ' / ' + p.cap + ' · ' + esc(p.rank) + '</span></div><div class="bar" role="img" aria-label="' + esc(p.name) + ' ' + p.skill + ' of ' + p.cap + '"><i style="width:' + pct + '%"></i></div><span class="note">' + esc(p.next) + '</span></div>';
+    });
+    return html + '</div>';
+  }
+
+  function renderTips() {
+    return '<div class="grid2"><div class="card"><div class="eyebrow">Remember</div><h2>Tips</h2><ul class="plain">' + D.tips.map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ul></div>' +
+      '<div style="display:grid;gap:16px"><div class="card"><div class="eyebrow">From your phone</div><h2>Photos to send Claude</h2><ul class="plain">' + D.photos.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul></div>' +
+      '<div class="card"><div class="eyebrow">Guides</div><h2>Links</h2><ul class="plain">' + D.links.map(function (l) { return '<li><a href="' + esc(l[1]) + '" target="_blank" rel="noopener">' + esc(l[0]) + '</a></li>'; }).join('') + '</ul></div></div></div>';
+  }
+
+  var R = { now: renderNow, quests: renderQuests, talents: renderTalents, gear: renderGear, crafts: renderCrafts, tips: renderTips };
+
+  function show(id) {
+    if (!R[id]) id = 'now';
+    document.getElementById('tabs').innerHTML = TABS.map(function (t) {
+      var n = t.id === 'now' ? (nowDone + '/' + nowCount) : t.n;
+      return '<button class="tab" role="tab" data-tab="' + t.id + '" aria-selected="' + (t.id === id) + '">' + t.label + (n != null ? '<span class="n">' + n + '</span>' : '') + '</button>';
+    }).join('');
+    var main = document.getElementById('main');
+    main.innerHTML = '<section class="panel" role="tabpanel">' + R[id]() + '</section>';
+    try { localStorage.setItem('wowjournal-tab', id); } catch (e) {}
+  }
+
+  document.getElementById('tabs').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-tab]');
+    if (!b) return;
+    if (location.hash !== '#' + b.dataset.tab) location.hash = b.dataset.tab; else show(b.dataset.tab);
+  });
+  document.getElementById('main').addEventListener('change', function (e) {
+    var cb = e.target;
+    if (!cb.dataset || !cb.dataset.id) return;
+    if (cb.checked) { checks[cb.dataset.id] = 1; nowDone++; } else { delete checks[cb.dataset.id]; nowDone--; }
+    save();
+    cb.closest('.check').classList.toggle('done', cb.checked);
+    var t = document.querySelector('[data-tab="now"] .n'); if (t) t.textContent = nowDone + '/' + nowCount;
+  });
+  window.addEventListener('hashchange', function () { show(location.hash.slice(1)); });
+
+  var start = location.hash.slice(1);
+  if (!R[start]) { try { start = localStorage.getItem('wowjournal-tab') || 'now'; } catch (e) { start = 'now'; } }
+  show(start);
+
+  document.getElementById('foot').innerHTML = '<span>Updated ' + esc(D.updated) + '. Send photos from your phone and Claude updates this page.</span><span>Coordinates match the map (bottom-left of <kbd>M</kbd>).</span>';
+})();
+</script>

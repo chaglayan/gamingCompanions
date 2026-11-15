@@ -86,6 +86,23 @@ Always pick the **Forever** file on CurseForge.
 - Cheapest skill-ups: **Light Armor Kit** (1 Light Leather each). Apply kits to your own gear.
 - Better use of leather: **Light Armor Kit** (put it on your own chest/legs/etc. for armor), then **Handstitched Leather Vest / Pants at 25** (wear them), Dark Leather Boots at 35.
 
+## Leatherworking recipes by skill (Forever, warcraft.wiki.gg)
+Trainer: 30 Cured Light Hide · 35 Embossed Leather Vest · 40 Embossed Leather Cloak, Embossed Leather Gloves · 45 Light Leather Bracers · 50 Fine Leather Cloak, Embossed Leather Boots, Embossed Leather Pants · 55 Fine Leather Belt · 60 Fine Leather Tunic · 70 Light Leather Pants · 75 Medium Leather, Cured Medium Hide, Medium Armor Kit · 85 Dark Leather Cloak · 90 Dark Leather Pants.
+Vendor: 35 Dark Leather Boots (new in Forever). Quest: 30 Light Leather Reagent Bag.
+When skill stops going up, the known recipes are grey → buy the next ones. Craft what you can wear; vendor the rest.
+
+## Rogue reagents
+- **Thieves' Tools**: must be in your bags for Pick Lock (not used up). Bought one 2026-11-15 (?) from Jasper Fel, Stormwind.
+- **Flash Powder**: used up by **Vanish** (level 22). Same vendors. Blinding Powder for Blind (34).
+- Lockpicking skill goes up by opening locked boxes/chests; higher-level boxes need more skill.
+
+## Weapon skills & lockpicking (2026-11-16)
+- **Weapon skill cap = 5 × level** (85 at 17). It rises by hitting things. Daggers 80/85 is normal; nothing to buy.
+- A newly trained weapon starts at **1** and misses a lot. Level it on easy mobs before relying on it.
+- **Ambush** needs a **dagger in the main hand**. Combat with a sword main hand doesn't use it.
+- **Lockpicking** (Forever): Redridge Rendezvous → **Alther's Mill** sends you to **practice lockboxes**: spam to ~80, then Waterlogged Footlockers in Lake Everstill to ~110, Battered Footlockers (Menethil murloc camps, Durnholde Keep) to ~150. Cap = 5 × level. (Warcraft Tavern Forever lockpicking guide.)
+- **Suzetta Gallina** (Wine Shop Advert): inside the Gallina Winery, Stormwind canals ~60.0, 76.8 (Warcraft Wiki; may differ in Forever).
+
 ## Cities
 - **Guards give directions**: talk to any city guard and ask for the bank / trainer / auction house; they put a flag on your map.
 - **Bank**: free storage, in every capital. **Auction House**: buy/sell with players.

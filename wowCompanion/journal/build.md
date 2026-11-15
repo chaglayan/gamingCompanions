@@ -14,7 +14,7 @@
 | 20–21 | Precision 2/3 | |
 | 22 | ⭐ Riposte | |
 
-Points spent: **3 / 3** (Remorseless Attacks 2/2, Efficient Strikes 1/2)
+Points spent (expected at 15): Remorseless Attacks 2/2, Efficient Strikes 2/2, Coup de Grace 2/3 (_unconfirmed_)
 
 ## Abilities known (spellbook photos, 2026-11-07, level 9)
 | Tab | Abilities |
@@ -24,7 +24,7 @@ Points spent: **3 / 3** (Remorseless Attacks 2/2, Efficient Strikes 1/2)
 | Subtlety (?) | Stealth R1. **Pick Pocket: NOT trained** (confirmed 2026-11-08) → buy at any rogue trainer |
 | Assassination (?) | Eviscerate R3 (player's message) |
 
-Trained at 10: **Dual Wield, Slice and Dice, Sprint** (Sap: _unknown_).
+Trained: 10 Dual Wield, Slice and Dice, Sprint · 12 Kick, Parry · 14 Expose Armor, Sinister Strike R3 · 16 Eviscerate R3, Pick Lock (+ Thieves' Tools). **Skipped:** Sap, Garrote, Feint (2026-11-15).
 
 ## Rotation (current, level 9)
 Sinister Strike ×3–5 → Eviscerate. Backstab only with a dagger, from behind. Evasion if 2+ enemies. Gouge → eat/bandage/reposition.

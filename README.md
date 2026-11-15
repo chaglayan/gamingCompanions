@@ -5,5 +5,5 @@ Claude-powered companions for the games I'm playing. Each game has its own folde
 | Game | Folder |
 |---|---|
 | Baldur's Gate 3 | [bg3Companion](bg3Companion/) · [party page](https://claude.ai/artifact/6Acsd7HEK7DHV7QekBz3ZA) |
-| World of Warcraft: Forever | [wowCompanion](wowCompanion/) · [rogue guide](wowCompanion/guides/rogue.md) |
+| World of Warcraft: Forever | [wowCompanion](wowCompanion/) · [journal page](https://claude.ai/artifact/Dx91uLWnS4SzAQ5nGr5YXU) · [rogue guide](wowCompanion/guides/rogue.md) |
 | Path of Exile 2 | [poe2Companion](poe2Companion/) · [1.0 league notes](poe2Companion/guides/league-1.0.md) |

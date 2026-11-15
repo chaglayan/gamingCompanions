@@ -38,6 +38,21 @@ Most WoW info online is for **retail** or **Classic Era**, and Forever changed a
 
 Mark unknowns `_unknown_` and shaky readings `(?)`. **Never invent facts** (item stats, quest names, talent names). Ask for a photo.
 
+## Starting a new session
+
+1. `git fetch --all`; the latest notes are merged into the repo's default branch. If `journal/log.md` looks stale, check other branches (`git log --all --oneline -- wowCompanion/`).
+2. Read `journal/overview.md`, then `journal/goals.md` ("Next session"), then the tail of `journal/log.md`.
+3. The journal page lives at the URL below. **Read it with the Artifact tool before publishing**, then republish with `url` set, so the link stays the same.
+4. Work on your session branch, commit + push after every update. When the player asks, open a PR into the default branch and merge it.
+
+## Journal page (artifact)
+
+The player's iPad/phone view: **https://claude.ai/artifact/Dx91uLWnS4SzAQ5nGr5YXU**
+- Source: `companion-page/wow-journal.html`. All data lives in the `<script type="application/json" id="journal-data">` block: character + stats, the **Now** checklist (ordered steps with coordinates), quests (`ready` / `open` / `later` / `ignore`), talents + trainer (`done` / `next` / `due` / `later`), gear, bags, professions, tips, links.
+- **After every photo batch or progress update:** update `journal/*.md` **and** this JSON, then republish **with `url` set to the link above** (publishing by path alone from a new session creates a new artifact). Read it first if this conversation hasn't published it.
+- Keep item IDs in the Now checklist stable when a step is unchanged (ticks are stored per ID in the viewer's browser); give new steps new IDs.
+- Check it once at iPad (820px) and phone (390px) width with Playwright before republishing.
+
 ## Processing photos
 
 The player chose not to keep photos in the repo. For each batch:
