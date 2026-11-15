@@ -123,7 +123,7 @@ ul.checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .slot { display: grid; grid-template-columns: 96px 1fr; gap: 10px; padding: 8px 12px; border-radius: 10px; background: var(--panel-2); align-items: baseline; }
 .slot .sn { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .slot .it { min-width: 0; }
-.uncommon { color: var(--q-uncommon); } .common { color: var(--q-common); } .empty { color: var(--q-poor); font-style: italic; }
+.uncommon { color: var(--q-uncommon); } .rare { color: #5aa6ff; } .common { color: var(--q-common); } .empty { color: var(--q-poor); font-style: italic; }
 
 /* Professions */
 .prof { display: grid; gap: 6px; }
@@ -151,16 +151,16 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
 
 <script type="application/json" id="journal-data">
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "char": {
   "name": "Chagielle Chag",
-  "level": 16,
+  "level": 17,
   "levelNote": "",
   "race": "Night Elf",
   "cls": "Rogue",
   "spec": "Combat (leveling)",
-  "zone": "Darkshore",
-  "spot": "Stormwind City",
+  "zone": "Stormwind City",
+  "spot": "Trade District area, around 63, 72",
   "hearth": "Auberdine (?)",
   "gold": [
    1,
@@ -170,321 +170,209 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
   "stats": [
    [
     "Health",
-    "423"
+    "440"
    ],
    [
     "Agility",
-    "54"
+    "61"
    ],
    [
     "Attack Power",
-    "94"
+    "107"
    ],
    [
     "Crit",
-    "9.3%"
+    "9.0%"
    ],
    [
     "Dodge",
-    "19.5%"
+    "19.2%"
    ],
    [
     "Parry",
-    "4.9%"
+    "4.8%"
    ],
    [
     "Armor",
-    "374"
+    "431"
    ]
   ]
  },
  "now": [
   {
-   "id": "chores",
+   "id": "c17",
    "title": "Level-up chores",
    "where": "Anywhere",
    "items": [
     {
-     "id": "t16",
-     "text": "Talent at 16: <b>Coup de Grace 3/3</b> (Combat tab, <kbd>N</kbd>)"
+     "id": "t16b",
+     "text": "Talents: 16 → <b>Coup de Grace 3/3</b>, 17 → <b>Deflection 1/3</b> (Combat tab, <kbd>N</kbd>)"
     },
     {
-     "id": "fightprep",
-     "text": "Before tough fights: full health, eat <b>Well Fed</b> food, bandages + potions on your bar"
+     "id": "swordskill",
+     "text": "<b>Swords skill is 1/85.</b> A new weapon misses a lot until the skill climbs. Raise it on easy (green) mobs; keep daggers (80/85) for hard fights."
+    },
+    {
+     "id": "lockskill",
+     "text": "Lockpicking 1/85: use Pick Lock on every lockbox you loot to raise it"
     }
    ]
   },
   {
-   "id": "sw",
-   "title": "Stormwind trip: do this next",
-   "where": "Boat from the Auberdine dock. Fixes your missing training and unlocks swords.",
+   "id": "swleft",
+   "title": "Stormwind leftovers",
+   "where": "You're here",
    "items": [
     {
-     "id": "horizons",
-     "text": "Turn in <b>Expanding Horizons</b>"
+     "id": "wine",
+     "text": "<b>Wine Shop Advert</b>: give the Wine Ticket to <b>Suzetta Gallina</b> at the <b>Gallina Winery</b>, by the canals next to the Trade District. Type <kbd>/tar Suzetta</kbd> when close.",
+     "note": "Tiny reward (a free bottle of wine). Skip it if it's a hassle."
     },
     {
-     "id": "swords",
-     "text": "Learn <b>Swords</b> from Woo Ping, the weapon master (ask a guard for “weapon master”)"
+     "id": "lwrec",
+     "text": "Buy Leatherworking recipes from <b>Simon Tanner</b> (Old Town): Embossed Leather Boots, Embossed Leather Pants, Fine Leather Cloak"
     },
     {
-     "id": "equipsword",
-     "text": "Equip <b>Brushwood Blade</b> (slow sword) in the main hand if its DPS beats your dagger; the new sword skill may miss more at first (?)"
+     "id": "bag2",
+     "text": "Auction House: Red Linen Bag (8 slots, ~4–5s)"
     },
     {
-     "id": "rogue",
-     "text": "✓ Rogue trainer done: Sinister Strike 3, Eviscerate 3, Expose Armor, Pick Lock + Thieves' Tools",
-     "coord": "80.3, 68.7"
-    },
-    {
-     "id": "lw",
-     "text": "✓ Journeyman Leatherworking. Buy the skill-50 recipes from Simon Tanner: Embossed Leather Boots, Embossed Leather Pants, Fine Leather Cloak"
-    },
-    {
-     "id": "bags",
-     "text": "Auction House: Red Linen Bag (8 slots, ~4–5s) or Red Woolen Bag (10 slots, ~20s)"
-    },
-    {
-     "id": "bank",
-     "text": "Bank spare leather"
+     "id": "sap2",
+     "text": "Optional: Sap (3s) at Osborne the Night Man"
     }
    ]
   },
   {
-   "id": "south",
-   "title": "South Darkshore (you're here)",
-   "where": "Around Grove of the Ancients",
+   "id": "redridge",
+   "title": "Rogue class quest: Redridge",
+   "where": "Walk east through Elwynn Forest to Lakeshire (Redridge Mountains)",
    "items": [
     {
-     "id": "onu",
-     "text": "Turn in <b>Grove of the Ancients</b> to Onu",
-     "coord": "43.5, 76.3"
+     "id": "lucius",
+     "text": "<b>Redridge Rendezvous</b>: talk to <b>Lucius</b> on the docks of Lakeshire"
     },
     {
-     "id": "bb525",
-     "text": "<b>Buzzbox 525</b>: 4 Grizzled Scalps from Grizzled Thistle Bears",
-     "coord": "38.6, 80.5",
-     "note": "Ravage = hard hit + short stun. Hand in at the box 41.4, 80.6 for the free 8-slot bag."
+     "id": "althers",
+     "text": "Next: <b>Alther's Mill</b>, a lockpicking quest (open Lucius's lockbox for a Token of Thievery)",
+     "note": "Raise Lockpicking on lockboxes first if the box says your skill is too low."
     },
     {
-     "id": "remt",
-     "text": "Turn in <b>The Absent Minded Prospector</b> to Prospector Remtravel",
-     "coord": "35.7, 83.7",
-     "note": "His next quest is a level 20 escort, very hard solo. Skip it for now."
+     "id": "lakeshirehearth",
+     "text": "Redridge is a good level 15–25 zone: set your hearthstone at the Lakeshire inn if you quest there"
     }
    ]
   },
   {
-   "id": "auber",
-   "title": "Back in Auberdine",
-   "where": "Turn-ins + prep",
+   "id": "vc",
+   "title": "First dungeon: The Deadmines",
+   "where": "Westfall, level 18–23. Use the Group Finder.",
    "items": [
     {
-     "id": "turtle",
-     "text": "Beached Sea Turtle → Gwennyth (flight platform)",
-     "coord": "36.6, 45.6"
+     "id": "dm1",
+     "text": "You already have 3 Deadmines quests: Collecting Memories, Oh Brother..., Underground Assault"
     },
     {
-     "id": "threat",
-     "text": "How Big a Threat? → Terenthis",
-     "coord": "39.4, 43.5"
+     "id": "dm2",
+     "text": "Queue at 18+ (Group Finder). As a rogue: attack from behind, let the tank pull, Kick casters, don't pull extra mobs"
     },
     {
-     "id": "crystal",
-     "text": "The Red Crystal → Sentinel Glynda",
-     "coord": "37.7, 43.4"
-    },
-    {
-     "id": "crabs",
-     "text": "Fruit of the Sea: 5 more Fine Crab Chunks from Reef Crawlers on the coast → Gubber Blump",
-     "coord": "36.1, 44.9"
-    },
-    {
-     "id": "bowl",
-     "text": "Fill the <b>Empty Cleansing Bowl</b> at Auberdine's moonwell (for The Blackwood Corrupted)",
-     "coord": "37.8, 44.0"
-    },
-    {
-     "id": "cook",
-     "text": "Cook your meat at a fire, sell leftovers, pearls and junk"
+     "id": "dm3",
+     "text": "Rogue loot to look for: <b>Cruel Barb</b>, Thief's Blade, Miner's Cape, Blackened Defias Belt"
     }
    ]
   },
   {
-   "id": "ne",
-   "title": "North-east (level 17–19)",
-   "where": "Tower of Althalaxx, Blackwood camp, Cliffspring",
+   "id": "later2",
+   "title": "Later or optional",
+   "where": "",
    "items": [
     {
-     "id": "althalaxx",
-     "text": "Tower of Althalaxx: 4 Worn Parchment from Dark Strand Fanatics",
-     "coord": "55.8, 26.7",
-     "note": "Turn in to Balthule Shadowstrike 55.0, 24.9."
+     "id": "loch",
+     "text": "Loch Modan quests: Find Bingles, Stormpike's Delivery (via Ironforge and the Deeprun Tram)"
     },
     {
-     "id": "blackwood",
-     "text": "The Blackwood Corrupted: loot the Grain, Nut and Fruit stores, then use the bowl at the north bonfire",
-     "coord": "52.4, 33.4",
-     "note": "Xabraxxis (level 19) appears. Be at full health."
+     "id": "dsleft",
+     "text": "Darkshore leftovers (boat back from Stormwind): Buzzbox 525 bag, Blackwood Corrupted, Tower of Althalaxx, Return to Nessa. Fine to drop the ones you no longer want."
     },
     {
-     "id": "mush",
-     "text": "Cave Mushrooms: naga cave by Cliffspring Falls, keep to the upper path",
-     "coord": "55.7, 34.9"
-    },
-    {
-     "id": "wrecks",
-     "text": "Deep Ocean, Vast Sea: lockboxes on the lowest deck of two wrecks. Watch the breath bar!",
-     "coord": "38.2, 28.8"
-    }
-   ]
-  },
-  {
-   "id": "after",
-   "title": "After that",
-   "where": "Level 18–20",
-   "items": [
-    {
-     "id": "nessa",
-     "text": "Return to Nessa → Rut'theran Village (next time you fly there)"
-    },
-    {
-     "id": "dungeon",
-     "text": "Try a first dungeon with the Group Finder: Wailing Caverns (15–25) or The Deadmines (18–23)"
-    },
-    {
-     "id": "ashen",
-     "text": "Move on to Ashenvale around 18–20 (Astranaar has a Journeyman Leatherworking trainer)"
+     "id": "humble",
+     "text": "Humble Beginnings (A Simple Compass): send Claude the quest text, I couldn't find it"
     }
    ]
   }
  ],
  "quests": [
   {
-   "lvl": 10,
-   "name": "Return to Nessa",
+   "lvl": 2,
+   "name": "Wine Shop Advert",
    "status": "ready",
-   "turnIn": "Nessa Shadowsong, Rut'theran Village"
-  },
-  {
-   "lvl": 13,
-   "name": "Beached Sea Turtle",
-   "status": "ready",
-   "turnIn": "Gwennyth Bly'Leggonde, Auberdine",
-   "coord": "36.6, 45.6"
-  },
-  {
-   "lvl": 14,
-   "name": "How Big a Threat?",
-   "status": "ready",
-   "turnIn": "Terenthis, Auberdine",
-   "coord": "39.4, 43.5"
-  },
-  {
-   "lvl": 14,
-   "name": "The Red Crystal",
-   "status": "ready",
-   "turnIn": "Sentinel Glynda Nal'Shea, Auberdine",
-   "coord": "37.7, 43.4"
-  },
-  {
-   "lvl": 17,
-   "name": "Grove of the Ancients",
-   "status": "ready",
-   "turnIn": "Onu, Grove of the Ancients",
-   "coord": "43.5, 76.3"
-  },
-  {
-   "lvl": 20,
-   "name": "The Absent Minded Prospector",
-   "status": "ready",
-   "turnIn": "Prospector Remtravel, south Darkshore",
-   "coord": "35.7, 83.7"
-  },
-  {
-   "lvl": 17,
-   "name": "Expanding Horizons",
-   "status": "ready",
-   "turnIn": "Stormwind City"
+   "turnIn": "Suzetta Gallina, Gallina Winery (Stormwind canals by the Trade District)"
   },
   {
    "lvl": 16,
-   "name": "Buzzbox 525",
-   "status": "open",
-   "obj": "0/4 Grizzled Scalp (Grizzled Thistle Bears)",
-   "coord": "38.6, 80.5",
-   "turnIn": "Buzzbox 525 at 41.4, 80.6 → 8-slot bag"
+   "name": "Redridge Rendezvous",
+   "status": "ready",
+   "turnIn": "Lucius, Lakeshire docks (Redridge)",
+   "note": "Rogue class quest. Next: Alther's Mill (lockpicking)."
   },
   {
-   "lvl": 17,
-   "name": "Fruit of the Sea",
-   "status": "open",
-   "obj": "1/6 Fine Crab Chunks (Reef Crawlers)",
-   "turnIn": "Gubber Blump, Auberdine",
-   "coord": "36.1, 44.9"
+   "lvl": 15,
+   "name": "Find Bingles",
+   "status": "ready",
+   "turnIn": "Bingles Blastenheimer, Loch Modan"
   },
   {
-   "lvl": 17,
-   "name": "Cave Mushrooms",
-   "status": "open",
-   "obj": "0/5 Scaber Stalk, 0/1 Death Cap",
-   "coord": "55.7, 34.9",
-   "turnIn": "Barithras Moonshade, Auberdine"
+   "lvl": 15,
+   "name": "Stormpike's Delivery",
+   "status": "ready",
+   "turnIn": "Mountaineer Stormpike, Loch Modan"
   },
   {
-   "lvl": 17,
-   "name": "Deep Ocean, Vast Sea",
+   "lvl": 12,
+   "name": "Fishin' Time",
    "status": "open",
-   "obj": "2 lockboxes in the wrecks",
-   "coord": "38.2, 28.8",
-   "turnIn": "Gorbold Steelhand, Auberdine"
+   "obj": "1/1 Shiny Bauble, 0/3 Nightcrawlers"
+  },
+  {
+   "lvl": 15,
+   "name": "Humble Beginnings",
+   "status": "open",
+   "obj": "0/1 A Simple Compass",
+   "note": "Unknown to Claude: send the quest text."
   },
   {
    "lvl": 18,
-   "name": "The Tower of Althalaxx",
+   "name": "Collecting Memories",
    "status": "open",
-   "obj": "0/4 Worn Parchment (Dark Strand Fanatics)",
-   "coord": "55.8, 26.7",
-   "turnIn": "Balthule Shadowstrike, 55.0, 24.9"
-  },
-  {
-   "lvl": 18,
-   "name": "The Blackwood Corrupted",
-   "status": "open",
-   "obj": "Talisman of Corruption (Xabraxxis, lvl 19)",
-   "coord": "52.4, 33.4",
-   "turnIn": "Thundris Windweaver, Auberdine"
-  },
-  {
-   "lvl": 18,
-   "name": "Tharnariun's Hope",
-   "status": "later",
-   "obj": "Den Mother (18–19)",
-   "coord": "51.5, 38.3",
-   "note": "Wait for 19 or bring a partner."
-  },
-  {
-   "lvl": 18,
-   "name": "WANTED: Murkdeep!",
-   "status": "later",
-   "obj": "Murkdeep (19) after murloc waves",
-   "coord": "36.6, 76.5",
-   "note": "Stand by the bonfire to start. Bring a partner if you can."
+   "obj": "0/4 Miners' Union Card",
+   "note": "The Deadmines (dungeon)."
   },
   {
    "lvl": 20,
-   "name": "Gyromast's Retrieval",
+   "name": "Oh Brother...",
+   "status": "open",
+   "obj": "Thistlenettle's Badge",
+   "note": "The Deadmines (dungeon)."
+  },
+  {
+   "lvl": 20,
+   "name": "Underground Assault",
+   "status": "open",
+   "obj": "Gnoam Sprecklesprocket",
+   "note": "The Deadmines (dungeon)."
+  },
+  {
+   "lvl": 17,
+   "name": "Darkshore quests (collapsed in tracker)",
    "status": "later",
-   "obj": "Top: Giant Foreststrider · Middle: Greymist Oracle/Tidehunter · Bottom: Encrusted Tide / Raging Reef Crawler",
-   "coord": "56.7, 13.5",
-   "note": "Guide says bring 2 more players below 20. The follow-up is a level 20 elite."
+   "obj": "Buzzbox 525, Fruit of the Sea, Cave Mushrooms, Deep Ocean, Tower of Althalaxx, Blackwood Corrupted, Murkdeep, Den Mother, Gyromast",
+   "note": "Status since 15 Nov unknown: expand 'Darkshore +' in the tracker and send a photo."
   },
   {
    "lvl": 19,
    "name": "Fight for Warsong Gulch",
    "status": "ignore",
-   "obj": "PvP battleground quest",
-   "note": "Ignore unless you want to try PvP."
+   "obj": "PvP battleground quest"
   }
  ],
  "talents": [
@@ -517,14 +405,14 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
    "name": "Coup de Grace",
    "rank": "3/3",
    "tree": "Combat",
-   "state": "next"
+   "state": "done"
   },
   {
    "lv": "17–19",
    "name": "Deflection",
    "rank": "3/3",
    "tree": "Combat",
-   "state": "later",
+   "state": "next",
    "desc": "+6% parry."
   },
   {
@@ -754,21 +642,21 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
  "gear": [
   [
    "Main hand",
-   "Green dagger (Blade of Cunning?)",
+   "New main hand (sword?)",
    "uncommon",
-   "Sheet: 22–32"
+   "Sheet: 31–44. If it's a sword, Swords skill is only 1/85."
   ],
   [
    "Off hand",
-   "Dagger",
-   "common",
-   "Sheet: 8–12"
+   "Curved dagger",
+   "uncommon",
+   "Sheet: 12–17"
   ],
   [
    "Ranged",
    "Thrown weapon",
    "common",
-   "Sheet: 18–26"
+   "Sheet: 20–28"
   ],
   [
    "Head",
@@ -784,8 +672,8 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
   ],
   [
    "Shoulders",
-   "",
-   "",
+   "Green shoulders",
+   "uncommon",
    ""
   ],
   [
@@ -826,8 +714,8 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
   ],
   [
    "Feet",
-   "Leather boots",
-   "common",
+   "Blue (rare) boots",
+   "rare",
    ""
   ],
   [
@@ -850,7 +738,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
   "Leatherworking 30: Light Leather Reagent Bag (6 slots) pattern from Saenorion, Darnassus"
  ],
  "waiting": [
-  "Swords in bags (Brushwood Blade, Notched Shortsword?) wait for Swords training in Stormwind"
+  "Old swords / daggers: keep only what you'll use"
  ],
  "profs": [
   {
@@ -887,6 +775,20 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line)
    "cap": 75,
    "rank": "Apprentice",
    "next": "Optional. Auberdine dock is fine."
+  },
+  {
+   "name": "Lockpicking",
+   "skill": 1,
+   "cap": 85,
+   "rank": "Rogue skill",
+   "next": "Use Pick Lock on every lockbox. Needed for Alther's Mill."
+  },
+  {
+   "name": "Swords",
+   "skill": 1,
+   "cap": 85,
+   "rank": "Weapon skill",
+   "next": "Trained! Rises as you hit with a sword. Daggers 80/85, Thrown 79/85."
   }
  ],
  "tips": [

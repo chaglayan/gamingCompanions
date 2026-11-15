@@ -8,20 +8,21 @@
 | Name | **Chagielle Chag** (as shown on the character sheet) |
 | Race / class | Night Elf Rogue |
 | Faction | Alliance |
-| Level | **16** (2026-11-15) |
+| Level | **17** (2026-11-16) |
 | Spec | **Remorseless Attacks 2/2** spent. Plan: **Combat** → [`../guides/leveling-plan.md`](../guides/leveling-plan.md) |
 | Mode | Normal (not Hardcore) (?) |
 | Realm | _unknown_ |
-| Zone | **Darkshore**, Auberdine (37.0, 41.2) |
+| Zone | **Stormwind City** (end of weekend 2026-11-16) |
 | Hearthstone set to | _unknown_ (probably Dolanaar) |
 | Gold | **1g 41s 58c** (2026-11-14) |
-| Professions (2026-11-15) | **Skinning 117/150** (Journeyman) · **Leatherworking 50/150** (Journeyman, 2026-11-15) · **First Aid 62/150** (Journeyman) · **Cooking 7/75** · **Fishing 17/75** |
+| Professions (2026-11-16) | **Leatherworking 50/150** (Journeyman) · **Skinning 117/150** · **First Aid 62/150** · Cooking 7/75 · Fishing 17/75 |
 | Guild | _unknown_ |
 | Addons | **Questie installed** (2026-11-08, via CurseForge). Recommended next: Leatrix Plus, Leatrix Maps, Auctionator |
 
-## Stats (level 15, 2026-11-14, some buffs: green numbers)
-Health 423 · Energy 100 · Str 30 · **Agi 54** · Sta 43 · Int 23 · Spi 25 · Main hand 22–32 · Off hand 8–12 · Ranged 18–26 · AP 94 · RAP 103 · Crit 9.3% · Dodge 19.5% · Parry 4.9% · Defense 73/75 · Armor 374
-Gear: green cloak, green chest, green wrists, green gloves, green legs, boots, crafted belt (31 armor, +1 stat (?)); new thrown weapon (?).
+## Stats (level 17, 2026-11-16, some buffs: green numbers)
+Health 440 · Energy 100 · Str 32 · **Agi 61** · Sta 43 · Int 23 · Spi 28 · Main hand 31–44 · Off hand 12–17 · Ranged 20–28 · AP 107 · RAP 119 · Crit 9.0% · Dodge 19.2% · Parry 4.8% · Defense 79/85 · Armor 431
+Gear changes: new main hand (sword? (?)), green shoulders, **blue (rare) boots**.
+Weapon skills: Daggers 80/85 · **Swords 1/85** (trained) · Thrown 79/85 · Unarmed 45/85 · Lockpicking 1/85.
 
 
 ## Player preferences

@@ -39,3 +39,4 @@
 | 2026-11-15 | Found Osborne the Night Man (Stormwind rogue trainer), 1g 99s 94c, level 16. Available: Sap (missed at 10), Expose Armor, Garrote, Sinister Strike R3, Eviscerate R3, Feint, Pick Lock (~81s total). Advised buying all. |
 | 2026-11-15 | Pick Lock needs Thieves' Tools in bags (reusable): buy one from Jasper Fel (Stormwind). Flash Powder (same vendor) needed for Vanish at 22. |
 | 2026-11-15 | Trained SS R3, Eviscerate R3, Expose Armor, Pick Lock; skipped Sap, Garrote, Feint. Leatherworking 50/150 (Journeyman). Level 16. Journal page updated. |
+| 2026-11-16 | End of weekend: **level 17** in Stormwind. Photos: sheet (440 HP, Agi 61, new MH 31–44, blue boots, shoulders), skills (Swords 1/85 trained, Lockpicking 1/85, Daggers 80/85), quests 24/40 (Redridge Rendezvous rogue quest, 3 Deadmines quests, Loch Modan deliveries, Wine Shop Advert). Journal page rebuilt for the EK route (Redridge → Deadmines). |
