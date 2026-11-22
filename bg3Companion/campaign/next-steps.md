@@ -49,7 +49,7 @@ Order doesn't matter much. The point is to **do both routes before following eit
 ## Underdark, next (2026-11-01)
 - [ ] **Sussur bark**: you have the Sussur Tree waypoint. Grab the bark for the masterwork weapon.
 - [x] Arcane Tower mushrooms found.
-- [ ] Arcane Tower basement (optional): hint is on the top floor; or Misty Step from the stairs. Return via the Beach waypoint.
+- [ ] Arcane Tower basement (optional): Bernard friendly, ring didn't show up (bug?). Try Misty Step from the 1st-floor stairs; otherwise skip.
 - [ ] Return to **Omeluum** with the mushrooms.
 
 ## Selûnite Outpost (Underdark), earlier

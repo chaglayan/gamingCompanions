@@ -34,3 +34,4 @@
 | 2026-11-22 | Player at Bernard in the Arcane Tower, asked how to reach the basement stairs. Explained ring + elevator route (and Misty Step backup). |
 | 2026-11-22 | Player asked for Bernard's riddle answer (one-off spoiler, given). |
 | 2026-11-22 | Correction: my riddle answer only made Bernard friendly, no ring. Gave the ring answer and the Misty Step fallback. |
+| 2026-11-22 | Bernard's ring seems bugged (scene played, no ring). Advised: Misty Step from the 1st-floor stairs first, else skip the basement (optional); don't fight him. |
