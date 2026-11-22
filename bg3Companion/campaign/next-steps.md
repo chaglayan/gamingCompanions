@@ -47,10 +47,10 @@ Order doesn't matter much. The point is to **do both routes before following eit
 - [ ] ⚠️ **The path to the ancient temple beyond Grymforge leads out of Act 1. Don't go yet.** Explore Grymforge itself freely, but when the game shows the leave-the-region popup, stop. Mountain Pass and the githyanki lead are still undone.
 
 ## Underdark, next (2026-11-01)
-- [ ] **Sussur bark**: you have the Sussur Tree waypoint. Grab the bark for the masterwork weapon.
+- [x] **Sussur bark** collected. Next: forge the masterwork weapon (journal "Show on Map" points to the forge).
 - [x] Arcane Tower mushrooms found.
 - [x] Arcane Tower basement: reached with Changuine via Misty Step scroll (2026-11-22). Loot: Staff of Arcane Blessing, The Sparkswall (gilded chest), scrolls, books. Send a photo of the haul.
-- [ ] Return to **Omeluum** with the mushrooms.
+- [x] Omeluum: potion drunk, Ring of Mind-Shielding received (2026-11-22).
 
 ## Selûnite Outpost (Underdark), earlier
 - [ ] **Loot Dhourn's body** and check what he carried. Use it (Gale has the best Arcana).
@@ -67,7 +67,7 @@ Order doesn't matter much. The point is to **do both routes before following eit
 Tick these off before leaving Act 1:
 - [ ] Githyanki patrol → Mountain Pass (Lae'zel)
 - [ ] Explore the Underdark
-- [ ] Sussur bark → finish the **masterwork weapon**
+- [ ] Sussur bark ✅ → forge the **masterwork weapon**
 - [ ] Find **Benryn's dowry** (around Waukeen's Rest)
 - [ ] Grab any **infernal iron** you see (for Karlach)
 - [ ] **Talk to Halsin** and everyone at camp. Long rest regularly.

@@ -1,6 +1,6 @@
 # Quests
 
-_From the journal photos, 2026-10-31. "Journal says" quotes or paraphrases the journal. "Nudge" is my tip (spoiler level: nudge)._
+_From the journal photos, 2026-10-31; updated from journal photos 2026-11-22. "Journal says" quotes or paraphrases the journal. "Nudge" is my tip (spoiler level: nudge)._
 _Some quests in your journal continue beyond this act. If one can't be finished here, that's normal; don't worry about it._
 
 ---
@@ -10,7 +10,8 @@ _Some quests in your journal continue beyond this act. If one can't be finished 
 ### Travel to Moonrise Towers
 Two routes are open:
 - **Travel through the Underdark** ← *tracked*. Halsin told you there's a way through the Underdark, via tunnels beneath the old temple of Selûne. You found and unlocked the secret entrance. Waypoint: **Underdark – Myconid Colony**.
-  - Journal says: *"The Underdark is a twisted labyrinth of tunnels and ruins. To find the path to Moonrise Towers, we'll need to explore."*
+  - **New objective (2026-11-22): *Reach Moonrise Towers through Grymforge.*** Journal: *"We learned that the Absolute sent agents to Grymforge. There must be a route connecting Grymforge and Moonrise Towers."*
+  - ⚠️ That route leads out of Act 1. Don't follow it until the Mountain Pass and the rest of the wrap-up list are done.
 - **Travel through the Mountain Pass**: not visited yet.
 - **Nudge:** both routes are Act 1 content. Explore **both** before following either one to its end.
 
@@ -21,16 +22,16 @@ Two routes are open:
 | Get Help from Auntie Ethel | ✅ |
 | Rescue the Druid Halsin | ✅ |
 | **Find the Githyanki Crèche** | Open |
-| **Help Omeluum Investigate the Parasite** | Open (new) |
+| Help Omeluum Investigate the Parasite | ✅ (2026-11-22) |
 
-**Help Omeluum Investigate the Parasite** _(journal, 2026-11-01)_
+**Help Omeluum Investigate the Parasite** ✅ _(journal, 2026-11-01 → completed 2026-11-22)_
 - You mentioned the parasite to **Blurg**, a hobgoblin. His colleague **Omeluum**, a mind flayer, offered to examine it.
 - Omeluum **couldn't extract** the tadpole, but offered a way to **negate the magic protecting it**.
 - He needs a **Tongue of Madness** mushroom and some **Timmask Spores**. Both can be found in the **mysterious tower nearby** (the Arcane Tower on your map).
 - The tower belongs to **Lenore, a cleric of Mystra**, who liked gardening and experimenting with plants like the sussur tree.
 - In the Arcane Tower (2026-11-04): all 4 Sussur Blooms used. ✅ **Found both mushrooms.** Next: bring them to Omeluum (Myconid Colony waypoint).
 - Tower basement: saw a stair behind a wall on the bottom level and couldn't reach it yet. 2026-11-22: player is at Bernard (top floor). Way in: answer Bernard's riddle (clue in a 3rd-floor book) → he gives a ring → wear it → the elevator gets a Basement button. Correction: "Or art thou friend…" only makes Bernard friendly (XP, no ring; player picked it). The ring answer is "How can I trust? How will I ever know? How can I show myself, my darkest me?" (clue: Threadbare Book, greenhouse bookshelf, 1st floor) → ring on a nearby table → elevator Basement button (top-floor panel). Backup: Misty Step from the 1st-floor stairs. The nearest waypoint for coming back is **Underdark – Beach**.
-- **Nudge:** the Arcane Tower is your next stop. Bring **Gale**, since the tower belongs to a follower of Mystra.
+- Basement reached 2026-11-22 (Misty Step scroll). Mushrooms → **alchemical extract** → Omeluum's potion. Journal: *"The potion Omeluum gave us only made the parasite stronger, unlocking a strange, new power. To calm it down, Omeluum is willing to trade us a Ring of Mind-Shielding."* ✅ Ring acquired.
 
 **Find the Githyanki Crèche**
 - Lae'zel says githyanki can cure you at one of their crèches.
@@ -73,7 +74,8 @@ Two routes are open:
 - A recovered memory: as a lost child chased by a **wolf** through a dark forest, she was rescued by Shar worshippers led by the Mother Superior. That explains her **fear of wolves**.
 - **You promised to help ease her pain** if you can. She really appreciated it.
 
-↳ **The Chosen of Shar**: *Explore Grymforge.* You found Dark Justiciar corpses, traces of hellish fiends, and the ruins of a fortress dedicated to Shar. You may be close to the lair.
+↳ **The Chosen of Shar**: *Reach the ancient temple.* (2026-11-22) Journal: *"We learned that Grymforge leads to an ancient temple. Perhaps the truth of what happened to the Dark Justiciars can be discovered there."* and *"The bridge to the ancient temple has been destroyed - there must be another way in."* ⚠️ The ancient temple is the route out of Act 1.
+- Earlier: you found Dark Justiciar corpses, traces of hellish fiends, and the ruins of a fortress dedicated to Shar. You may be close to the lair.
 - You found murals in the grove showing the **Dark Justiciars**, an elite order of Sharran warriors.
 - The temple of Selûne you found had been razed by them.
 - Journal says: *"Such a force must have had a stronghold to operate from. Perhaps it can still be found."*
@@ -127,10 +129,10 @@ Two routes are open:
 
 ### Nautiloid Crash Region (this act)
 
-**Finish the Masterwork Weapon**: *Find a Sussur Tree.* ✅ **You've found it** (Underdark – Sussur Tree waypoint). Grab the bark, then take it to a forge with the blueprints.
+**Finish the Masterwork Weapon**: *Forge a weapon.* ✅ **Sussur bark collected.** Journal: *"We've got the Sussur Bark - now we need to head back to the forge."*
 - You found blueprints for masterwork weapons. All you need is **sussur bark**.
 - Journal says: *"Sussur Trees can be found deep within the Underdark."*
-- **Nudge:** you're already headed there. Keep an eye out.
+- **Nudge:** go back to the forge where you found the blueprints and forge it.
 
 **Search the Cellar** (the book *The Necromancy of Thay*)
 - ↳ **Unlock the Ancient Tome**:
@@ -197,6 +199,3 @@ Two routes are open:
 - Get Help from Healer Nettie · Get Help from Auntie Ethel · Rescue the Druid Halsin (Find a Cure steps)
 - In Case of Death… (Gale)
 
-
-### Help Omeluum Investigate the Parasite ✅ (2026-11-22)
-- Brought the mushrooms, drank Omeluum's potion (failed the 2nd WIS check: only a short WIS/INT debuff). The potion made the parasite stronger and unlocked a new power. Got **Omeluum's Ring of Mind-Shielding** in trade.
