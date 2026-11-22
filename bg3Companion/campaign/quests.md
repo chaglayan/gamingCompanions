@@ -29,7 +29,7 @@ Two routes are open:
 - He needs a **Tongue of Madness** mushroom and some **Timmask Spores**. Both can be found in the **mysterious tower nearby** (the Arcane Tower on your map).
 - The tower belongs to **Lenore, a cleric of Mystra**, who liked gardening and experimenting with plants like the sussur tree.
 - In the Arcane Tower (2026-11-04): all 4 Sussur Blooms used. ✅ **Found both mushrooms.** Next: bring them to Omeluum (Myconid Colony waypoint).
-- Tower basement: saw a stair behind a wall on the bottom level and couldn't reach it yet. 2026-11-22: player is at Bernard (top floor). Way in: answer Bernard's riddle (clue in a 3rd-floor book) → he gives a ring → wear it → the elevator gets a Basement button. Backup: Misty Step from the 1st-floor stairs. The nearest waypoint for coming back is **Underdark – Beach**.
+- Tower basement: saw a stair behind a wall on the bottom level and couldn't reach it yet. 2026-11-22: player is at Bernard (top floor). Way in: answer Bernard's riddle (clue in a 3rd-floor book) → he gives a ring → wear it → the elevator gets a Basement button. Riddle answer given on request: "Or art thou friend, a rescue from my lonely wake?" Backup: Misty Step from the 1st-floor stairs. The nearest waypoint for coming back is **Underdark – Beach**.
 - **Nudge:** the Arcane Tower is your next stop. Bring **Gale**, since the tower belongs to a follower of Mystra.
 
 **Find the Githyanki Crèche**
