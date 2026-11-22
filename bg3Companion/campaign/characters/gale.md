@@ -61,7 +61,7 @@ _Synced from the party page._
 | Neck | Amulet of Restoration | Rare | Healing Word and Mass Healing Word, once each per long rest (?) |
 | Ring | 'Magic' Ring | Story | Orange = story item. No combat effect I can find. Keep it in his bag; you can free the slot. |
 | Ring | Fetish of Callarduran Smoothhands | Rare | Invisibility spell. Consider moving it to Changuine (invisible = advantage + Sneak Attack). |
-| Main hand | Staff of Arcane Blessing | Rare | Quarterstaff. Gives Bless (concentration). While Blessed: +2d4 to spell attacks (?). From the Arcane Tower basement (2026-11-22). |
+| Main hand | Melf's First Staff | Uncommon | Quarterstaff +1. +1 spell save DC and spell attack (passive). Melf's Acid Arrow. Bought from Blurg 2026-11-22. Arcane Blessing staff kept in bag. |
 | Off hand | Absolute's Warrant | Uncommon | Shield +2 AC. Gives the Heroism spell. Absolute's Ward: +1 to saves when the Absolute's sound is heard (?) |
 | Ranged | Longbow +1 | Uncommon | Not proficient |
 

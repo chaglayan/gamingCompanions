@@ -39,3 +39,4 @@
 | 2026-11-22 | Sparkswall is a ring (lightning-triggered), player calls it useless. Recommended Staff of Arcane Blessing over Staff of Crones for Gale (pending equip). |
 | 2026-11-22 | Gale equipped Staff of Arcane Blessing (Staff of Crones + Sparkswall to bag). Party page updated. Player on the tower's top floor, asked what's next. |
 | 2026-11-22 | Gear video: Karlach (Jorgoral's Greatsword, Adamantine Scale Mail, Cap of Wrath, AC 18), Changuine (Sword of Screams, Haste Helm, Night Walkers), Gale (Spectator Eye, Glowing Shield, Mage's Friend), Astarion (Robe + Bracers, Boots of Speed, Amulet of Restoration). Sell advice given. Shadowheart now needs armour/shield; Wyll lost robe and bracers. Page updated. Character md files not yet re-synced in full. |
+| 2026-11-22 | Bought Melf's First Staff for Gale (passive +1 DC/spell attack). Explained swap trick. Considering Circlet of Blasting (630) and Boots of Genial Striding (399). |
