@@ -41,3 +41,4 @@
 | 2026-11-22 | Gear video: Karlach (Jorgoral's Greatsword, Adamantine Scale Mail, Cap of Wrath, AC 18), Changuine (Sword of Screams, Haste Helm, Night Walkers), Gale (Spectator Eye, Glowing Shield, Mage's Friend), Astarion (Robe + Bracers, Boots of Speed, Amulet of Restoration). Sell advice given. Shadowheart now needs armour/shield; Wyll lost robe and bracers. Page updated. Character md files not yet re-synced in full. |
 | 2026-11-22 | Bought Melf's First Staff for Gale (passive +1 DC/spell attack). Explained swap trick. Considering Circlet of Blasting (630) and Boots of Genial Striding (399). |
 | 2026-11-22 | Skipped Circlet and Genial Striding (too pricey). Withered Blue Petal: fine to sell. |
+| 2026-11-22 | Omeluum done: potion drunk (failed 2nd WIS check, no lasting effect), new tadpole power, got Ring of Mind-Shielding. Advised no reload. |

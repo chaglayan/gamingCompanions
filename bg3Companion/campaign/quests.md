@@ -196,3 +196,7 @@ Two routes are open:
 - Rescue the Illithids' Captive
 - Get Help from Healer Nettie · Get Help from Auntie Ethel · Rescue the Druid Halsin (Find a Cure steps)
 - In Case of Death… (Gale)
+
+
+### Help Omeluum Investigate the Parasite ✅ (2026-11-22)
+- Brought the mushrooms, drank Omeluum's potion (failed the 2nd WIS check: only a short WIS/INT debuff). The potion made the parasite stronger and unlocked a new power. Got **Omeluum's Ring of Mind-Shielding** in trade.
