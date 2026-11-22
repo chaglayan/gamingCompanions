@@ -67,7 +67,7 @@ Order doesn't matter much. The point is to **do both routes before following eit
 Tick these off before leaving Act 1:
 - [ ] Githyanki patrol → Mountain Pass (Lae'zel)
 - [ ] Explore the Underdark
-- [ ] Sussur bark ✅ → forge the **masterwork weapon**
+- [x] Masterwork weapon: Sussur Dagger (Astarion)
 - [ ] Find **Benryn's dowry** (around Waukeen's Rest)
 - [ ] Grab any **infernal iron** you see (for Karlach)
 - [ ] **Talk to Halsin** and everyone at camp. Long rest regularly.

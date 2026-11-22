@@ -62,7 +62,7 @@ _Synced from the party page._
 | Ring | The Whispering Promise | Uncommon | Blessed Mercy: anyone he heals gets +1d4 to attacks and saves for 2 turns |
 | Ring | — (empty) |  |  |
 | Main hand | Steelforged Sword (?) | Uncommon | Shortsword type, 5–10, +1 |
-| Off hand | Dagger +1 | Uncommon | 2–5 (Light, so dual-wielding works) |
+| Off hand | Sussur Dagger | Rare | Dagger +1, hits can Silence. Masterwork weapon (2026-11-22). |
 | Ranged | The Joltshooter | Rare | Longbow 4–11, Lightning Charges on hits |
 | Instrument | Spider's Lyre | Story | Story item: plays a song like Perform. Keep it and don't sell it. I won't say more (spoilers). |
 

@@ -129,7 +129,7 @@ Two routes are open:
 
 ### Nautiloid Crash Region (this act)
 
-**Finish the Masterwork Weapon**: *Forge a weapon.* ✅ **Sussur bark collected.** Journal: *"We've got the Sussur Bark - now we need to head back to the forge."*
+**Finish the Masterwork Weapon** ✅ (2026-11-22): forged a **Sussur Dagger** → Astarion's off-hand. Earlier: sussur bark collected. Journal: *"We've got the Sussur Bark - now we need to head back to the forge."*
 - You found blueprints for masterwork weapons. All you need is **sussur bark**.
 - Journal says: *"Sussur Trees can be found deep within the Underdark."*
 - **Nudge:** go back to the forge where you found the blueprints and forge it.
