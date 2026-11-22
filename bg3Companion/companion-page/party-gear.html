@@ -255,9 +255,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "gear": [
     {
      "slot": "Head",
-     "name": "Leather Helmet",
-     "r": "common",
-     "note": "+1 DEX saving throws"
+     "name": "Haste Helm",
+     "r": "rare",
+     "note": "Smooth Start: at the start of combat, gains Momentum for 3 turns"
     },
     {
      "slot": "Body",
@@ -273,9 +273,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Feet",
-     "name": "The Watersparkers",
-     "r": "rare",
-     "note": "Electrify Water (the water you stand in becomes electrified) and Waterspark (Lightning Charges when you end your turn in electrified water)"
+     "name": "Disintegrating Night Walkers",
+     "r": "veryrare",
+     "note": "Can't be Enwebbed, Entangled or Ensnared; doesn't slip on grease or ice. Misty Step spell."
     },
     {
      "slot": "Neck",
@@ -297,9 +297,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Main hand",
-     "name": "Rupturing Blade",
+     "name": "Sword of Screams",
      "r": "uncommon",
-     "note": "Rapier +1, 1d8+5 (+2 acid from Caustic Band) = 8–15. Finesse. Actions: Piercing Strike, Weakening Strike, Flourish, Searing Blood."
+     "note": "Rapier 1d8+4 piercing +1d4 psychic (+2 acid from Caustic Band) = 8–18. Finesse."
     },
     {
      "slot": "Off hand",
@@ -320,8 +320,8 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     "options": [
      {
       "v": "best",
-      "name": "Rupturing Blade alone (current)",
-      "text": "About 9.5 damage a hit, plus Sneak Attack (10.5). Your bonus action stays free for Cunning Action, Flourish or Dirty Tricks, and you keep the four rapier actions. Best for a swashbuckler who darts in, stabs, and Disengages."
+      "name": "Sword of Screams (current)",
+      "text": "Rapier with an extra 1d4 psychic on every hit, plus Sneak Attack. Keep the bonus action free for Cunning Action."
      },
      {
       "v": "no",
@@ -358,7 +358,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "ideas": [
     "Weapon: a rapier at +2, or a +1 rapier that adds damage on hit (fire, lightning, extra dice). Shortswords are fine too; you're proficient.",
     "Armour: the best light armour gives 12 base. Studded Leather +1 or +2 is a straight AC upgrade (13–14 base).",
-    "Ring slot 2: anything that adds damage, AC or saves.",
+    "Ring: swap Ring of Colour Spray for the Fetish of Callarduran Smoothhands (Invisibility = advantage + Sneak Attack opener).",
     "Head/neck: items that boost initiative or Dexterity saves suit a Rogue.",
     "Level 8 feat: Dual Wielder (more melee), or +2 DEX to reach 20 (more to-hit, damage and AC)."
    ],
@@ -375,7 +375,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "levelUp": false,
    "where": "party",
    "hp": 33,
-   "ac": 14,
+   "ac": 15,
    "approval": 2,
    "abil": [
     8,
@@ -405,27 +405,27 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Body",
-     "name": "Blazer of Benevolence",
+     "name": "Poisoner's Robe",
      "r": "uncommon",
-     "note": "Light, AC 11 (+DEX 3 = 14). Remedial Rhymes: Inspiration gives 4 temp HP."
+     "note": "Clothing, AC 10. Poison Trails: spells that deal poison damage deal +1–4."
     },
     {
      "slot": "Hands",
-     "name": "Gloves of Hail of Thorns",
-     "r": "uncommon",
-     "note": "Hail of Thorns spell"
+     "name": "Bracers of Defence",
+     "r": "rare",
+     "note": "+2 AC with no armour and no shield (10 + DEX 3 + 2 = 15)"
     },
     {
      "slot": "Feet",
-     "name": "Linebreaker Boots",
+     "name": "Boots of Speed",
      "r": "rare",
-     "note": "Adrenaline Rush: Dashing gives Wrath (+1 melee damage, a couple of turns), once per turn"
+     "note": "Click Heels: bonus action, double movement for a few turns"
     },
     {
      "slot": "Neck",
-     "name": "Amulet of Selûne's Chosen",
-     "r": "uncommon",
-     "note": "Selûne's Dream once per long rest: heals an ally a little but can put them to sleep. Safer outside combat."
+     "name": "Amulet of Restoration",
+     "r": "rare",
+     "note": "Healing Word and Mass Healing Word, once each per long rest"
     },
     {
      "slot": "Ring",
@@ -511,7 +511,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "ideas": [
     "Ring slot 2: anything that adds Charisma, spell save DC or spell damage.",
     "Gear that raises spell DC (now 15) makes Hypnotic Pattern and other control spells land more.",
-    "Keep his healing kit together. It's a rare synergy."
+    "Blazer of Benevolence (temp HP on Inspiration) is in the bag. Robe + Bracers gives 1 more AC; pick whichever you prefer."
    ],
    "levelPlan": "Level 6: learn Shatter (no-concentration damage). Replace Cure Wounds with Dissonant Whispers."
   },
@@ -524,7 +524,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "sub": "Evocation",
    "level": 6,
    "levelUp": false,
-   "where": "camp",
+   "where": "party",
    "hp": 44,
    "ac": 15,
    "approval": 72,
@@ -559,21 +559,21 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Hands",
-     "name": "Fleetfingers",
+     "name": "Gloves of Thievery",
      "r": "uncommon",
-     "note": "Running Jump: jump free after a Dash"
+     "note": "Advantage on Sleight of Hand"
     },
     {
      "slot": "Feet",
-     "name": "Springstep Boots",
-     "r": "rare",
-     "note": "Swift Strides: Dashing gives Momentum for 3 turns"
+     "name": "Mystra's Grace",
+     "r": "uncommon",
+     "note": "Feather Fall spell"
     },
     {
      "slot": "Neck",
-     "name": "Amulet of Restoration",
-     "r": "rare",
-     "note": "Healing Word and Mass Healing Word, once each per long rest (?)"
+     "name": "The Spectator Eye",
+     "r": "veryrare",
+     "note": "Ray of Fear and Wounding Ray spells"
     },
     {
      "slot": "Ring",
@@ -583,21 +583,21 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Ring",
-     "name": "Fetish of Callarduran Smoothhands",
-     "r": "rare",
-     "note": "Invisibility spell. Consider moving it to Changuine (invisible = advantage + Sneak Attack)."
+     "name": "Mage's Friend",
+     "r": "uncommon",
+     "note": "+1 Arcana, +1 Religion"
     },
     {
      "slot": "Main hand",
      "name": "Staff of Arcane Blessing",
      "r": "rare",
-     "note": "Quarterstaff. Gives Bless (concentration). While Blessed: +2d4 to spell attacks (Fire Bolt too) (?)."
+     "note": "Quarterstaff, versatile. Bless spell. Mystra's Blessing: his Bless also adds +1d4 to saves and weapon attacks and +2d4 to spell attacks. Topple."
     },
     {
      "slot": "Off hand",
-     "name": "Absolute's Warrant",
+     "name": "Glowing Shield",
      "r": "uncommon",
-     "note": "Shield +2 AC. Gives the Heroism spell. Absolute's Ward: +1 to saves when the Absolute's sound is heard (?)"
+     "note": "+2 AC. Loving Protection: once per short rest, 8 temp HP when hit below 50% HP."
     },
     {
      "slot": "Ranged",
@@ -606,7 +606,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
      "note": "Not proficient"
     }
    ],
-   "camp": "Gale's Austere Clothes, Tasteful Boots, Netherese Briefs; old Staff of Crones; The Sparkswall (ring, lightning-triggered, situational)",
+   "camp": "Gale's Austere Clothes, Tasteful Boots, Netherese Briefs",
    "weapons": {
     "summary": "Spells do the work. The staff and shield setup is right for him.",
     "options": [
@@ -811,15 +811,17 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Body",
-     "name": "Poisoner's Robe",
-     "r": "uncommon",
-     "note": "Clothing, AC 10. Poison Trails: spells that deal poison damage deal +1–4."
+     "name": null,
+     "r": null,
+     "note": "Gave this to Astarion. Check what Wyll wears now.",
+     "flag": "empty"
     },
     {
      "slot": "Hands",
-     "name": "Bracers of Defence",
-     "r": "rare",
-     "note": "Become the Bulwark: +2 AC with no armour and no shield (AC 10 + DEX 1 + 2 = 13)"
+     "name": null,
+     "r": null,
+     "note": "Gave this to Astarion. Check what Wyll wears now.",
+     "flag": "empty"
     },
     {
      "slot": "Feet",
@@ -1008,6 +1010,10 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    },
    "needs": [
     {
+     "s": "crit",
+     "t": "Adamantine Scale Mail and Glowing Shield moved to Karlach/Gale. Give her the Chain Shirt +2 (bag) and a shield, and the Speedy Lightfeet for her empty boots."
+    },
+    {
      "s": "warn",
      "t": "Feet are still empty, and the Carnelian Ring does nothing."
     },
@@ -1038,9 +1044,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "sub": "Wildheart",
    "level": 6,
    "levelUp": false,
-   "where": "camp",
+   "where": "party",
    "hp": 65,
-   "ac": 15,
+   "ac": 18,
    "approval": 29,
    "abil": [
     17,
@@ -1063,15 +1069,15 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "gear": [
     {
      "slot": "Head",
-     "name": "Dark Justiciar Mask",
-     "r": "uncommon",
-     "note": "+1 Intimidation"
+     "name": "Cap of Wrath",
+     "r": "rare",
+     "note": "Last Stand: in combat, if she starts her turn at 50% HP or less, she gains Wrath for 2 turns."
     },
     {
      "slot": "Body",
-     "name": "Bloodguzzler Garb",
-     "r": "uncommon",
-     "note": "Clothing, AC 10 (Unarmoured Defence still applies). Crimson Revelation: when an enemy damages her, she gains Wrath for 1 turn."
+     "name": "Adamantine Scale Mail",
+     "r": "veryrare",
+     "note": "Medium, AC 16 + DEX (max 2). All incoming damage −1. Adamantine Backlash: melee attackers that hit her are Reeling for 2 turns. Immune to crits. Stealth disadvantage."
     },
     {
      "slot": "Hands",
@@ -1081,8 +1087,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Feet",
-     "name": null,
-     "flag": "empty"
+     "name": "Linebreaker Boots",
+     "r": "rare",
+     "note": "Adrenaline Rush: once per turn, Dashing gives Wrath for 2 turns"
     },
     {
      "slot": "Neck",
@@ -1092,31 +1099,38 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Ring",
-     "name": "Copper Ring",
-     "r": "common",
-     "note": "No effect",
-     "flag": "dud"
+     "name": "Crusher's Ring",
+     "r": "uncommon",
+     "note": "+3 m movement"
+    },
+    {
+     "slot": "Ring",
+     "name": "Bracing Band",
+     "r": "uncommon",
+     "note": "Personal Space: after she shoves an enemy, +1 AC until her next turn"
     },
     {
      "slot": "Main hand",
-     "name": "Greataxe +1",
-     "r": "uncommon",
-     "note": "1d12+1 (+2 acid?) = 4–15, two-handed"
+     "name": "Jorgoral's Greatsword",
+     "r": "rare",
+     "note": "Greatsword 2d6+4 (?) = 6–16, +1. Two-handed."
     },
     {
      "slot": "Ranged",
      "name": null,
+     "r": null,
+     "note": null,
      "flag": "empty"
     }
    ],
    "camp": "Karlach's Infernal Trousers, Tasteful Boots, Hand Drum",
    "weapons": {
-    "summary": "Any two-hander today. Plan the respec around Great Weapon Master.",
+    "summary": "She finally has a real greatsword. Use it with Reckless Attack and Great Weapon Master.",
     "options": [
      {
       "v": "best",
-      "name": "Greatsword or maul (2d6)",
-      "text": "Average 7 per hit before modifiers, the highest steady damage. Lae'zel already has the party's greatsword, so look for another or a maul."
+      "name": "Jorgoral's Greatsword (current)",
+      "text": "2d6 +1 two-hander: exactly what she needed. Reckless Attack → advantage → turn on GWM for +10 damage."
      },
      {
       "v": "alt",
@@ -1145,28 +1159,21 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
      "t": "Soul coin: you agreed to let her use it. It's still in the bag; she uses it when you're ready."
     },
     {
-     "s": "warn",
-     "t": "Boots empty, and the Copper Ring does nothing."
-    },
-    {
      "s": "tip",
-     "t": "Respec done (STR 17, CON 16, AC 15). Use Reckless Attack with Great Weapon Master on."
+     "t": "Adamantine Scale Mail + Bear Rage: she's now the party's toughest tank. AC 18."
     }
    ],
    "ideas": [
-    "Weapon first: greatsword or maul, +1 or better if you can.",
-    "Armour: Rage works in medium armour. Scale Mail (14 + 1 DEX = 15) or Half Plate (16) beats her unarmoured 13.",
-    "Items that add STR, Rage damage or temp HP fit her.",
-    "When you respec her, tell me and I'll lay out stats and feats."
+    "A ranged option: a few javelins or throwing axes for enemies she can't reach.",
+    "Items that add STR, Rage damage or temp HP fit her."
    ],
    "levelPlan": "Level 6 done: Animal Aspect → Bear (double carry weight, advantage on Strength checks, so shoves land)."
   }
  ],
  "shopping": [
-  "A two-handed weapon for Karlach (greatsword or maul, +1 if possible)",
-  "Rings with real effects: free or dud slots on Changuine, Astarion, Lae'zel, Wyll, Shadowheart, Karlach, plus Gale's story ring",
-  "Hats, boots and amulets for Wyll, Shadowheart and Karlach",
-  "Studded Leather +1 for Changuine (or Gale)",
+  "Rings with real effects for Astarion, Lae'zel, Wyll, Shadowheart",
+  "Body armour + shield for Shadowheart (Chain Shirt +2 in the bag)",
+  "Hats, boots and amulets for Wyll and Shadowheart",
   "A spare magic item for Gale's condition"
  ]
 }
