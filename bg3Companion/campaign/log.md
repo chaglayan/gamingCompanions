@@ -44,3 +44,4 @@
 | 2026-11-22 | Omeluum done: potion drunk (failed 2nd WIS check, no lasting effect), new tadpole power, got Ring of Mind-Shielding. Advised no reload. |
 | 2026-11-22 | Processed 11 journal photos: Omeluum done; sussur bark collected (forge next); Underdark objective now 'Reach Moonrise Towers through Grymforge' and Chosen of Shar 'Reach the ancient temple' (both lead out of Act 1). Other entries unchanged. New tadpole power not visible yet. |
 | 2026-11-22 | Forged Sussur Dagger (plain dagger + bark) → Astarion off-hand. Masterwork quest done. Next: dowry near Waukeen's Rest, long rest, Mountain Pass. |
+| 2026-11-22 | Dowry returned to Benryn (no approvals). At camp. Plan: gear fixes, long rest, then Mountain Pass with Team A. |

@@ -68,7 +68,7 @@ Tick these off before leaving Act 1:
 - [ ] Githyanki patrol → Mountain Pass (Lae'zel)
 - [ ] Explore the Underdark
 - [x] Masterwork weapon: Sussur Dagger (Astarion)
-- [ ] Find **Benryn's dowry** (around Waukeen's Rest)
+- [x] Benryn's dowry: returned (2026-11-22)
 - [ ] Grab any **infernal iron** you see (for Karlach)
 - [ ] **Talk to Halsin** and everyone at camp. Long rest regularly.
 - [ ] Rebuild **Astarion's** approval (Neutral 2): watch what he likes.
@@ -78,3 +78,11 @@ Tick these off before leaving Act 1:
 ## Next point of no return
 **Leaving Act 1.** Whichever route you take, the game shows a clear **warning popup** before you cross into the next act, and a lot of Act 1 closes behind you.
 👉 When you see that popup, **stop, save in a new slot, and check with me** before confirming.
+
+## Camp, now (2026-11-22)
+- [ ] Shadowheart: Chain Shirt +2 + a shield, Speedy Lightfeet on her feet
+- [ ] Wyll: body armour (light) + gloves, Sentient Amulet
+- [ ] Changuine: Fetish of Callarduran Smoothhands instead of Ring of Colour Spray
+- [ ] Equip the Ring of Mind-Shielding (Astarion's empty slot or Wyll's dud ring)
+- [ ] Long rest, talk to everyone with a "!"
+- [ ] Then: Mountain Pass (northwest) with **Lae'zel**, Team A (Lae'zel, Shadowheart, Wyll)

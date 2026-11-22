@@ -147,7 +147,7 @@ Two routes are open:
 - You freed **Benryn**, told him to find his own way out, and he made it out of the tavern.
 - He found his **wife's body**. 💔
 - Journal says: *"Benryn mentioned a dowry for him and his wife. It's worth searching for it."*
-- **Nudge:** search around Waukeen's Rest for the dowry.
+- ✅ (2026-11-22) Found the dowry (a ring) in the barn and **gave it to Benryn**. No approval reactions.
 
 **Find the Nightsong**: *Open the door.*
 - A wizard in Baldur's Gate is offering a **huge sum** to whoever brings him "the Nightsong".
