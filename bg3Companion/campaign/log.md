@@ -36,3 +36,4 @@
 | 2026-11-22 | Correction: my riddle answer only made Bernard friendly, no ring. Gave the ring answer and the Misty Step fallback. |
 | 2026-11-22 | Bernard's ring seems bugged (scene played, no ring). Advised: Misty Step from the 1st-floor stairs first, else skip the basement (optional); don't fight him. |
 | 2026-11-22 | Changuine reached the Arcane Tower basement with a Misty Step scroll. Player asked what to loot (one-off spoiler): Staff of Arcane Blessing, The Sparkswall (gilded chest), scrolls and books. |
+| 2026-11-22 | Sparkswall is a ring (lightning-triggered), player calls it useless. Recommended Staff of Arcane Blessing over Staff of Crones for Gale (pending equip). |
