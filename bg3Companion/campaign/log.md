@@ -31,3 +31,4 @@
 | 2026-11-04 | Boots to Thrinn (then taken back), Nere's head to Spaw, Adamantine Scale Mail → Shadowheart (AC 19). In the Arcane Tower, all Sussur Blooms used, found the Chest of the Mundane. Page v10. |
 | 2026-11-04 | Arcane Tower: top floor reached (avoided the animated armour), read books, found the Orpheus disk (new quest: Discover the History of Prince Orpheus), got both mushrooms. Basement not reached. |
 | 2026-11-07 | Repo restructured: BG3 files moved into `bg3Companion/`; root now a multi-game hub (WoW, PoE2 planned). Player will rename the repo on GitHub. |
+| 2026-11-22 | Player at Bernard in the Arcane Tower, asked how to reach the basement stairs. Explained ring + elevator route (and Misty Step backup). |
