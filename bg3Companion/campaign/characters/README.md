@@ -1,16 +1,16 @@
 # Party
 
 One file per character with full stats. This page is the quick view.
-_Last synced 2026-11-02 from the party page._
+_Last synced 2026-11-23 from the party page. Active: **Team A** (Changuine, Lae'zel, Shadowheart, Wyll)._
 
 | Character | Where | Class / level | HP | AC | Approval | File |
 |---|---|---|---|---|---|---|
 | **Changuine** | Party | Rogue 6 · Swashbuckler | 38 | 16 | — | [changuine.md](changuine.md) |
-| **Astarion** | Party | Bard 6 · College of Glamour | 33 | 14 | 2 | [astarion.md](astarion.md) |
+| **Astarion** | Camp | Bard 6 · College of Glamour | 33 | 14 | 2 | [astarion.md](astarion.md) |
 | **Gale** | Camp | Wizard 6 · Evocation | 44 | 15 | 72 | [gale.md](gale.md) |
 | **Lae'zel** | Party | Fighter 6 · Battle Master | 49 | 17 | 28 | [laezel.md](laezel.md) |
 | **Wyll** | Party | Warlock 6 · The Fiend | 45 | 13 | 55 | [wyll.md](wyll.md) |
-| **Shadowheart** | Camp | Cleric 6 · Trickery Domain | 45 | 18 | 52 | [shadowheart.md](shadowheart.md) |
+| **Shadowheart** | Party | Cleric 6 · Trickery Domain | 45 | 17 (?) | 52 | [shadowheart.md](shadowheart.md) |
 | **Karlach** | Camp | Barbarian 6 · Wildheart | 65 | 15 | 29 | [karlach.md](karlach.md) |
 
 Also at camp: Halsin (player won't use him, not tracked), the dog, and others.

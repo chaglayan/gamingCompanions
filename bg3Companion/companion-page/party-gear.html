@@ -179,14 +179,14 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
 
 <script type="application/json" id="party-data">
 {
- "updated": "22 Nov 2026",
+ "updated": "23 Nov 2026",
  "save": {
   "act": "Act 1 (late)",
-  "where": "Arcane Tower (Underdark)",
-  "lastSave": "18 Mar 2026",
-  "playtime": "41h 55m",
+  "where": "Camp (after Waukeen's Rest)",
+  "lastSave": "22 Nov 2026",
+  "playtime": "playtime ?",
   "difficulty": "Balanced",
-  "gold": 5242
+  "gold": 7650
  },
  "glossary": [
   [
@@ -373,7 +373,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "sub": "College of Glamour",
    "level": 6,
    "levelUp": false,
-   "where": "party",
+   "where": "camp",
    "hp": 33,
    "ac": 15,
    "approval": 2,
@@ -524,7 +524,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "sub": "Evocation",
    "level": 6,
    "levelUp": false,
-   "where": "party",
+   "where": "camp",
    "hp": 44,
    "ac": 15,
    "approval": 72,
@@ -877,6 +877,10 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    },
    "needs": [
     {
+     "s": "crit",
+     "t": "Body and gloves empty (robe + Bracers went to Astarion). Give him any light armour, and the Sentient Amulet for his neck."
+    },
+    {
      "s": "warn",
      "t": "Head, boots and neck are empty, and his ring does nothing."
     },
@@ -902,9 +906,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "sub": "Trickery Domain",
    "level": 6,
    "levelUp": false,
-   "where": "camp",
+   "where": "party",
    "hp": 45,
-   "ac": 19,
+   "ac": 17,
    "approval": 52,
    "abil": [
     13,
@@ -933,7 +937,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
      "slot": "Body",
      "name": "Adamantine Scale Mail",
      "r": "veryrare",
-     "note": "Medium, AC 16 + DEX (max 2). Immune to critical hits, takes 1 less damage from attacks. Stealth disadvantage."
+     "note": "Medium, AC 16 + DEX (max 2). All incoming damage −1. Melee attackers that hit her are Reeling. Immune to crits. Stealth disadvantage."
     },
     {
      "slot": "Hands",
@@ -967,9 +971,10 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Off hand",
-     "name": "Glowing Shield",
-     "r": "uncommon",
-     "note": "+2 AC. Loving Protection: once per short rest, gain 8 temp HP when hit below 50% HP."
+     "name": null,
+     "r": null,
+     "note": "The Glowing Shield went to Gale. Give her any shield (+2 AC).",
+     "flag": "crit"
     },
     {
      "slot": "Ranged",
@@ -1007,7 +1012,11 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "needs": [
     {
      "s": "crit",
-     "t": "Adamantine Scale Mail and Glowing Shield moved to Karlach/Gale. Give her the Chain Shirt +2 (bag) and a shield, and the Speedy Lightfeet for her empty boots."
+     "t": "Shield slot: equip any shield (+2 AC). AC 17 shown is without one (?)."
+    },
+    {
+     "s": "warn",
+     "t": "Boots: The Speedy Lightfeet (Dash → 3 Lightning Charges) fit her medium-armour proficiency."
     },
     {
      "s": "warn",
@@ -1016,10 +1025,6 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     {
      "s": "tip",
      "t": "Shattered Flail risk: Madness if she spends a turn not damaging anyone while its heal is active."
-    },
-    {
-     "s": "tip",
-     "t": "Luminous Armour is spare now. Its radiant shockwave combo is gone; the new mail trades it for crit immunity."
     }
    ],
    "ideas": [
@@ -1040,7 +1045,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    "sub": "Wildheart",
    "level": 6,
    "levelUp": false,
-   "where": "party",
+   "where": "camp",
    "hp": 65,
    "ac": 18,
    "approval": 29,
@@ -1071,9 +1076,10 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
     },
     {
      "slot": "Body",
-     "name": "Adamantine Scale Mail",
-     "r": "veryrare",
-     "note": "Medium, AC 16 + DEX (max 2). All incoming damage −1. Adamantine Backlash: melee attackers that hit her are Reeling for 2 turns. Immune to crits. Stealth disadvantage."
+     "name": null,
+     "r": null,
+     "note": "Gave the Adamantine Scale Mail to Shadowheart. Best spare: Chain Shirt +2 (medium, 13+2 +DEX max 2).",
+     "flag": "crit"
     },
     {
      "slot": "Hands",
@@ -1147,16 +1153,16 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
    },
    "needs": [
     {
+     "s": "warn",
+     "t": "Body armour: put the Chain Shirt +2 on her before she rejoins (she's at camp now)."
+    },
+    {
      "s": "tip",
      "t": "Great Weapon Master is a toggle (Passives tab → 'All In'). Turn it on only with Reckless Attack (advantage) or against low-AC enemies; otherwise turn it off and stop missing."
     },
     {
      "s": "tip",
      "t": "Soul coin: you agreed to let her use it. It's still in the bag; she uses it when you're ready."
-    },
-    {
-     "s": "tip",
-     "t": "Adamantine Scale Mail + Bear Rage: she's now the party's toughest tank. AC 18."
     }
    ],
    "ideas": [
@@ -1167,10 +1173,346 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
   }
  ],
  "shopping": [
-  "Rings with real effects for Astarion, Lae'zel, Wyll, Shadowheart",
-  "Body armour + shield for Shadowheart (Chain Shirt +2 in the bag)",
-  "Hats, boots and amulets for Wyll and Shadowheart",
+  "A shield for Shadowheart",
+  "Light armour + gloves for Wyll",
+  "Rings with real effects: Lae'zel, Wyll (Silver Band is a dud), Shadowheart (Carnelian dud)",
+  "Boots for Wyll",
   "A spare magic item for Gale's condition"
+ ],
+ "plan": {
+  "now": "At camp with Team A (Changuine, Lae'zel, Shadowheart, Wyll). Fix gear, long rest, then head northwest to the Mountain Pass.",
+  "phases": [
+   {
+    "title": "1 · Camp, tonight",
+    "items": [
+     {
+      "s": "crit",
+      "t": "Gear fixes",
+      "d": "Shadowheart: a shield + Speedy Lightfeet. Wyll: any light armour + gloves, Sentient Amulet. Changuine: Fetish of Callarduran Smoothhands instead of Ring of Colour Spray. Ring of Mind-Shielding on someone with a dud ring."
+     },
+     {
+      "s": "warn",
+      "t": "Long rest",
+      "d": "Camp scenes only happen when you rest. Talk to everyone with a '!' first. Lae'zel 💚."
+     },
+     {
+      "s": "tip",
+      "t": "Stash and sell",
+      "d": "Infernal iron and the lava amulet stay in a bag (both are quest items). Junk → Mark as Wares → sell with Wyll (best talker on Team A)."
+     },
+     {
+      "s": "tip",
+      "t": "New save slot",
+      "d": "Before leaving camp."
+     }
+    ]
+   },
+   {
+    "title": "2 · Mountain Pass (northwest)",
+    "items": [
+     {
+      "s": "crit",
+      "t": "Bring Lae'zel",
+      "d": "Find the githyanki patrol Zorru mentioned. It's her quest, and Find the Githyanki Crèche (Find a Cure) points the same way."
+     },
+     {
+      "s": "warn",
+      "t": "Explore it fully",
+      "d": "It's a whole Act 1 area. Read everything, loot everything, save before big fights."
+     },
+     {
+      "s": "tip",
+      "t": "Keep Shadowheart along",
+      "d": "Her Dark Justiciar lead is about old ruins; companions react to places they care about."
+     }
+    ]
+   },
+   {
+    "title": "3 · Act 1 loose ends",
+    "items": [
+     {
+      "s": "tip",
+      "t": "Selûnite Outpost gate (optional)",
+      "d": "Shoot the floating moonstone the white energy lines lead to, then pull the lever behind the right-hand candelabra."
+     },
+     {
+      "s": "tip",
+      "t": "Find the Nightsong",
+      "d": "Trail went cold in the Underdark. Nothing to chase; it picks up as you explore."
+     },
+     {
+      "s": "tip",
+      "t": "Karlach: infernal iron",
+      "d": "Pick up any you see, for Dammon."
+     },
+     {
+      "s": "tip",
+      "t": "Gale: spare magic item",
+      "d": "His journal says he'll need another. Keep a non-essential magic item handy."
+     },
+     {
+      "s": "tip",
+      "t": "Astarion's approval",
+      "d": "Still low. Rotate him in (Team B) and watch what he likes."
+     },
+     {
+      "s": "tip",
+      "t": "Spend gold",
+      "d": "7,650 gold. See the Shopping list on the Party tab."
+     }
+    ]
+   },
+   {
+    "title": "4 · Before leaving Act 1",
+    "items": [
+     {
+      "s": "crit",
+      "t": "Point of no return",
+      "d": "Both routes to Moonrise Towers end the act: Grymforge → the ancient temple, and onward through the Mountain Pass. When the game shows the leave-the-region popup: stop, save in a new slot, check with Claude."
+     },
+     {
+      "s": "warn",
+      "t": "Wrap-up check",
+      "d": "Mountain Pass explored · Underdark explored · camp scenes caught up · gold spent · everyone levelled and geared."
+     }
+    ]
+   }
+  ]
+ },
+ "quests": [
+  {
+   "group": "Main",
+   "items": [
+    {
+     "n": "Travel to Moonrise Towers",
+     "st": "active",
+     "o": "Underdark route: Reach Moonrise Towers through Grymforge. Mountain Pass route: not visited.",
+     "nudge": "Both routes lead out of Act 1. Explore the Mountain Pass first."
+    },
+    {
+     "n": "Find a Cure → Find the Githyanki Crèche",
+     "st": "active",
+     "o": "Find the githyanki patrol to the northwest.",
+     "nudge": "Go with Lae'zel (Mountain Pass)."
+    },
+    {
+     "n": "Find a Cure → Help Omeluum",
+     "st": "done",
+     "o": "Drank the potion, got the Ring of Mind-Shielding.",
+     "nudge": ""
+    },
+    {
+     "n": "Nettie · Auntie Ethel · Rescue Halsin",
+     "st": "done",
+     "o": "",
+     "nudge": ""
+    }
+   ]
+  },
+  {
+   "group": "Personal (Changuine)",
+   "items": [
+    {
+     "n": "Embrace Your Potential",
+     "st": "active",
+     "o": "Find more parasites to absorb.",
+     "nudge": "Your call. Some companions have opinions on tadpole use."
+    },
+    {
+     "n": "Discover the Artefact's Secrets",
+     "st": "active",
+     "o": "Find out more about the artefact Shadowheart carries.",
+     "nudge": "Talk to Shadowheart at camp."
+    },
+    {
+     "n": "Discover the History of Prince Orpheus",
+     "st": "active",
+     "o": "Started from the disk in the Arcane Tower.",
+     "nudge": "Send the journal entry for details."
+    }
+   ]
+  },
+  {
+   "group": "Companions",
+   "items": [
+    {
+     "n": "Lae'zel: The Githyanki Warrior",
+     "st": "active",
+     "o": "Search for a crèche near the mountain pass in the northwest.",
+     "nudge": "Next stop."
+    },
+    {
+     "n": "Shadowheart: The Chosen of Shar",
+     "st": "active",
+     "o": "Reach the ancient temple (bridge destroyed; another way in).",
+     "nudge": "⚠️ That's the Grymforge route out of Act 1. Later."
+    },
+    {
+     "n": "Karlach: The Hellion's Heart",
+     "st": "active",
+     "o": "Meet Dammon on the road ahead (he left with the refugees). Bring infernal iron.",
+     "nudge": "Keep the infernal iron."
+    },
+    {
+     "n": "Wyll: The Grand Duke",
+     "st": "active",
+     "o": "Search for Grand Duke Ravengard (possibly at Moonrise Towers).",
+     "nudge": "Continues beyond this area."
+    },
+    {
+     "n": "Wyll: The Blade of Frontiers",
+     "st": "active",
+     "o": "Continue travelling with Wyll.",
+     "nudge": ""
+    },
+    {
+     "n": "Astarion: The Pale Elf",
+     "st": "active",
+     "o": "Continue travelling with Astarion.",
+     "nudge": "Approval is low. Bring him along sometimes."
+    },
+    {
+     "n": "Gale: The Wizard of Waterdeep",
+     "st": "active",
+     "o": "Continue your journey; keep a magic item ready.",
+     "nudge": ""
+    }
+   ]
+  },
+  {
+   "group": "Side",
+   "items": [
+    {
+     "n": "Finish the Masterwork Weapon",
+     "st": "done",
+     "o": "Sussur Dagger → Astarion.",
+     "nudge": ""
+    },
+    {
+     "n": "Rescue the Trapped Man",
+     "st": "done",
+     "o": "Dowry returned to Benryn.",
+     "nudge": ""
+    },
+    {
+     "n": "Find the Nightsong",
+     "st": "active",
+     "o": "Explore the Underdark (trail cold).",
+     "nudge": "Nothing to chase right now."
+    },
+    {
+     "n": "Search the Cellar → Unlock the Ancient Tome",
+     "st": "active",
+     "o": "Find a way to read the last page of The Necromancy of Thay.",
+     "nudge": "No lead yet."
+    },
+    {
+     "n": "Help the Spirit of the Amulet",
+     "st": "active",
+     "o": "Take the monk's spirit to his granddaughter at Wyrm's Crossing.",
+     "nudge": "Keep the amulet in a bag."
+    },
+    {
+     "n": "Rescue Wulbren",
+     "st": "active",
+     "o": "Promised to the Grymforge gnomes; he's at Moonrise Towers.",
+     "nudge": "Later."
+    },
+    {
+     "n": "Free the Artist",
+     "st": "active",
+     "o": "_unknown_",
+     "nudge": "Send a journal photo."
+    }
+   ]
+  }
+ ],
+ "tactics": [
+  {
+   "t": "Lightning Charges engine",
+   "who": "Whoever wears the gear",
+   "tag": "best",
+   "p": [
+    "Each Lightning Charge gives +1 to hit and +1 lightning damage on your attacks; you lose one per turn. At 5 they burst for extra lightning damage (I think 1d6) and reset.",
+    "Sources you own: The Speedy Lightfeet (Dash → 3 charges; medium-armour wearers: Shadowheart, Lae'zel, Karlach), The Watersparkers (Electrify Water, then end your turn in electrified water → charges), The Joltshooter (bow hits → 2 charges).",
+    "Combo: Dash with the Lightfeet, then attack while charged. Pair the Watersparkers with rain, puddles or Create Water.",
+    "Payoff item (?): you remember a shield that does something at 3 charges. I can't find it in your notes. Send a photo of its tooltip and I'll add it here."
+   ]
+  },
+  {
+   "t": "Opener: control first",
+   "who": "Astarion / Gale",
+   "tag": "best",
+   "p": [
+    "Turn 1 on a group: Hypnotic Pattern. Don't hit the hypnotised ones; kill the rest first.",
+    "Aim it away from your tank; it can catch allies."
+   ]
+  },
+  {
+   "t": "Hold Person → auto-crit",
+   "who": "Astarion + Lae'zel / Changuine",
+   "tag": "best",
+   "p": [
+    "Paralysed humanoid: every melee hit is a critical. Hold Person the boss, then Lae'zel swings twice."
+   ]
+  },
+  {
+   "t": "Karlach: Reckless + GWM",
+   "who": "Karlach",
+   "tag": "best",
+   "p": [
+    "Rage (bonus action) → Reckless Attack (advantage) → Great Weapon Master toggle ON for +10 damage.",
+    "No advantage? Turn GWM off. Linebreaker Boots: Dash for Wrath. Bracing Band: shove someone for +1 AC."
+   ]
+  },
+  {
+   "t": "Wyll: Hex + Eldritch Blast",
+   "who": "Wyll",
+   "tag": "best",
+   "p": [
+    "Bonus action Hex the biggest target, then Eldritch Blast (2 beams). Move Hex for free when the target dies.",
+    "Repelling Blast pushes 4.5 m per beam: knock enemies off ledges or into hazards.",
+    "Pact slots return on a short rest. Spend them, then short rest."
+   ]
+  },
+  {
+   "t": "Shadowheart: Spirit Guardians",
+   "who": "Shadowheart",
+   "tag": "best",
+   "p": [
+    "Cast it, walk into the crowd. Enemies near her take damage every turn.",
+    "It also keeps her Shattered Flail's Madness check safe (she's damaging someone every turn)."
+   ]
+  },
+  {
+   "t": "Gale: Fireball, sculpted",
+   "who": "Gale",
+   "tag": "alt",
+   "p": [
+    "Sculpt Spells lets Fireball spare allies, so drop it on melee scrums.",
+    "Melf's staff: +1 DC passive. For a big planned fight: hold the Arcane Blessing staff, cast Bless, swap back, then start."
+   ]
+  },
+  {
+   "t": "Changuine: Sneak Attack every turn",
+   "who": "Changuine",
+   "tag": "alt",
+   "p": [
+    "Rakish Audacity: one-on-one melee = Sneak Attack, no advantage needed.",
+    "Opener: Invisibility (Fetish ring) → attack with advantage. Haste Helm gives Momentum at fight start: use the extra movement to reach the caster first (Mage Slayer)."
+   ]
+  },
+  {
+   "t": "Before every big fight",
+   "who": "Everyone",
+   "tag": "plan",
+   "p": [
+    "Save. Sneak in (stealth) and pick high ground.",
+    "Pre-buff out of combat: Bless, Longstrider, Aid (Absolute's Talisman).",
+    "Concentration: one spell at a time per caster (Hypnotic Pattern, Hold Person, Haste, Bless, Spirit Guardians, Hex…).",
+    "Item spells recharge on a long rest. Use them, swap items if you like."
+   ]
+  }
  ]
 }
 </script>
@@ -1202,7 +1544,9 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
   document.getElementById('foot').innerHTML = 'Updated ' + esc(data.updated) + ' from your photos. Tell Claude when gear or levels change and this page gets updated. <span class="muted">(?) = text I couldn\'t read clearly.</span>';
 
   function renderTabs(active) {
-    var html = '<a class="tab party" href="#party"' + (active === 'party' ? ' aria-current="page"' : '') + '>Party</a>';
+    var html = [['plan','Plan'],['quests','Quests'],['party','Party'],['tactics','Tactics']].map(function (t) {
+      return '<a class="tab party" href="#' + t[0] + '"' + (active === t[0] ? ' aria-current="page"' : '') + '>' + t[1] + '</a>';
+    }).join('');
     data.party.forEach(function (c) {
       var n = warnCount(c), cr = critCount(c);
       html += '<a class="tab" href="#' + c.id + '"' + (active === c.id ? ' aria-current="page"' : '') + '>' + mono(c) + esc(c.name) +
@@ -1289,13 +1633,40 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
       '</div>';
   }
 
+  var STLABEL = { active: 'Active', done: 'Done', later: 'Later' };
+  var PILL = { best: 'best', alt: 'alt', plan: 'plan' };
+  function renderPlan() {
+    var pl = data.plan || { phases: [] };
+    return '<div style="display:grid;gap:16px">' +
+      '<section class="card"><h2>What to do next</h2><div class="plan">' + esc(pl.now) + '</div></section>' +
+      pl.phases.map(function (ph) {
+        return '<section class="card"><h3>' + esc(ph.title) + '</h3><ul class="needs">' + ph.items.map(function (it) {
+          return '<li><span class="pill ' + it.s + '">' + SEVLABEL[it.s] + '</span><span><b>' + esc(it.t) + '.</b> <span class="muted">' + esc(it.d) + '</span></span></li>';
+        }).join('') + '</ul></section>';
+      }).join('') + '</div>';
+  }
+  function renderQuests() {
+    return '<div style="display:grid;gap:16px">' + (data.quests || []).map(function (g) {
+      return '<section class="card"><h3>' + esc(g.group) + '</h3><div class="opts">' + g.items.map(function (q) {
+        return '<div class="opt' + (q.st === 'done' ? '' : ' best') + '"' + (q.st === 'done' ? ' style="opacity:.65"' : '') + '><div class="head"><span class="pill ' + (q.st === 'done' ? 'ok' : 'tip') + '">' + STLABEL[q.st] + '</span>' + esc(q.n) + '</div>' +
+          (q.o ? '<p>' + esc(q.o) + '</p>' : '') + (q.nudge ? '<p><b style="color:var(--gold)">Nudge:</b> ' + esc(q.nudge) + '</p>' : '') + '</div>';
+      }).join('') + '</div></section>';
+    }).join('') + '</div>';
+  }
+  function renderTactics() {
+    return '<div style="display:grid;gap:16px">' + (data.tactics || []).map(function (t) {
+      return '<section class="card"><div class="head" style="display:flex;flex-wrap:wrap;gap:8px;align-items:center"><span class="pill ' + (PILL[t.tag] || 'alt') + '">' + esc(t.who) + '</span><h3>' + esc(t.t) + '</h3></div><ul class="feat">' +
+        t.p.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></section>';
+    }).join('') + '</div>';
+  }
   function route() {
-    var id = (location.hash || '#party').slice(1);
+    var id = (location.hash || '#plan').slice(1);
     var c = data.party.find(function (p) { return p.id === id; });
-    if (!c) id = 'party';
+    var views = { plan: renderPlan, quests: renderQuests, party: renderParty, tactics: renderTactics };
+    if (!c && !views[id]) id = 'plan';
     renderTabs(id);
     var view = document.getElementById('view');
-    view.innerHTML = c ? renderChar(c) : renderParty();
+    view.innerHTML = c ? renderChar(c) : views[id]();
     view.classList.remove('view'); void view.offsetWidth; view.classList.add('view');
     var t = document.querySelector('.tab[aria-current="page"]');
     if (t && t.scrollIntoView) t.scrollIntoView({ block: 'nearest', inline: 'center' });

@@ -62,7 +62,7 @@ _Synced from the party page._
 | Neck | The Amulet of Lost Voices | Rare | Speak with Dead |
 | Ring | Carnelian Ring | Common · **dud** | No effect |
 | Main hand | Shattered Flail | Rare | Mace-type, 4–9, +2. Yeenoghu's Gift: hits heal her 1–6 for a few turns. If she doesn't damage an enemy on her turn while it's active, she can go Mad (DC 10 WIS save; with her +6 save she fails about 15% of the time). |
-| Off hand | Glowing Shield | Uncommon | +2 AC. Loving Protection: once per short rest, gain 8 temp HP when hit below 50% HP. |
+| Off hand | _unknown_ | | Glowing Shield went to Gale (2026-11-22). Needs any shield. |
 | Ranged | Light Crossbow | Common | 2–9 |
 
 Camp: Shadowheart's Clothes, Acolyte's Sandals

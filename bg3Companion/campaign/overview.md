@@ -12,7 +12,7 @@
 | Act | **1, late.** Goblin camp done; both routes to Moonrise Towers open; Underdark entered, Mountain Pass not visited. |
 | Game version | 4.1.1.7151330 (Patch 8 era) |
 | Region | Wilderness |
-| Last known location | Grymforge: Adamantine Forge done, lava amulet found (2026-11-02) |
+| Last known location | Camp, after returning Benryn's dowry (last save 2026-11-22). Underdark done for now. |
 | Waypoints unlocked | Roadside Cliffs, Emerald Grove Environs, Overgrown Ruins, The Risen Road, Blighted Village, Whispering Depths, Goblin Camp, Riverside Teahouse, Waukeen's Rest, Zhentarim Hideout, Underdark – Myconid Colony, Underdark – Beach, Underdark – Selûnite Outpost, Underdark – Sussur Tree |
 
 ## Party

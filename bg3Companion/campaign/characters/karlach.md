@@ -56,7 +56,7 @@ _Synced from the party page._
 | Slot | Item | Rarity | Notes |
 |---|---|---|---|
 | Head | Dark Justiciar Mask | Uncommon | +1 Intimidation |
-| Body | Bloodguzzler Garb | Uncommon | Clothing, AC 10 (Unarmoured Defence still applies). Crimson Revelation: when an enemy damages her, she gains Wrath for 1 turn. |
+| Body | _unknown_ | | Adamantine Scale Mail (worn 2026-11-22) went back to Shadowheart. Suggest Chain Shirt +2. |
 | Hands | Reason's Grasp | Uncommon | 15 temp HP when she chooses to end her Rage |
 | Feet | — (empty) |  |  |
 | Neck | Moondrop Pendant | Uncommon | Below 50% HP, no opportunity attacks against her |
